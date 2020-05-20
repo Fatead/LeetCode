@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GraphFindCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="graph cycle">
+      <change afterPath="$PROJECT_DIR$/src/validBracket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/HeapSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/addte.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/findMedian.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/new_task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/task_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/task_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/task_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/task_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/task_5$producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/task_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/test_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/test_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/test_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/test_4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/test_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GraphFindCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphFindCycle.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +38,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Xp0XcAcv7LLsB9cVNBuE9hT50k" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -41,7 +58,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GraphFindCycle">
+  <component name="RunManager" selected="Application.validBracket">
     <configuration name="GraphFindCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GraphFindCycle" />
       <module name="leetcode" />
@@ -63,15 +80,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test_1" />
+    <configuration name="test_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test_4" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test_4" />
+    <configuration name="validBracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="validBracket" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,19 +193,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.test_1" />
       <item itemvalue="Application.test_4" />
       <item itemvalue="Application.addte" />
       <item itemvalue="Application.HeapSort" />
       <item itemvalue="Application.GraphFindCycle" />
+      <item itemvalue="Application.validBracket" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.validBracket" />
         <item itemvalue="Application.GraphFindCycle" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.addte" />
         <item itemvalue="Application.test_4" />
-        <item itemvalue="Application.test_1" />
       </list>
     </recent_temporary>
   </component>
@@ -220,8 +237,18 @@
       <workItem from="1581727772814" duration="6786000" />
       <workItem from="1581941155779" duration="13000" />
       <workItem from="1589812951859" duration="1886000" />
-      <workItem from="1589872610553" duration="8464000" />
+      <workItem from="1589872610553" duration="14625000" />
+      <workItem from="1589937807238" duration="33000" />
+      <workItem from="1589944529508" duration="1265000" />
     </task>
+    <task id="LOCAL-00001" summary="graph cycle">
+      <created>1589881538584</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589881538584</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +266,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="graph cycle" />
+    <option name="LAST_COMMIT_MESSAGE" value="graph cycle" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
