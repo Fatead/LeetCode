@@ -6,7 +6,10 @@ public class two_sum {
     public static void main(String[] args)
     {
         int[] arr = {2, 7, 11, 15};
-        System.out.println(twoSum(arr,9));
+        int[] result = twoSum(arr,9);
+        for(int i =0;i<result.length;i++){
+            System.out.println(result[i]);
+        }
 
     }
 
