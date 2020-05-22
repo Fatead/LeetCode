@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="20">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoArrayMedia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/RainPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/SimplifyPath.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="第4题">
+      <change afterPath="$PROJECT_DIR$/src/ZString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/LongestSubString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/two_sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/two_sum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/two_sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/two_sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/validBracket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/validBracket.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,13 +44,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TwoArrayMedia">
-    <configuration name="SimplifyPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.SimplifyPath" />
+  <component name="RunManager" selected="Application.LongestSubString">
+    <configuration name="LongestSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.LongestSubString" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,15 +72,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="two_sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="two_sum" />
+    <configuration name="ZString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ZString" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="validBracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.validBracket" />
+    <configuration name="two_sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="two_sum" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,19 +185,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.validBracket" />
-      <item itemvalue="Application.SimplifyPath" />
       <item itemvalue="Application.two_sum" />
       <item itemvalue="Application.TwoList" />
       <item itemvalue="Application.TwoArrayMedia" />
+      <item itemvalue="Application.ZString" />
+      <item itemvalue="Application.LongestSubString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestSubString" />
+        <item itemvalue="Application.ZString" />
         <item itemvalue="Application.TwoArrayMedia" />
         <item itemvalue="Application.TwoList" />
         <item itemvalue="Application.two_sum" />
-        <item itemvalue="Application.SimplifyPath" />
-        <item itemvalue="Application.validBracket" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +234,8 @@
       <workItem from="1589944529508" duration="8885000" />
       <workItem from="1589974213942" duration="3253000" />
       <workItem from="1589984200662" duration="3158000" />
-      <workItem from="1590019472660" duration="4045000" />
+      <workItem from="1590019472660" duration="8494000" />
+      <workItem from="1590157248482" duration="3612000" />
     </task>
     <task id="LOCAL-00001" summary="graph cycle">
       <created>1589881538584</created>
@@ -255,7 +251,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589945841090</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="第4题">
+      <created>1590031875392</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590031875392</updated>
+    </task>
+    <task id="LOCAL-00004" summary="第4题">
+      <created>1590031890205</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590031890205</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +287,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="graph cycle" />
     <MESSAGE value="20" />
-    <option name="LAST_COMMIT_MESSAGE" value="20" />
+    <MESSAGE value="第4题" />
+    <option name="LAST_COMMIT_MESSAGE" value="第4题" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
