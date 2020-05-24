@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="第4题">
-      <change afterPath="$PROJECT_DIR$/src/ZString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/LongestSubString.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="第5题 最长回文子符串">
+      <change afterPath="$PROJECT_DIR$/src/number/ReverseNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/BuildTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,13 +44,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestSubString">
+  <component name="RunManager" selected="Application.ReverseNum">
+    <configuration name="BuildTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.BuildTree" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LongestSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dp.LongestSubString" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number.ReverseNum" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,22 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoList" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ZString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ZString" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="two_sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="two_sum" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -185,19 +197,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.two_sum" />
-      <item itemvalue="Application.TwoList" />
       <item itemvalue="Application.TwoArrayMedia" />
       <item itemvalue="Application.ZString" />
       <item itemvalue="Application.LongestSubString" />
+      <item itemvalue="Application.BuildTree" />
+      <item itemvalue="Application.ReverseNum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseNum" />
+        <item itemvalue="Application.BuildTree" />
         <item itemvalue="Application.LongestSubString" />
         <item itemvalue="Application.ZString" />
         <item itemvalue="Application.TwoArrayMedia" />
-        <item itemvalue="Application.TwoList" />
-        <item itemvalue="Application.two_sum" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +247,13 @@
       <workItem from="1589974213942" duration="3253000" />
       <workItem from="1589984200662" duration="3158000" />
       <workItem from="1590019472660" duration="8494000" />
-      <workItem from="1590157248482" duration="3612000" />
+      <workItem from="1590157248482" duration="3851000" />
+      <workItem from="1590161298755" duration="1736000" />
+      <workItem from="1590195915755" duration="21000" />
+      <workItem from="1590205820888" duration="636000" />
+      <workItem from="1590237673393" duration="456000" />
+      <workItem from="1590244528650" duration="3284000" />
+      <workItem from="1590303241786" duration="1353000" />
     </task>
     <task id="LOCAL-00001" summary="graph cycle">
       <created>1589881538584</created>
@@ -265,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590031890205</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="第5题 最长回文子符串">
+      <created>1590160987140</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590160987140</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +313,15 @@
     <MESSAGE value="graph cycle" />
     <MESSAGE value="20" />
     <MESSAGE value="第4题" />
-    <option name="LAST_COMMIT_MESSAGE" value="第4题" />
+    <MESSAGE value="第5题 最长回文子符串" />
+    <option name="LAST_COMMIT_MESSAGE" value="第5题 最长回文子符串" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="m" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
