@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="第5题 最长回文子符串">
-      <change afterPath="$PROJECT_DIR$/src/number/ReverseNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/BuildTree.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="第7题">
+      <change afterPath="$PROJECT_DIR$/src/number/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/StringToInt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseNum">
+  <component name="RunManager" selected="Application.Palindrome">
     <configuration name="BuildTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.BuildTree" />
       <module name="leetcode" />
@@ -71,6 +71,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number.Palindrome" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="number.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReverseNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="number.ReverseNum" />
       <module name="leetcode" />
@@ -84,16 +97,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoArrayMedia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoArrayMedia" />
+    <configuration name="StringToInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number.StringToInt" />
       <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ZString" />
-      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="number.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -197,19 +209,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.TwoArrayMedia" />
-      <item itemvalue="Application.ZString" />
       <item itemvalue="Application.LongestSubString" />
       <item itemvalue="Application.BuildTree" />
       <item itemvalue="Application.ReverseNum" />
+      <item itemvalue="Application.StringToInt" />
+      <item itemvalue="Application.Palindrome" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Palindrome" />
+        <item itemvalue="Application.StringToInt" />
         <item itemvalue="Application.ReverseNum" />
         <item itemvalue="Application.BuildTree" />
         <item itemvalue="Application.LongestSubString" />
-        <item itemvalue="Application.ZString" />
-        <item itemvalue="Application.TwoArrayMedia" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +265,7 @@
       <workItem from="1590205820888" duration="636000" />
       <workItem from="1590237673393" duration="456000" />
       <workItem from="1590244528650" duration="3284000" />
-      <workItem from="1590303241786" duration="1353000" />
+      <workItem from="1590303241786" duration="5559000" />
     </task>
     <task id="LOCAL-00001" summary="graph cycle">
       <created>1589881538584</created>
@@ -290,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590160987140</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="第7题">
+      <created>1590304620048</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590304620048</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +333,8 @@
     <MESSAGE value="20" />
     <MESSAGE value="第4题" />
     <MESSAGE value="第5题 最长回文子符串" />
-    <option name="LAST_COMMIT_MESSAGE" value="第5题 最长回文子符串" />
+    <MESSAGE value="第7题" />
+    <option name="LAST_COMMIT_MESSAGE" value="第7题" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
