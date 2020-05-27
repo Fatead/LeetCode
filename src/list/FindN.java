@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class FindN {
 
-    public static class ListNode{
+    private static class ListNode{
         int value;
         ListNode next;
         ListNode(int x){

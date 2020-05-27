@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="第8,9题">
-      <change afterPath="$PROJECT_DIR$/src/list/FindN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/number/Int2Roman.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="19,单向链表">
+      <change afterPath="$PROJECT_DIR$/src/list/MergeKList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/list/MergeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/list/SwapKNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/list/SwapNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/FindN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/FindN.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindN">
+  <component name="RunManager" selected="Application.SwapNode">
     <configuration name="FindN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="list.FindN" />
       <module name="leetcode" />
@@ -84,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number.ReverseNum" />
+    <configuration name="StringToInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number.StringToInt" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -97,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringToInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number.StringToInt" />
+    <configuration name="SwapNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="list.SwapNode" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="number.*" />
+          <option name="PATTERN" value="list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,19 +212,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ReverseNum" />
       <item itemvalue="Application.StringToInt" />
       <item itemvalue="Application.Palindrome" />
       <item itemvalue="Application.Int2Roman" />
       <item itemvalue="Application.FindN" />
+      <item itemvalue="Application.SwapNode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SwapNode" />
         <item itemvalue="Application.FindN" />
         <item itemvalue="Application.Int2Roman" />
         <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.StringToInt" />
-        <item itemvalue="Application.ReverseNum" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +270,8 @@
       <workItem from="1590244528650" duration="3284000" />
       <workItem from="1590303241786" duration="5606000" />
       <workItem from="1590365511350" duration="2121000" />
-      <workItem from="1590452449870" duration="2626000" />
+      <workItem from="1590452449870" duration="2667000" />
+      <workItem from="1590559658545" duration="4657000" />
     </task>
     <task id="LOCAL-00001" summary="graph cycle">
       <created>1589881538584</created>
@@ -318,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590308867326</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="19,单向链表">
+      <created>1590455283107</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590455283107</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,7 +355,8 @@
     <MESSAGE value="第5题 最长回文子符串" />
     <MESSAGE value="第7题" />
     <MESSAGE value="第8,9题" />
-    <option name="LAST_COMMIT_MESSAGE" value="第8,9题" />
+    <MESSAGE value="19,单向链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="19,单向链表" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
