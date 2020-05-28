@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="19,单向链表">
-      <change afterPath="$PROJECT_DIR$/src/list/MergeKList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/list/MergeList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/list/SwapKNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/list/SwapNode.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="21,23,24,单向链表">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/list/FindN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/FindN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/SwapKNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/SwapKNode.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SwapNode">
+  <component name="RunManager" selected="Application.SwapKNode">
     <configuration name="FindN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="list.FindN" />
       <module name="leetcode" />
@@ -87,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringToInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number.StringToInt" />
+    <configuration name="SwapKNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="list.SwapKNode" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="number.*" />
+          <option name="PATTERN" value="list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,19 +208,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.StringToInt" />
       <item itemvalue="Application.Palindrome" />
       <item itemvalue="Application.Int2Roman" />
       <item itemvalue="Application.FindN" />
       <item itemvalue="Application.SwapNode" />
+      <item itemvalue="Application.SwapKNode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SwapKNode" />
         <item itemvalue="Application.SwapNode" />
         <item itemvalue="Application.FindN" />
         <item itemvalue="Application.Int2Roman" />
         <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.StringToInt" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +267,8 @@
       <workItem from="1590303241786" duration="5606000" />
       <workItem from="1590365511350" duration="2121000" />
       <workItem from="1590452449870" duration="2667000" />
-      <workItem from="1590559658545" duration="4657000" />
+      <workItem from="1590559658545" duration="4721000" />
+      <workItem from="1590625261036" duration="2083000" />
     </task>
     <task id="LOCAL-00001" summary="graph cycle">
       <created>1589881538584</created>
@@ -329,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590455283107</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="21,23,24,单向链表">
+      <created>1590564359621</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1590564359621</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +360,8 @@
     <MESSAGE value="第7题" />
     <MESSAGE value="第8,9题" />
     <MESSAGE value="19,单向链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="19,单向链表" />
+    <MESSAGE value="21,23,24,单向链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="21,23,24,单向链表" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
