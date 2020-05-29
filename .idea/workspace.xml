@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="21,23,24,单向链表">
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="25 K个一组翻转链表">
+      <change afterPath="$PROJECT_DIR$/src/number/Roman2Int.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/ReMatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/list/SwapKNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/SwapKNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/EditDistance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/longestSubString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/reverseString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/two_sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EditDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/EditDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ZString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/ZString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/longestSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/longestSubString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/reverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/two_sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/number/two_sum.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SwapKNode">
+  <component name="RunManager" selected="Application.ReMatch">
     <configuration name="FindN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="list.FindN" />
       <module name="leetcode" />
@@ -57,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Int2Roman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number.Int2Roman" />
+    <configuration name="ReMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.ReMatch" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="number.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number.Palindrome" />
+    <configuration name="Roman2Int" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number.Roman2Int" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -208,19 +218,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Palindrome" />
-      <item itemvalue="Application.Int2Roman" />
       <item itemvalue="Application.FindN" />
       <item itemvalue="Application.SwapNode" />
       <item itemvalue="Application.SwapKNode" />
+      <item itemvalue="Application.Roman2Int" />
+      <item itemvalue="Application.ReMatch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReMatch" />
+        <item itemvalue="Application.Roman2Int" />
         <item itemvalue="Application.SwapKNode" />
         <item itemvalue="Application.SwapNode" />
         <item itemvalue="Application.FindN" />
-        <item itemvalue="Application.Int2Roman" />
-        <item itemvalue="Application.Palindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +278,8 @@
       <workItem from="1590365511350" duration="2121000" />
       <workItem from="1590452449870" duration="2667000" />
       <workItem from="1590559658545" duration="4721000" />
-      <workItem from="1590625261036" duration="2083000" />
+      <workItem from="1590625261036" duration="2259000" />
+      <workItem from="1590712386051" duration="8781000" />
     </task>
     <task id="LOCAL-00001" summary="graph cycle">
       <created>1589881538584</created>
@@ -333,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590564359621</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="25 K个一组翻转链表">
+      <created>1590627380952</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1590627380952</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,7 +379,8 @@
     <MESSAGE value="第8,9题" />
     <MESSAGE value="19,单向链表" />
     <MESSAGE value="21,23,24,单向链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="21,23,24,单向链表" />
+    <MESSAGE value="25 K个一组翻转链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="25 K个一组翻转链表" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
