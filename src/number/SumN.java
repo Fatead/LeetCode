@@ -11,4 +11,5 @@ public class SumN {
         SumN sumN = new SumN();
         System.out.println(sumN.sumNums(9));
     }
+
 }
