@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="不能使用乘除法、for、while、if、else、switch、case等关键字及条件判断语句的累加">
-      <change afterPath="$PROJECT_DIR$/src/array/RemoveDuplicate.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡26 删除排序数组中的重复项，知识点双指针">
+      <change afterPath="$PROJECT_DIR$/src/string/Parenthesis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/number/SumN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/number/SumN.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RemoveDuplicate">
+  <component name="RunManager" selected="Application.Parenthesis">
     <configuration name="ClosestNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="number.ClosestNum" />
       <module name="leetcode" />
@@ -58,8 +57,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.MaxCommonPrefix" />
+    <configuration name="Parenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.Parenthesis" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -209,19 +208,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MaxCommonPrefix" />
       <item itemvalue="Application.ThreeNum" />
       <item itemvalue="Application.ClosestNum" />
       <item itemvalue="Application.SumN" />
       <item itemvalue="Application.RemoveDuplicate" />
+      <item itemvalue="Application.Parenthesis" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Parenthesis" />
         <item itemvalue="Application.RemoveDuplicate" />
         <item itemvalue="Application.SumN" />
         <item itemvalue="Application.ClosestNum" />
         <item itemvalue="Application.ThreeNum" />
-        <item itemvalue="Application.MaxCommonPrefix" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +274,8 @@
       <workItem from="1590885928662" duration="7389000" />
       <workItem from="1590969123747" duration="2852000" />
       <workItem from="1591054992083" duration="3074000" />
-      <workItem from="1591146861232" duration="1883000" />
+      <workItem from="1591146861232" duration="2342000" />
+      <workItem from="1591228431226" duration="2761000" />
     </task>
     <task id="LOCAL-00001" summary="graph cycle">
       <created>1589881538584</created>
@@ -382,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591055958674</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="打卡26 删除排序数组中的重复项，知识点双指针">
+      <created>1591149006692</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1591149006692</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,7 +423,8 @@
     <MESSAGE value="打卡101对称二叉树，16最接近的三数之和" />
     <MESSAGE value="打卡17，电话号码的字母组合" />
     <MESSAGE value="不能使用乘除法、for、while、if、else、switch、case等关键字及条件判断语句的累加" />
-    <option name="LAST_COMMIT_MESSAGE" value="不能使用乘除法、for、while、if、else、switch、case等关键字及条件判断语句的累加" />
+    <MESSAGE value="打卡26 删除排序数组中的重复项，知识点双指针" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡26 删除排序数组中的重复项，知识点双指针" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
