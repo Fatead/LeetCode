@@ -1,4 +1,4 @@
-package list;
+package listTable;
 
 public class SwapKNode {
 

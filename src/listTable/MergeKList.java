@@ -1,6 +1,8 @@
-package list;
+package listTable;
 
-public class MergeList {
+import java.util.Arrays;
+
+public class MergeKList {
 
     private static class ListNode{
         int val;
@@ -35,5 +37,18 @@ public class MergeList {
             pt.next = l1;
         }
         return head.next;
+    }
+
+    public ListNode mergeKLists(ListNode[] lists) {
+        int length = lists.length;
+        if(length == 0){
+            return null;
+        }else if(length == 1){
+            return lists[0];
+        }else if(length == 2){
+            return mergeTwoLists(lists[0],lists[1]);
+        }else{
+            return mergeTwoLists(mergeKLists(Arrays.copyOfRange(lists,0,length/2)),mergeKLists(Arrays.copyOfRange(lists,length/2,length)));
+        }
     }
 }

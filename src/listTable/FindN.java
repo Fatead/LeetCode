@@ -1,4 +1,4 @@
-package list;
+package listTable;
 
 import java.util.Stack;
 

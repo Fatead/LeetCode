@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡22括号生成，知识点回溯">
-      <change afterPath="$PROJECT_DIR$/src/array/RemoveE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/FindStr.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡27移除元素，28实现strStr()">
+      <change afterPath="$PROJECT_DIR$/src/array/FourNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/TwoDivide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/ConSubString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/FindN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listTable/FindN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/MergeKList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listTable/MergeKList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/MergeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listTable/MergeList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/SwapKNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listTable/SwapKNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/SwapNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listTable/SwapNode.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +53,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindStr">
+  <component name="RunManager" selected="Application.ConSubString">
+    <configuration name="ConSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.ConSubString" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.FindStr" />
       <module name="leetcode" />
@@ -61,21 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Parenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.Parenthesis" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.RemoveDuplicate" />
+    <configuration name="FourNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.FourNum" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -100,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number.SumN" />
+    <configuration name="TwoDivide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number.TwoDivide" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -212,19 +218,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.SumN" />
-      <item itemvalue="Application.RemoveDuplicate" />
-      <item itemvalue="Application.Parenthesis" />
       <item itemvalue="Application.RemoveE" />
       <item itemvalue="Application.FindStr" />
+      <item itemvalue="Application.FourNum" />
+      <item itemvalue="Application.TwoDivide" />
+      <item itemvalue="Application.ConSubString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConSubString" />
+        <item itemvalue="Application.TwoDivide" />
+        <item itemvalue="Application.FourNum" />
         <item itemvalue="Application.FindStr" />
         <item itemvalue="Application.RemoveE" />
-        <item itemvalue="Application.Parenthesis" />
-        <item itemvalue="Application.RemoveDuplicate" />
-        <item itemvalue="Application.SumN" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +287,8 @@
       <workItem from="1591146861232" duration="2342000" />
       <workItem from="1591228431226" duration="2955000" />
       <workItem from="1591252807149" duration="27000" />
-      <workItem from="1591315660420" duration="2288000" />
+      <workItem from="1591315660420" duration="3049000" />
+      <workItem from="1591404437615" duration="9941000" />
     </task>
     <task id="LOCAL-00001" summary="graph cycle">
       <created>1589881538584</created>
@@ -402,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591231227906</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="打卡27移除元素，28实现strStr()">
+      <created>1591317976296</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1591317976296</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,7 +452,8 @@
     <MESSAGE value="不能使用乘除法、for、while、if、else、switch、case等关键字及条件判断语句的累加" />
     <MESSAGE value="打卡26 删除排序数组中的重复项，知识点双指针" />
     <MESSAGE value="打卡22括号生成，知识点回溯" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡22括号生成，知识点回溯" />
+    <MESSAGE value="打卡27移除元素，28实现strStr()" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡27移除元素，28实现strStr()" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
