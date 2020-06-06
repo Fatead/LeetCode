@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡27移除元素，28实现strStr()">
-      <change afterPath="$PROJECT_DIR$/src/array/FourNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/number/TwoDivide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/ConSubString.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡18四数之和，29两数相除，30串联所有单词的子串">
+      <change afterPath="$PROJECT_DIR$/src/array/DistinctFullSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/FullSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/NextPer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/list/FindN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listTable/FindN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/list/MergeKList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listTable/MergeKList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/list/MergeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listTable/MergeList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/list/SwapKNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listTable/SwapKNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/list/SwapNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listTable/SwapNode.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConSubString">
+  <component name="RunManager" selected="Application.FullSort">
     <configuration name="ConSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.ConSubString" />
       <module name="leetcode" />
@@ -67,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.FindStr" />
+    <configuration name="DistinctFullSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.DistinctFullSort" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.RemoveE" />
+    <configuration name="FullSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.FullSort" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -218,19 +213,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.RemoveE" />
-      <item itemvalue="Application.FindStr" />
       <item itemvalue="Application.FourNum" />
       <item itemvalue="Application.TwoDivide" />
       <item itemvalue="Application.ConSubString" />
+      <item itemvalue="Application.FullSort" />
+      <item itemvalue="Application.DistinctFullSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FullSort" />
+        <item itemvalue="Application.DistinctFullSort" />
         <item itemvalue="Application.ConSubString" />
         <item itemvalue="Application.TwoDivide" />
         <item itemvalue="Application.FourNum" />
-        <item itemvalue="Application.FindStr" />
-        <item itemvalue="Application.RemoveE" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +283,8 @@
       <workItem from="1591228431226" duration="2955000" />
       <workItem from="1591252807149" duration="27000" />
       <workItem from="1591315660420" duration="3049000" />
-      <workItem from="1591404437615" duration="9941000" />
+      <workItem from="1591404437615" duration="10073000" />
+      <workItem from="1591433452174" duration="5873000" />
     </task>
     <task id="LOCAL-00001" summary="graph cycle">
       <created>1589881538584</created>
@@ -416,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591317976296</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="打卡18四数之和，29两数相除，30串联所有单词的子串">
+      <created>1591414576548</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1591414576548</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +456,8 @@
     <MESSAGE value="打卡26 删除排序数组中的重复项，知识点双指针" />
     <MESSAGE value="打卡22括号生成，知识点回溯" />
     <MESSAGE value="打卡27移除元素，28实现strStr()" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡27移除元素，28实现strStr()" />
+    <MESSAGE value="打卡18四数之和，29两数相除，30串联所有单词的子串" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡18四数之和，29两数相除，30串联所有单词的子串" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
