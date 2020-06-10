@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡31，下一个排列">
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡32最长有效括号">
+      <change afterPath="$PROJECT_DIR$/src/array/SearchIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/SearchPos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/SearchRotateArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dp/LongestBracket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/LongestBracket.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,46 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestBracket">
-    <configuration name="ConSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.ConSubString" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DistinctFullSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.DistinctFullSort" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FullSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.FullSort" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SearchPos">
     <configuration name="LongestBracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dp.LongestBracket" />
       <module name="leetcode" />
@@ -101,6 +64,45 @@
     </configuration>
     <configuration name="NextPer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.NextPer" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.SearchIndex" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchPos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.SearchPos" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchRotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.SearchRotateArray" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -211,19 +213,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ConSubString" />
-      <item itemvalue="Application.FullSort" />
-      <item itemvalue="Application.DistinctFullSort" />
       <item itemvalue="Application.NextPer" />
       <item itemvalue="Application.LongestBracket" />
+      <item itemvalue="Application.SearchRotateArray" />
+      <item itemvalue="Application.SearchIndex" />
+      <item itemvalue="Application.SearchPos" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchPos" />
+        <item itemvalue="Application.SearchIndex" />
+        <item itemvalue="Application.SearchRotateArray" />
         <item itemvalue="Application.LongestBracket" />
         <item itemvalue="Application.NextPer" />
-        <item itemvalue="Application.FullSort" />
-        <item itemvalue="Application.DistinctFullSort" />
-        <item itemvalue="Application.ConSubString" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +286,11 @@
       <workItem from="1591404437615" duration="10073000" />
       <workItem from="1591433452174" duration="6909000" />
       <workItem from="1591492459816" duration="2042000" />
-      <workItem from="1591575303913" duration="2608000" />
+      <workItem from="1591575303913" duration="2693000" />
+      <workItem from="1591585248979" duration="13000" />
+      <workItem from="1591660361070" duration="6491000" />
+      <workItem from="1591704226376" duration="48000" />
+      <workItem from="1591747824913" duration="2660000" />
     </task>
     <task id="LOCAL-00001" summary="graph cycle">
       <created>1589881538584</created>
@@ -433,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591496201829</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="打卡32最长有效括号">
+      <created>1591578208573</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1591578208573</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,7 +486,8 @@
     <MESSAGE value="打卡18四数之和，29两数相除，30串联所有单词的子串" />
     <MESSAGE value="全排列" />
     <MESSAGE value="打卡31，下一个排列" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡31，下一个排列" />
+    <MESSAGE value="打卡32最长有效括号" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡32最长有效括号" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
