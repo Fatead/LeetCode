@@ -1,3 +1,5 @@
+package array;
+
 public class TwoArrayMedia {
 
     public int findKth(int[] num1,int i,int[] num2,int j,int k){

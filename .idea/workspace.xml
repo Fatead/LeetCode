@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡34，35，知识点二分查找">
-      <change afterPath="$PROJECT_DIR$/src/hashTable/ValidSudoku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/CountSay.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡36，有效的数独，知识点哈希表">
+      <change afterPath="$PROJECT_DIR$/src/backtracking/SolveSudokuProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GraphFindCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/GraphFindCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoArrayMedia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/TwoArrayMedia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dfs/wordSearch.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ValidSudoku">
+  <component name="RunManager" selected="Application.SolveSudokuProblem">
     <configuration name="CountSay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.CountSay" />
       <module name="leetcode" />
@@ -87,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchRotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.SearchRotateArray" />
+    <configuration name="SolveSudokuProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.SolveSudokuProblem" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,19 +215,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.SearchRotateArray" />
       <item itemvalue="Application.SearchIndex" />
       <item itemvalue="Application.SearchPos" />
       <item itemvalue="Application.CountSay" />
       <item itemvalue="Application.ValidSudoku" />
+      <item itemvalue="Application.SolveSudokuProblem" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SolveSudokuProblem" />
         <item itemvalue="Application.ValidSudoku" />
         <item itemvalue="Application.CountSay" />
         <item itemvalue="Application.SearchPos" />
         <item itemvalue="Application.SearchIndex" />
-        <item itemvalue="Application.SearchRotateArray" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +295,9 @@
       <workItem from="1591747824913" duration="3237000" />
       <workItem from="1591755459390" duration="37000" />
       <workItem from="1591784774696" duration="2053000" />
-      <workItem from="1591833207470" duration="3105000" />
+      <workItem from="1591833207470" duration="3540000" />
+      <workItem from="1591840719145" duration="16000" />
+      <workItem from="1591880656623" duration="5704000" />
     </task>
     <task id="LOCAL-00001" summary="graph cycle">
       <created>1589881538584</created>
@@ -455,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591750687468</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="打卡36，有效的数独，知识点哈希表">
+      <created>1591836344887</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1591836344887</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,7 +509,8 @@
     <MESSAGE value="打卡31，下一个排列" />
     <MESSAGE value="打卡32最长有效括号" />
     <MESSAGE value="打卡34，35，知识点二分查找" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡34，35，知识点二分查找" />
+    <MESSAGE value="打卡36，有效的数独，知识点哈希表" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡36，有效的数独，知识点哈希表" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
