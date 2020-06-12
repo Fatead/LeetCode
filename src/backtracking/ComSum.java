@@ -7,28 +7,24 @@ import java.util.List;
 
 public class ComSum {
 
-    public static List<List<Integer>> resultList = new ArrayList<>();
+    List<List<Integer>> resultList = new ArrayList<>();
 
-    private boolean calculate(int[] candidates,int target,List<Integer> integerList,int left){
-        if(target == 0){
-            resultList.add(new ArrayList<>(integerList));
-            return true;
+    private void calculate(int[] candidates ,int target,List<Integer> integerList, int left){
+        if(target == 0)resultList.add(new ArrayList<>(integerList));
+        if(candidates[left]>target){
+            return;
         }
         for(int i = left;i<candidates.length;i++){
-            if(candidates[i]>target){
-                break;
-            }
             integerList.add(candidates[i]);
             calculate(candidates,target-candidates[i],integerList,i);
             integerList.remove(integerList.size()-1);
         }
-        return false;
     }
 
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         Arrays.sort(candidates);
-        List<Integer> list = new ArrayList<>();
-        calculate(candidates,target,list,0);
+        List<Integer> integerList = new ArrayList<>();
+        calculate(candidates,target,integerList,0);
         return resultList;
     }
 

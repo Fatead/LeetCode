@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡39，组和总数，知识点回溯">
+      <change afterPath="$PROJECT_DIR$/src/backtracking/ComSum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/Multiply.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backtracking/ComSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/ComSum.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ComSum">
+  <component name="RunManager" selected="Application.Multiply">
     <configuration name="ComSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="backtracking.ComSum" />
       <module name="leetcode" />
@@ -59,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountSay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.CountSay" />
+    <configuration name="ComSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.ComSum2" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchPos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.SearchPos" />
+    <configuration name="Multiply" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number.Multiply" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,19 +213,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.SearchPos" />
-      <item itemvalue="Application.CountSay" />
       <item itemvalue="Application.ValidSudoku" />
       <item itemvalue="Application.SolveSudokuProblem" />
       <item itemvalue="Application.ComSum" />
+      <item itemvalue="Application.ComSum2" />
+      <item itemvalue="Application.Multiply" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Multiply" />
+        <item itemvalue="Application.ComSum2" />
         <item itemvalue="Application.ComSum" />
         <item itemvalue="Application.SolveSudokuProblem" />
         <item itemvalue="Application.ValidSudoku" />
-        <item itemvalue="Application.CountSay" />
-        <item itemvalue="Application.SearchPos" />
       </list>
     </recent_temporary>
   </component>
@@ -296,6 +299,7 @@
       <workItem from="1591941729265" duration="7409000" />
       <workItem from="1591949205234" duration="55000" />
       <workItem from="1591949335986" duration="12000" />
+      <workItem from="1591950104922" duration="6222000" />
     </task>
     <task id="LOCAL-00001" summary="graph cycle">
       <created>1589881538584</created>
@@ -479,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591949227916</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="打卡39，组和总数，知识点回溯">
+      <created>1591950112341</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1591950112341</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
