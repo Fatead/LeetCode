@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡43,字符串相乘">
-      <change afterPath="$PROJECT_DIR$/src/array/RotateImage.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡48，旋转图像">
+      <change afterPath="$PROJECT_DIR$/src/array/MissPositive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/MaxSubArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/RotateImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/RotateImage.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,9 +48,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RotateImage">
-    <configuration name="ComSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.ComSum" />
+  <component name="RunManager" selected="Application.MaxSubArray">
+    <configuration name="ComSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.ComSum2" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -60,12 +62,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.ComSum2" />
+    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.MaxSubArray" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="backtracking.*" />
+          <option name="PATTERN" value="dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MissPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.MissPositive" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,19 +107,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolveSudokuProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.SolveSudokuProblem" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,19 +213,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.SolveSudokuProblem" />
-      <item itemvalue="Application.ComSum" />
       <item itemvalue="Application.ComSum2" />
       <item itemvalue="Application.Multiply" />
       <item itemvalue="Application.RotateImage" />
+      <item itemvalue="Application.MissPositive" />
+      <item itemvalue="Application.MaxSubArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxSubArray" />
+        <item itemvalue="Application.MissPositive" />
         <item itemvalue="Application.RotateImage" />
         <item itemvalue="Application.Multiply" />
         <item itemvalue="Application.ComSum2" />
-        <item itemvalue="Application.ComSum" />
-        <item itemvalue="Application.SolveSudokuProblem" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +300,9 @@
       <workItem from="1591949205234" duration="55000" />
       <workItem from="1591949335986" duration="12000" />
       <workItem from="1591950104922" duration="6444000" />
-      <workItem from="1592043132238" duration="1283000" />
+      <workItem from="1592043132238" duration="1535000" />
+      <workItem from="1592092883365" duration="4548000" />
+      <workItem from="1592177169091" duration="3557000" />
     </task>
     <task id="LOCAL-00001" summary="graph cycle">
       <created>1589881538584</created>
@@ -496,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591956457105</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="打卡48，旋转图像">
+      <created>1592044568470</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1592044568470</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,7 +527,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20" />
     <MESSAGE value="第4题" />
     <MESSAGE value="第5题 最长回文子符串" />
     <MESSAGE value="第7题" />
@@ -541,7 +551,8 @@
     <MESSAGE value="打卡37，解数独，知识点回溯" />
     <MESSAGE value="打卡39，组和总数，知识点回溯" />
     <MESSAGE value="打卡43,字符串相乘" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡43,字符串相乘" />
+    <MESSAGE value="打卡48，旋转图像" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡48，旋转图像" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

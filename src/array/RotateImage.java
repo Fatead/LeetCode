@@ -33,6 +33,5 @@ public class RotateImage {
         RotateImage rotateImage = new RotateImage();
         rotateImage.rotate(matrix);
         System.out.println(Arrays.deepToString(matrix));
-
     }
 }
