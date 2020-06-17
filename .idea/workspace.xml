@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡43，最大子序和">
-      <change afterPath="$PROJECT_DIR$/src/hashTable/GroupAna.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡49，字母异位词分组">
+      <change afterPath="$PROJECT_DIR$/src/backtracking/NQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/LastLength.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,13 +47,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GroupAna">
+  <component name="RunManager" selected="Application.LastLength">
     <configuration name="GroupAna" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hashTable.GroupAna" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="hashTable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LastLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.LastLength" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,19 +93,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Multiply" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number.Multiply" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,19 +212,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Multiply" />
       <item itemvalue="Application.RotateImage" />
       <item itemvalue="Application.MissPositive" />
       <item itemvalue="Application.MaxSubArray" />
       <item itemvalue="Application.GroupAna" />
+      <item itemvalue="Application.LastLength" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LastLength" />
         <item itemvalue="Application.GroupAna" />
         <item itemvalue="Application.MaxSubArray" />
         <item itemvalue="Application.MissPositive" />
         <item itemvalue="Application.RotateImage" />
-        <item itemvalue="Application.Multiply" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +303,8 @@
       <workItem from="1592092883365" duration="4548000" />
       <workItem from="1592177169091" duration="3677000" />
       <workItem from="1592206662567" duration="7000" />
-      <workItem from="1592264902113" duration="3335000" />
+      <workItem from="1592264902113" duration="3785000" />
+      <workItem from="1592353136737" duration="592000" />
     </task>
     <task id="LOCAL-00001" summary="graph cycle">
       <created>1589881538584</created>
@@ -514,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592180738888</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="打卡49，字母异位词分组">
+      <created>1592268490007</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1592268490007</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,7 +543,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="第5题 最长回文子符串" />
     <MESSAGE value="第7题" />
     <MESSAGE value="第8,9题" />
     <MESSAGE value="19,单向链表" />
@@ -559,7 +567,8 @@
     <MESSAGE value="打卡43,字符串相乘" />
     <MESSAGE value="打卡48，旋转图像" />
     <MESSAGE value="打卡43，最大子序和" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡43，最大子序和" />
+    <MESSAGE value="打卡49，字母异位词分组" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡49，字母异位词分组" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
