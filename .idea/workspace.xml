@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡49，字母异位词分组">
-      <change afterPath="$PROJECT_DIR$/src/backtracking/NQueens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/LastLength.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡58，最后一个单词的长度">
+      <change afterPath="$PROJECT_DIR$/src/array/SpiralMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LastLength">
+  <component name="RunManager" selected="Application.SpiralMatrix">
     <configuration name="GroupAna" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hashTable.GroupAna" />
       <module name="leetcode" />
@@ -100,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.RotateImage" />
+    <configuration name="SpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.SpiralMatrix" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -212,19 +211,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.RotateImage" />
       <item itemvalue="Application.MissPositive" />
       <item itemvalue="Application.MaxSubArray" />
       <item itemvalue="Application.GroupAna" />
       <item itemvalue="Application.LastLength" />
+      <item itemvalue="Application.SpiralMatrix" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpiralMatrix" />
         <item itemvalue="Application.LastLength" />
         <item itemvalue="Application.GroupAna" />
         <item itemvalue="Application.MaxSubArray" />
         <item itemvalue="Application.MissPositive" />
-        <item itemvalue="Application.RotateImage" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +303,8 @@
       <workItem from="1592177169091" duration="3677000" />
       <workItem from="1592206662567" duration="7000" />
       <workItem from="1592264902113" duration="3785000" />
-      <workItem from="1592353136737" duration="592000" />
+      <workItem from="1592353136737" duration="632000" />
+      <workItem from="1592439652122" duration="2313000" />
     </task>
     <task id="LOCAL-00001" summary="graph cycle">
       <created>1589881538584</created>
@@ -523,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592268490007</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="打卡58，最后一个单词的长度">
+      <created>1592353746455</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1592353746455</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,7 +550,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="第7题" />
     <MESSAGE value="第8,9题" />
     <MESSAGE value="19,单向链表" />
     <MESSAGE value="21,23,24,单向链表" />
@@ -568,7 +574,8 @@
     <MESSAGE value="打卡48，旋转图像" />
     <MESSAGE value="打卡43，最大子序和" />
     <MESSAGE value="打卡49，字母异位词分组" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡49，字母异位词分组" />
+    <MESSAGE value="打卡58，最后一个单词的长度" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡58，最后一个单词的长度" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
