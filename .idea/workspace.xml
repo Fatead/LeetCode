@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡54 螺旋矩阵">
-      <change afterPath="$PROJECT_DIR$/src/array/JumpGame.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡55 跳跃游戏">
+      <change afterPath="$PROJECT_DIR$/src/sort/InsertInterval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/MergeInterval.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,13 +47,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JumpGame">
-    <configuration name="GroupAna" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashTable.GroupAna" />
+  <component name="RunManager" selected="Application.InsertInterval">
+    <configuration name="InsertInterval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.InsertInterval" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashTable.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.MaxSubArray" />
+    <configuration name="MergeInterval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.MergeInterval" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,19 +212,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MaxSubArray" />
-      <item itemvalue="Application.GroupAna" />
       <item itemvalue="Application.LastLength" />
       <item itemvalue="Application.SpiralMatrix" />
       <item itemvalue="Application.JumpGame" />
+      <item itemvalue="Application.MergeInterval" />
+      <item itemvalue="Application.InsertInterval" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertInterval" />
+        <item itemvalue="Application.MergeInterval" />
         <item itemvalue="Application.JumpGame" />
         <item itemvalue="Application.SpiralMatrix" />
         <item itemvalue="Application.LastLength" />
-        <item itemvalue="Application.GroupAna" />
-        <item itemvalue="Application.MaxSubArray" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +306,9 @@
       <workItem from="1592264902113" duration="3785000" />
       <workItem from="1592353136737" duration="632000" />
       <workItem from="1592439652122" duration="2715000" />
-      <workItem from="1592525320597" duration="4373000" />
+      <workItem from="1592525320597" duration="4640000" />
+      <workItem from="1592549109047" duration="54000" />
+      <workItem from="1592617791025" duration="4702000" />
     </task>
     <task id="LOCAL-00001" summary="graph cycle">
       <created>1589881538584</created>
@@ -538,7 +541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592442178058</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="打卡55 跳跃游戏">
+      <created>1592539440733</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1592539440733</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -558,7 +568,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="19,单向链表" />
     <MESSAGE value="21,23,24,单向链表" />
     <MESSAGE value="25 K个一组翻转链表" />
     <MESSAGE value="新增10，13" />
@@ -583,7 +592,8 @@
     <MESSAGE value="打卡49，字母异位词分组" />
     <MESSAGE value="打卡58，最后一个单词的长度" />
     <MESSAGE value="打卡54 螺旋矩阵" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡54 螺旋矩阵" />
+    <MESSAGE value="打卡55 跳跃游戏" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡55 跳跃游戏" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
