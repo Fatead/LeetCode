@@ -41,7 +41,7 @@ public class NextPer {
 
     public static void main(String[] args) {
         NextPer nextPer = new NextPer();
-        int[] nums = {1,4,3,2};
+        int[] nums = {1,2,3};
         nextPer.nextPermutation(nums);
         System.out.println(Arrays.toString(nums));
     }
