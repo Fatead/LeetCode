@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡 56 合并区间，57 插入区间">
-      <change afterPath="$PROJECT_DIR$/src/array/BuildSpiralMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backtracking/KthPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listTable/RotateList.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡61 旋转链表">
+      <change afterPath="$PROJECT_DIR$/src/dp/PathNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/NextPer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/NextPer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,26 +46,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RotateList">
+  <component name="RunManager" selected="Application.PathNum">
     <configuration name="BuildSpiralMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.BuildSpiralMatrix" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsertInterval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.InsertInterval" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,6 +79,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PathNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.PathNum" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,19 +211,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.InsertInterval" />
       <item itemvalue="Application.BuildSpiralMatrix" />
       <item itemvalue="Application.KthPermutation" />
       <item itemvalue="Application.NextPer" />
       <item itemvalue="Application.RotateList" />
+      <item itemvalue="Application.PathNum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PathNum" />
         <item itemvalue="Application.RotateList" />
         <item itemvalue="Application.KthPermutation" />
         <item itemvalue="Application.NextPer" />
         <item itemvalue="Application.BuildSpiralMatrix" />
-        <item itemvalue="Application.InsertInterval" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +312,8 @@
       <workItem from="1592784812383" duration="4331000" />
       <workItem from="1592792023222" duration="1823000" />
       <workItem from="1592798375238" duration="476000" />
-      <workItem from="1592870995744" duration="2272000" />
+      <workItem from="1592870995744" duration="2455000" />
+      <workItem from="1592957992670" duration="1545000" />
     </task>
     <task id="LOCAL-00001" summary="graph cycle">
       <created>1589881538584</created>
@@ -562,7 +560,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592622668119</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="打卡61 旋转链表">
+      <created>1592873447951</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1592873447951</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,7 +587,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="25 K个一组翻转链表" />
     <MESSAGE value="新增10，13" />
     <MESSAGE value="打卡 11，14，15" />
     <MESSAGE value="打卡101对称二叉树，16最接近的三数之和" />
@@ -607,7 +611,8 @@
     <MESSAGE value="打卡54 螺旋矩阵" />
     <MESSAGE value="打卡55 跳跃游戏" />
     <MESSAGE value="打卡 56 合并区间，57 插入区间" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡 56 合并区间，57 插入区间" />
+    <MESSAGE value="打卡61 旋转链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡61 旋转链表" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
