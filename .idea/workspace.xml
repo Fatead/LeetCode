@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡62 不同路径">
-      <change afterPath="$PROJECT_DIR$/src/dp/MinPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/PathNum2.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡 63不同的路径Ⅱ，64最小路径和">
+      <change afterPath="$PROJECT_DIR$/src/array/SetMatrixZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/EditDis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/MaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/MaxSubArray.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,22 +48,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinPathSum">
-    <configuration name="KthPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.KthPermutation" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.MinPathSum" />
+  <component name="RunManager" selected="Application.SetMatrixZero">
+    <configuration name="EditDis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.EditDis" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +62,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.PathNum" />
+    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.MaxSubArray" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.MinPathSum" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -100,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listTable.RotateList" />
+    <configuration name="SetMatrixZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.SetMatrixZero" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="listTable.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,19 +213,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.KthPermutation" />
-      <item itemvalue="Application.RotateList" />
-      <item itemvalue="Application.PathNum" />
       <item itemvalue="Application.PathNum2" />
       <item itemvalue="Application.MinPathSum" />
+      <item itemvalue="Application.MaxSubArray" />
+      <item itemvalue="Application.EditDis" />
+      <item itemvalue="Application.SetMatrixZero" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SetMatrixZero" />
+        <item itemvalue="Application.EditDis" />
+        <item itemvalue="Application.MaxSubArray" />
         <item itemvalue="Application.MinPathSum" />
         <item itemvalue="Application.PathNum2" />
-        <item itemvalue="Application.PathNum" />
-        <item itemvalue="Application.RotateList" />
-        <item itemvalue="Application.KthPermutation" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +317,9 @@
       <workItem from="1592870995744" duration="2455000" />
       <workItem from="1592957992670" duration="1591000" />
       <workItem from="1592965452683" duration="201000" />
-      <workItem from="1593046586432" duration="1844000" />
+      <workItem from="1593046586432" duration="2059000" />
+      <workItem from="1593069293077" duration="951000" />
+      <workItem from="1593129383755" duration="2334000" />
     </task>
     <task id="LOCAL-00001" summary="graph cycle">
       <created>1589881538584</created>
@@ -577,7 +580,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592960076242</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="打卡 63不同的路径Ⅱ，64最小路径和">
+      <created>1593048571769</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1593048571769</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -597,7 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡 11，14，15" />
     <MESSAGE value="打卡101对称二叉树，16最接近的三数之和" />
     <MESSAGE value="打卡17，电话号码的字母组合" />
     <MESSAGE value="不能使用乘除法、for、while、if、else、switch、case等关键字及条件判断语句的累加" />
@@ -622,7 +631,8 @@
     <MESSAGE value="打卡 56 合并区间，57 插入区间" />
     <MESSAGE value="打卡61 旋转链表" />
     <MESSAGE value="打卡62 不同路径" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡62 不同路径" />
+    <MESSAGE value="打卡 63不同的路径Ⅱ，64最小路径和" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡 63不同的路径Ⅱ，64最小路径和" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

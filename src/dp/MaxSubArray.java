@@ -1,8 +1,7 @@
 package dp;
 
-import java.util.Arrays;
-
 public class MaxSubArray {
+
 
     public int maxSubArray2(int[] nums) {
         int len = nums.length;
@@ -35,7 +34,7 @@ public class MaxSubArray {
     }
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
         int[] array = {-2,1,-3,4,-1,2,1,-5,4};
         MaxSubArray maxSubArray = new MaxSubArray();
         int result = maxSubArray.maxSubArray(array);
