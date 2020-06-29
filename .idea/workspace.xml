@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡 72编辑距离， 73矩阵置零">
-      <change afterPath="$PROJECT_DIR$/src/array/AddOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/BinaryAdd.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡 66 加1 67二进制求和">
+      <change afterPath="$PROJECT_DIR$/src/number/SqrtX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/BinaryAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/BinaryAdd.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryAdd">
+  <component name="RunManager" selected="Application.SqrtX">
     <configuration name="AddOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.AddOne" />
       <module name="leetcode" />
@@ -87,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.MaxSubArray" />
+    <configuration name="SetMatrixZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.SetMatrixZero" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetMatrixZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.SetMatrixZero" />
+    <configuration name="SqrtX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number.SqrtX" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,19 +212,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MaxSubArray" />
       <item itemvalue="Application.EditDis" />
       <item itemvalue="Application.SetMatrixZero" />
       <item itemvalue="Application.AddOne" />
       <item itemvalue="Application.BinaryAdd" />
+      <item itemvalue="Application.SqrtX" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SqrtX" />
         <item itemvalue="Application.BinaryAdd" />
         <item itemvalue="Application.AddOne" />
         <item itemvalue="Application.SetMatrixZero" />
         <item itemvalue="Application.EditDis" />
-        <item itemvalue="Application.MaxSubArray" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +321,9 @@
       <workItem from="1593129383755" duration="2371000" />
       <workItem from="1593220751427" duration="2588000" />
       <workItem from="1593238566848" duration="20000" />
-      <workItem from="1593301778809" duration="1952000" />
+      <workItem from="1593301778809" duration="2218000" />
+      <workItem from="1593304033666" duration="298000" />
+      <workItem from="1593390718493" duration="2226000" />
     </task>
     <task id="LOCAL-00001" summary="graph cycle">
       <created>1589881538584</created>
@@ -596,7 +598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593131737117</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="打卡 66 加1 67二进制求和">
+      <created>1593303975234</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1593303975234</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -616,7 +625,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡17，电话号码的字母组合" />
     <MESSAGE value="不能使用乘除法、for、while、if、else、switch、case等关键字及条件判断语句的累加" />
     <MESSAGE value="打卡26 删除排序数组中的重复项，知识点双指针" />
     <MESSAGE value="打卡22括号生成，知识点回溯" />
@@ -641,18 +649,8 @@
     <MESSAGE value="打卡62 不同路径" />
     <MESSAGE value="打卡 63不同的路径Ⅱ，64最小路径和" />
     <MESSAGE value="打卡 72编辑距离， 73矩阵置零" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡 72编辑距离， 73矩阵置零" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/string/BinaryAdd.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="打卡 66 加1 67二进制求和" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡 66 加1 67二进制求和" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

@@ -4,7 +4,6 @@ import java.util.Stack;
 
 public class BinaryAdd {
 
-
     public String addBinary(String a, String b) {
         int length1 = a.length();
         int length2 = b.length();
@@ -46,4 +45,5 @@ public class BinaryAdd {
         BinaryAdd binaryAdd = new BinaryAdd();
         System.out.println(binaryAdd.addBinary(a,b));
     }
+
 }
