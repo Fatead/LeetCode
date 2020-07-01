@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡 66 加1 67二进制求和">
-      <change afterPath="$PROJECT_DIR$/src/number/SqrtX.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡 69 x的平方根">
+      <change afterPath="$PROJECT_DIR$/src/array/SearchMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/ClimbStair.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/BinaryAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/BinaryAdd.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SqrtX">
+  <component name="RunManager" selected="Application.SearchMatrix">
     <configuration name="AddOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.AddOne" />
       <module name="leetcode" />
@@ -74,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EditDis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.EditDis" />
+    <configuration name="ClimbStair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.ClimbStair" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -87,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetMatrixZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.SetMatrixZero" />
+    <configuration name="SearchMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.SearchMatrix" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -212,19 +212,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.EditDis" />
-      <item itemvalue="Application.SetMatrixZero" />
       <item itemvalue="Application.AddOne" />
       <item itemvalue="Application.BinaryAdd" />
       <item itemvalue="Application.SqrtX" />
+      <item itemvalue="Application.ClimbStair" />
+      <item itemvalue="Application.SearchMatrix" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchMatrix" />
+        <item itemvalue="Application.ClimbStair" />
         <item itemvalue="Application.SqrtX" />
         <item itemvalue="Application.BinaryAdd" />
         <item itemvalue="Application.AddOne" />
-        <item itemvalue="Application.SetMatrixZero" />
-        <item itemvalue="Application.EditDis" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +323,9 @@
       <workItem from="1593238566848" duration="20000" />
       <workItem from="1593301778809" duration="2218000" />
       <workItem from="1593304033666" duration="298000" />
-      <workItem from="1593390718493" duration="2226000" />
+      <workItem from="1593390718493" duration="2266000" />
+      <workItem from="1593476777642" duration="1408000" />
+      <workItem from="1593564684216" duration="2006000" />
     </task>
     <task id="LOCAL-00001" summary="graph cycle">
       <created>1589881538584</created>
@@ -605,7 +607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593303975234</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="打卡 69 x的平方根">
+      <created>1593393007956</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1593393007956</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,7 +634,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="不能使用乘除法、for、while、if、else、switch、case等关键字及条件判断语句的累加" />
     <MESSAGE value="打卡26 删除排序数组中的重复项，知识点双指针" />
     <MESSAGE value="打卡22括号生成，知识点回溯" />
     <MESSAGE value="打卡27移除元素，28实现strStr()" />
@@ -650,7 +658,8 @@
     <MESSAGE value="打卡 63不同的路径Ⅱ，64最小路径和" />
     <MESSAGE value="打卡 72编辑距离， 73矩阵置零" />
     <MESSAGE value="打卡 66 加1 67二进制求和" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡 66 加1 67二进制求和" />
+    <MESSAGE value="打卡 69 x的平方根" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡 69 x的平方根" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
