@@ -1,4 +1,4 @@
-package dp;
+package backtracking;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

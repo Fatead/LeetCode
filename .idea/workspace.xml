@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="&#10;打卡74搜索二维矩阵">
-      <change afterPath="$PROJECT_DIR$/src/dp/CombineNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/SortColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡 77 组合 知识点回溯">
+      <change beforePath="$PROJECT_DIR$/src/dp/CombineNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/CombineNum.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +51,7 @@
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,11 +60,11 @@
       </method>
     </configuration>
     <configuration name="CombineNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.CombineNum" />
+      <option name="MAIN_CLASS_NAME" value="backtracking.CombineNum" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,7 +327,7 @@
       <workItem from="1593650971448" duration="2874000" />
       <workItem from="1593656279074" duration="83000" />
       <workItem from="1593676829817" duration="1874000" />
-      <workItem from="1593736598841" duration="2566000" />
+      <workItem from="1593736598841" duration="2810000" />
     </task>
     <task id="LOCAL-00001" summary="graph cycle">
       <created>1589881538584</created>
@@ -625,7 +623,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593567237619</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="打卡 77 组合 知识点回溯">
+      <created>1593739354959</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1593739354959</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -645,7 +650,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡22括号生成，知识点回溯" />
     <MESSAGE value="打卡27移除元素，28实现strStr()" />
     <MESSAGE value="打卡18四数之和，29两数相除，30串联所有单词的子串" />
     <MESSAGE value="全排列" />
@@ -670,18 +674,8 @@
     <MESSAGE value="打卡 66 加1 67二进制求和" />
     <MESSAGE value="打卡 69 x的平方根" />
     <MESSAGE value="&#10;打卡74搜索二维矩阵" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;打卡74搜索二维矩阵" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dp/CombineNum.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="打卡 77 组合 知识点回溯" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡 77 组合 知识点回溯" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
