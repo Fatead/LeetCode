@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡 77 组合 知识点回溯">
-      <change beforePath="$PROJECT_DIR$/src/dp/CombineNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/CombineNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/SubSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CombineNum">
+  <component name="RunManager" selected="Application.SubSet">
     <configuration name="ClimbStair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dp.ClimbStair" />
       <module name="leetcode" />
@@ -98,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SqrtX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number.SqrtX" />
+    <configuration name="SubSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.SubSet" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="number.*" />
+          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,19 +211,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.SqrtX" />
       <item itemvalue="Application.ClimbStair" />
       <item itemvalue="Application.SearchMatrix" />
       <item itemvalue="Application.SortColor" />
       <item itemvalue="Application.CombineNum" />
+      <item itemvalue="Application.SubSet" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubSet" />
         <item itemvalue="Application.CombineNum" />
         <item itemvalue="Application.SortColor" />
         <item itemvalue="Application.SearchMatrix" />
         <item itemvalue="Application.ClimbStair" />
-        <item itemvalue="Application.SqrtX" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +328,9 @@
       <workItem from="1593650971448" duration="2874000" />
       <workItem from="1593656279074" duration="83000" />
       <workItem from="1593676829817" duration="1874000" />
-      <workItem from="1593736598841" duration="2810000" />
+      <workItem from="1593736598841" duration="2903000" />
+      <workItem from="1593765668264" duration="628000" />
+      <workItem from="1593823990124" duration="1172000" />
     </task>
     <task id="LOCAL-00001" summary="graph cycle">
       <created>1589881538584</created>
@@ -630,7 +633,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593739354959</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="打卡 77 组合 知识点回溯">
+      <created>1593739436083</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1593739436083</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
