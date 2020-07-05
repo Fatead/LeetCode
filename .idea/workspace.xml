@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡 77 组合 知识点回溯">
-      <change afterPath="$PROJECT_DIR$/src/backtracking/SubSet.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡 78 子集 知识点回溯">
+      <change afterPath="$PROJECT_DIR$/src/array/ConcatTwoArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/DeleteDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/DeleteDuplicates2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/PowerX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,35 +50,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SubSet">
-    <configuration name="ClimbStair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.ClimbStair" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CombineNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.CombineNum" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.SearchMatrix" />
+  <component name="RunManager" selected="Application.ConcatTwoArray">
+    <configuration name="ConcatTwoArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ConcatTwoArray" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -86,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortColor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.SortColor" />
+    <configuration name="DeleteDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listTable.DeleteDuplicates" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="listTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +77,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.SubSet" />
+    <configuration name="DeleteDuplicates2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listTable.DeleteDuplicates2" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="backtracking.*" />
+          <option name="PATTERN" value="listTable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PowerX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number.PowerX" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="number.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.RemoveDuplicates" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,19 +215,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ClimbStair" />
-      <item itemvalue="Application.SearchMatrix" />
-      <item itemvalue="Application.SortColor" />
-      <item itemvalue="Application.CombineNum" />
-      <item itemvalue="Application.SubSet" />
+      <item itemvalue="Application.RemoveDuplicates" />
+      <item itemvalue="Application.DeleteDuplicates" />
+      <item itemvalue="Application.PowerX" />
+      <item itemvalue="Application.DeleteDuplicates2" />
+      <item itemvalue="Application.ConcatTwoArray" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SubSet" />
-        <item itemvalue="Application.CombineNum" />
-        <item itemvalue="Application.SortColor" />
-        <item itemvalue="Application.SearchMatrix" />
-        <item itemvalue="Application.ClimbStair" />
+        <item itemvalue="Application.ConcatTwoArray" />
+        <item itemvalue="Application.DeleteDuplicates2" />
+        <item itemvalue="Application.PowerX" />
+        <item itemvalue="Application.DeleteDuplicates" />
+        <item itemvalue="Application.RemoveDuplicates" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +334,9 @@
       <workItem from="1593676829817" duration="1874000" />
       <workItem from="1593736598841" duration="2903000" />
       <workItem from="1593765668264" duration="628000" />
-      <workItem from="1593823990124" duration="1172000" />
+      <workItem from="1593823990124" duration="1622000" />
+      <workItem from="1593864388186" duration="737000" />
+      <workItem from="1593909111620" duration="9146000" />
     </task>
     <task id="LOCAL-00001" summary="graph cycle">
       <created>1589881538584</created>
@@ -640,7 +646,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593739436083</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="打卡 78 子集 知识点回溯">
+      <created>1593825333260</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1593825333260</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -660,7 +673,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡27移除元素，28实现strStr()" />
     <MESSAGE value="打卡18四数之和，29两数相除，30串联所有单词的子串" />
     <MESSAGE value="全排列" />
     <MESSAGE value="打卡31，下一个排列" />
@@ -685,7 +697,8 @@
     <MESSAGE value="打卡 69 x的平方根" />
     <MESSAGE value="&#10;打卡74搜索二维矩阵" />
     <MESSAGE value="打卡 77 组合 知识点回溯" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡 77 组合 知识点回溯" />
+    <MESSAGE value="打卡 78 子集 知识点回溯" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡 78 子集 知识点回溯" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
