@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡 50，80， 82， 83 ，88">
-      <change afterPath="$PROJECT_DIR$/src/array/SearchRotateArray2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backtracking/GrayCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listTable/PartitionList.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡 81 搜索旋转排序数组Ⅱ">
+      <change afterPath="$PROJECT_DIR$/src/listTable/ReverseList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/number/SumN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/number/SumN.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +34,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -48,26 +51,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SearchRotateArray2">
+  <component name="RunManager" selected="Application.ReverseList">
     <configuration name="ConcatTwoArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.ConcatTwoArray" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeleteDuplicates2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listTable.DeleteDuplicates2" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="listTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number.PowerX" />
+    <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listTable.ReverseList" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="number.*" />
+          <option name="PATTERN" value="listTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,6 +97,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number.SumN" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,19 +216,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.PowerX" />
-      <item itemvalue="Application.DeleteDuplicates2" />
       <item itemvalue="Application.ConcatTwoArray" />
       <item itemvalue="Application.GrayCode" />
       <item itemvalue="Application.SearchRotateArray2" />
+      <item itemvalue="Application.SumN" />
+      <item itemvalue="Application.ReverseList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseList" />
+        <item itemvalue="Application.SumN" />
         <item itemvalue="Application.SearchRotateArray2" />
         <item itemvalue="Application.GrayCode" />
         <item itemvalue="Application.ConcatTwoArray" />
-        <item itemvalue="Application.DeleteDuplicates2" />
-        <item itemvalue="Application.PowerX" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +342,13 @@
       <workItem from="1594015351775" duration="1075000" />
       <workItem from="1594077793105" duration="1472000" />
       <workItem from="1594082864106" duration="19000" />
-      <workItem from="1594167384831" duration="4555000" />
+      <workItem from="1594167384831" duration="4745000" />
+      <workItem from="1594175564379" duration="2850000" />
+      <workItem from="1594220758600" duration="551000" />
+      <workItem from="1594221443619" duration="119000" />
+      <workItem from="1594252611162" duration="24000" />
+      <workItem from="1594253812185" duration="71000" />
+      <workItem from="1594253936653" duration="3315000" />
     </task>
     <task id="LOCAL-00001" summary="graph cycle">
       <created>1589881538584</created>
@@ -663,7 +672,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593919302709</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="打卡 81 搜索旋转排序数组Ⅱ">
+      <created>1594172135114</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1594172135114</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -683,7 +699,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="全排列" />
     <MESSAGE value="打卡31，下一个排列" />
     <MESSAGE value="打卡32最长有效括号" />
     <MESSAGE value="打卡34，35，知识点二分查找" />
@@ -708,7 +723,8 @@
     <MESSAGE value="打卡 77 组合 知识点回溯" />
     <MESSAGE value="打卡 78 子集 知识点回溯" />
     <MESSAGE value="打卡 50，80， 82， 83 ，88" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡 50，80， 82， 83 ，88" />
+    <MESSAGE value="打卡 81 搜索旋转排序数组Ⅱ" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡 81 搜索旋转排序数组Ⅱ" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
