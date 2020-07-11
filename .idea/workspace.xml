@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡92 反转链表Ⅱ">
-      <change afterPath="$PROJECT_DIR$/src/string/StringJust.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡 68 文本左右对齐">
+      <change afterPath="$PROJECT_DIR$/src/backtracking/CountNQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/NQueens2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/MinWindowsStr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backtracking/NQueens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/NQueens.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,9 +53,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringJust">
-    <configuration name="GrayCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.GrayCode" />
+  <component name="RunManager" selected="Application.MinWindowsStr">
+    <configuration name="CountNQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.CountNQueens" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -64,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listTable.ReverseList" />
+    <configuration name="MinWindowsStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.MinWindowsStr" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="listTable.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +80,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchRotateArray2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.SearchRotateArray2" />
+    <configuration name="NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.NQueens" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NQueens2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.NQueens2" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,19 +112,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number.SumN" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,19 +218,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.GrayCode" />
-      <item itemvalue="Application.SearchRotateArray2" />
-      <item itemvalue="Application.SumN" />
-      <item itemvalue="Application.ReverseList" />
       <item itemvalue="Application.StringJust" />
+      <item itemvalue="Application.NQueens" />
+      <item itemvalue="Application.CountNQueens" />
+      <item itemvalue="Application.NQueens2" />
+      <item itemvalue="Application.MinWindowsStr" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinWindowsStr" />
+        <item itemvalue="Application.NQueens2" />
+        <item itemvalue="Application.CountNQueens" />
+        <item itemvalue="Application.NQueens" />
         <item itemvalue="Application.StringJust" />
-        <item itemvalue="Application.ReverseList" />
-        <item itemvalue="Application.SumN" />
-        <item itemvalue="Application.SearchRotateArray2" />
-        <item itemvalue="Application.GrayCode" />
       </list>
     </recent_temporary>
   </component>
@@ -350,7 +353,8 @@
       <workItem from="1594253936653" duration="3347000" />
       <workItem from="1594257913863" duration="190000" />
       <workItem from="1594274641651" duration="1365000" />
-      <workItem from="1594340875057" duration="7307000" />
+      <workItem from="1594340875057" duration="7417000" />
+      <workItem from="1594429143478" duration="9729000" />
     </task>
     <task id="LOCAL-00001" summary="graph cycle">
       <created>1589881538584</created>
@@ -688,7 +692,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594257383124</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="打卡 68 文本左右对齐">
+      <created>1594348634397</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1594348634398</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -708,7 +719,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡32最长有效括号" />
     <MESSAGE value="打卡34，35，知识点二分查找" />
     <MESSAGE value="打卡36，有效的数独，知识点哈希表" />
     <MESSAGE value="打卡37，解数独，知识点回溯" />
@@ -733,7 +743,8 @@
     <MESSAGE value="打卡 50，80， 82， 83 ，88" />
     <MESSAGE value="打卡 81 搜索旋转排序数组Ⅱ" />
     <MESSAGE value="打卡92 反转链表Ⅱ" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡92 反转链表Ⅱ" />
+    <MESSAGE value="打卡 68 文本左右对齐" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡 68 文本左右对齐" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
