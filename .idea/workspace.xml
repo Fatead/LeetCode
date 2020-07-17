@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡94 二叉树的中序遍历">
-      <change afterPath="$PROJECT_DIR$/src/tree/DiffSearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/DiffSearchTree2.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡 96不同的二叉搜索树">
+      <change afterPath="$PROJECT_DIR$/src/backtracking/ReStoreIP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/Decoding.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +51,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DiffSearchTree">
+  <component name="RunManager" selected="Application.Decoding">
+    <configuration name="Decoding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.Decoding" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DiffSearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.DiffSearchTree" />
       <module name="leetcode" />
@@ -78,21 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinWindowsStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.MinWindowsStr" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.SubSet" />
+    <configuration name="ReStoreIP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.ReStoreIP" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -216,19 +216,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MinWindowsStr" />
-      <item itemvalue="Application.SubSet" />
       <item itemvalue="Application.SubSet2" />
       <item itemvalue="Application.InOrder" />
       <item itemvalue="Application.DiffSearchTree" />
+      <item itemvalue="Application.ReStoreIP" />
+      <item itemvalue="Application.Decoding" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Decoding" />
+        <item itemvalue="Application.ReStoreIP" />
         <item itemvalue="Application.DiffSearchTree" />
         <item itemvalue="Application.InOrder" />
         <item itemvalue="Application.SubSet2" />
-        <item itemvalue="Application.SubSet" />
-        <item itemvalue="Application.MinWindowsStr" />
       </list>
     </recent_temporary>
   </component>
@@ -355,14 +355,9 @@
       <workItem from="1594429143478" duration="10250000" />
       <workItem from="1594513617724" duration="2573000" />
       <workItem from="1594599646928" duration="6692000" />
-      <workItem from="1594684848677" duration="2284000" />
-    </task>
-    <task id="LOCAL-00003" summary="第4题">
-      <created>1590031875392</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1590031875392</updated>
+      <workItem from="1594684848677" duration="2542000" />
+      <workItem from="1594879210986" duration="2651000" />
+      <workItem from="1594946458559" duration="3295000" />
     </task>
     <task id="LOCAL-00004" summary="第4题">
       <created>1590031890205</created>
@@ -700,7 +695,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594602781177</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="打卡 96不同的二叉搜索树">
+      <created>1594688955203</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1594688955203</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -720,7 +722,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡37，解数独，知识点回溯" />
     <MESSAGE value="打卡39，组和总数，知识点回溯" />
     <MESSAGE value="打卡43,字符串相乘" />
     <MESSAGE value="打卡48，旋转图像" />
@@ -745,7 +746,8 @@
     <MESSAGE value="打卡 68 文本左右对齐" />
     <MESSAGE value="打卡 51 N皇后，52， N皇后Ⅱ" />
     <MESSAGE value="打卡94 二叉树的中序遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡94 二叉树的中序遍历" />
+    <MESSAGE value="打卡 96不同的二叉搜索树" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡 96不同的二叉搜索树" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
