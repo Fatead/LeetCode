@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡 91 解码方法">
-      <change afterPath="$PROJECT_DIR$/src/tree/LevelOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/SameTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/ValidBST.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡100 相同的树， 102 二叉树的层序遍历">
+      <change afterPath="$PROJECT_DIR$/src/tree/BuildTreeInAndPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/MaxDepth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/ZagLevelOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,7 +52,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Decoding">
+  <component name="RunManager" selected="Application.BuildTreeInAndPost">
+    <configuration name="BuildTreeInAndPost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.BuildTreeInAndPost" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Decoding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dp.Decoding" />
       <module name="leetcode" />
@@ -94,19 +107,6 @@
     </configuration>
     <configuration name="ReStoreIP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="backtracking.ReStoreIP" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubSet2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.SubSet2" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -217,19 +217,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.SubSet2" />
       <item itemvalue="Application.InOrder" />
       <item itemvalue="Application.DiffSearchTree" />
       <item itemvalue="Application.ReStoreIP" />
       <item itemvalue="Application.Decoding" />
+      <item itemvalue="Application.BuildTreeInAndPost" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuildTreeInAndPost" />
         <item itemvalue="Application.Decoding" />
         <item itemvalue="Application.ReStoreIP" />
         <item itemvalue="Application.DiffSearchTree" />
         <item itemvalue="Application.InOrder" />
-        <item itemvalue="Application.SubSet2" />
       </list>
     </recent_temporary>
   </component>
@@ -360,14 +360,9 @@
       <workItem from="1594879210986" duration="2651000" />
       <workItem from="1594946458559" duration="3525000" />
       <workItem from="1595036959100" duration="2657000" />
-      <workItem from="1595123858255" duration="1521000" />
-    </task>
-    <task id="LOCAL-00005" summary="第5题 最长回文子符串">
-      <created>1590160987140</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1590160987140</updated>
+      <workItem from="1595123858255" duration="3820000" />
+      <workItem from="1595210271471" duration="24000" />
+      <workItem from="1595291584306" duration="3706000" />
     </task>
     <task id="LOCAL-00006" summary="第7题">
       <created>1590304620048</created>
@@ -705,7 +700,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594949986000</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="打卡100 相同的树， 102 二叉树的层序遍历">
+      <created>1595125399685</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1595125399685</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -725,7 +727,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡43,字符串相乘" />
     <MESSAGE value="打卡48，旋转图像" />
     <MESSAGE value="打卡43，最大子序和" />
     <MESSAGE value="打卡49，字母异位词分组" />
@@ -750,7 +751,8 @@
     <MESSAGE value="打卡94 二叉树的中序遍历" />
     <MESSAGE value="打卡 96不同的二叉搜索树" />
     <MESSAGE value="打卡 91 解码方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡 91 解码方法" />
+    <MESSAGE value="打卡100 相同的树， 102 二叉树的层序遍历" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡100 相同的树， 102 二叉树的层序遍历" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
