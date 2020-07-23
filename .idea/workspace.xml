@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡100 相同的树， 102 二叉树的层序遍历">
-      <change afterPath="$PROJECT_DIR$/src/tree/BuildTreeInAndPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/MaxDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/ZagLevelOrder.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡 104二叉树的最大深度，106 从中序与后序遍历序列构造二叉树">
+      <change afterPath="$PROJECT_DIR$/src/tree/ArrayToBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/BalancedTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LevelOrder2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/ListToBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/MinDepth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/PathSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BuildTreeInAndPost">
+  <component name="RunManager" selected="Application.PathSum">
     <configuration name="BuildTreeInAndPost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.BuildTreeInAndPost" />
       <module name="leetcode" />
@@ -92,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.InOrder" />
+    <configuration name="PathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.PathSum" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -217,19 +220,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.InOrder" />
       <item itemvalue="Application.DiffSearchTree" />
       <item itemvalue="Application.ReStoreIP" />
       <item itemvalue="Application.Decoding" />
       <item itemvalue="Application.BuildTreeInAndPost" />
+      <item itemvalue="Application.PathSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PathSum" />
         <item itemvalue="Application.BuildTreeInAndPost" />
         <item itemvalue="Application.Decoding" />
         <item itemvalue="Application.ReStoreIP" />
         <item itemvalue="Application.DiffSearchTree" />
-        <item itemvalue="Application.InOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -362,14 +365,10 @@
       <workItem from="1595036959100" duration="2657000" />
       <workItem from="1595123858255" duration="3820000" />
       <workItem from="1595210271471" duration="24000" />
-      <workItem from="1595291584306" duration="3706000" />
-    </task>
-    <task id="LOCAL-00006" summary="第7题">
-      <created>1590304620048</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1590304620048</updated>
+      <workItem from="1595291584306" duration="3777000" />
+      <workItem from="1595298969381" duration="27000" />
+      <workItem from="1595378221062" duration="3034000" />
+      <workItem from="1595464220379" duration="3642000" />
     </task>
     <task id="LOCAL-00007" summary="第8,9题">
       <created>1590308867326</created>
@@ -707,7 +706,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595125399685</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="打卡 104二叉树的最大深度，106 从中序与后序遍历序列构造二叉树">
+      <created>1595295576613</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1595295576613</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -727,7 +733,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡48，旋转图像" />
     <MESSAGE value="打卡43，最大子序和" />
     <MESSAGE value="打卡49，字母异位词分组" />
     <MESSAGE value="打卡58，最后一个单词的长度" />
@@ -752,7 +757,8 @@
     <MESSAGE value="打卡 96不同的二叉搜索树" />
     <MESSAGE value="打卡 91 解码方法" />
     <MESSAGE value="打卡100 相同的树， 102 二叉树的层序遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡100 相同的树， 102 二叉树的层序遍历" />
+    <MESSAGE value="打卡 104二叉树的最大深度，106 从中序与后序遍历序列构造二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡 104二叉树的最大深度，106 从中序与后序遍历序列构造二叉树" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
