@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡110 ，111，112知识点二叉树">
-      <change afterPath="$PROJECT_DIR$/src/array/MaxProfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/MaxProfit2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/PascalTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/PascalTriangle2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dfs/WordLadder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dfs/WordLadder2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/DistinctSubStr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/MinTotal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/BST2List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/ConnectLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/MaxPathSumInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/PathSum2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/SumNum.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡 126 ，127，129">
+      <change afterPath="$PROJECT_DIR$/src/array/SurroundRegion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/PartitionStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/BreakWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/CompleteCircuit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/PartitionStr2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/CloneGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashTable/SingleNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/CircleInList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/CircleInList2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/CopyListTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/Reorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/PostOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/PreOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/软件工程助教仓库/train-ticket/train-ticket" />
+    <property name="last_opened_file_path" value="D:/Java学习资料/rpc-demo" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -63,13 +63,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WordLadder2">
-    <configuration name="BuildTreeInAndPost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.BuildTreeInAndPost" />
+  <component name="RunManager" selected="Application.InsertSort">
+    <configuration name="BreakWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.BreakWords" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DistinctSubStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.DistinctSubStr" />
+    <configuration name="CompleteCircuit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.CompleteCircuit" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.PathSum" />
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listTable.InsertSort" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="listTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.PathSum2" />
+    <configuration name="PartitionStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.PartitionStr" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordLadder2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dfs.WordLadder2" />
+    <configuration name="Reorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listTable.Reorder" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dfs.*" />
+          <option name="PATTERN" value="listTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,19 +228,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.BuildTreeInAndPost" />
-      <item itemvalue="Application.PathSum" />
-      <item itemvalue="Application.PathSum2" />
-      <item itemvalue="Application.DistinctSubStr" />
-      <item itemvalue="Application.WordLadder2" />
+      <item itemvalue="Application.PartitionStr" />
+      <item itemvalue="Application.CompleteCircuit" />
+      <item itemvalue="Application.BreakWords" />
+      <item itemvalue="Application.Reorder" />
+      <item itemvalue="Application.InsertSort" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WordLadder2" />
-        <item itemvalue="Application.DistinctSubStr" />
-        <item itemvalue="Application.PathSum2" />
-        <item itemvalue="Application.PathSum" />
-        <item itemvalue="Application.BuildTreeInAndPost" />
+        <item itemvalue="Application.InsertSort" />
+        <item itemvalue="Application.Reorder" />
+        <item itemvalue="Application.BreakWords" />
+        <item itemvalue="Application.CompleteCircuit" />
+        <item itemvalue="Application.PartitionStr" />
       </list>
     </recent_temporary>
   </component>
@@ -383,14 +383,14 @@
       <workItem from="1595557839512" duration="3660000" />
       <workItem from="1595580914300" duration="2822000" />
       <workItem from="1595640532430" duration="2342000" />
-      <workItem from="1595727927213" duration="6132000" />
-    </task>
-    <task id="LOCAL-00008" summary="19,单向链表">
-      <created>1590455283107</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1590455283107</updated>
+      <workItem from="1595727927213" duration="8017000" />
+      <workItem from="1595810249157" duration="2198000" />
+      <workItem from="1595894876056" duration="3927000" />
+      <workItem from="1595981308602" duration="3070000" />
+      <workItem from="1596068397831" duration="4280000" />
+      <workItem from="1596154920152" duration="2431000" />
+      <workItem from="1596240486533" duration="5082000" />
+      <workItem from="1596330711091" duration="6269000" />
     </task>
     <task id="LOCAL-00009" summary="21,23,24,单向链表">
       <created>1590564359621</created>
@@ -728,7 +728,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595468119073</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="打卡 126 ，127，129">
+      <created>1595734261363</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1595734261363</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -748,7 +755,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡49，字母异位词分组" />
     <MESSAGE value="打卡58，最后一个单词的长度" />
     <MESSAGE value="打卡54 螺旋矩阵" />
     <MESSAGE value="打卡55 跳跃游戏" />
@@ -773,7 +779,8 @@
     <MESSAGE value="打卡100 相同的树， 102 二叉树的层序遍历" />
     <MESSAGE value="打卡 104二叉树的最大深度，106 从中序与后序遍历序列构造二叉树" />
     <MESSAGE value="打卡110 ，111，112知识点二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡110 ，111，112知识点二叉树" />
+    <MESSAGE value="打卡 126 ，127，129" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡 126 ，127，129" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
