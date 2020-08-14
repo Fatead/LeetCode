@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡 126 ，127，129">
-      <change afterPath="$PROJECT_DIR$/src/array/SurroundRegion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backtracking/PartitionStr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/BreakWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/CompleteCircuit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/PartitionStr2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/CloneGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashTable/SingleNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listTable/CircleInList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listTable/CircleInList2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listTable/CopyListTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listTable/InsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listTable/Reorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/PostOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/PreOrder.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡 143，144，145，147">
+      <change afterPath="$PROJECT_DIR$/src/array/MajorNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/PeakElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/SearchMinRotateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/MaxContinueSeq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/MaxMulSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashTable/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashTable/LRUCache2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashTable/LRUCache3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashTable/RepeatedDNA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/IntersectList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/SortList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/ExcelColumn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/ExcelColumnToNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/MaxNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/TrailingZeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/TwoSum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/ReversePolishNotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/CompareVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/ReverseWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/BSTIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,11 +52,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/Java学习资料/rpc-demo" />
+    <property name="last_opened_file_path" value="D:/软件工程助教仓库/Xuanzitao/HardChair-Backend" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="com.nnthink.aixcoder.config.Config" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -63,13 +70,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InsertSort">
-    <configuration name="BreakWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.BreakWords" />
+  <component name="RunManager" selected="Application.RepeatedDNA">
+    <configuration name="ExcelColumn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number.ExcelColumn" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompleteCircuit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.CompleteCircuit" />
+    <configuration name="ExcelColumnToNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number.ExcelColumnToNum" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listTable.InsertSort" />
+    <configuration name="MaxNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number.MaxNum" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="listTable.*" />
+          <option name="PATTERN" value="number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitionStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.PartitionStr" />
+    <configuration name="RepeatedDNA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashTable.RepeatedDNA" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="hashTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listTable.Reorder" />
+    <configuration name="TrailingZeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number.TrailingZeros" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="listTable.*" />
+          <option name="PATTERN" value="number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,19 +235,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.PartitionStr" />
-      <item itemvalue="Application.CompleteCircuit" />
-      <item itemvalue="Application.BreakWords" />
-      <item itemvalue="Application.Reorder" />
-      <item itemvalue="Application.InsertSort" />
+      <item itemvalue="Application.ExcelColumn" />
+      <item itemvalue="Application.ExcelColumnToNum" />
+      <item itemvalue="Application.TrailingZeros" />
+      <item itemvalue="Application.MaxNum" />
+      <item itemvalue="Application.RepeatedDNA" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InsertSort" />
-        <item itemvalue="Application.Reorder" />
-        <item itemvalue="Application.BreakWords" />
-        <item itemvalue="Application.CompleteCircuit" />
-        <item itemvalue="Application.PartitionStr" />
+        <item itemvalue="Application.RepeatedDNA" />
+        <item itemvalue="Application.MaxNum" />
+        <item itemvalue="Application.TrailingZeros" />
+        <item itemvalue="Application.ExcelColumnToNum" />
+        <item itemvalue="Application.ExcelColumn" />
       </list>
     </recent_temporary>
   </component>
@@ -390,14 +397,22 @@
       <workItem from="1596068397831" duration="4280000" />
       <workItem from="1596154920152" duration="2431000" />
       <workItem from="1596240486533" duration="5082000" />
-      <workItem from="1596330711091" duration="6269000" />
-    </task>
-    <task id="LOCAL-00009" summary="21,23,24,单向链表">
-      <created>1590564359621</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1590564359621</updated>
+      <workItem from="1596330711091" duration="6528000" />
+      <workItem from="1596414048739" duration="4388000" />
+      <workItem from="1596501246776" duration="7265000" />
+      <workItem from="1596587644817" duration="3090000" />
+      <workItem from="1596593397242" duration="41000" />
+      <workItem from="1596634548678" duration="666000" />
+      <workItem from="1596673570308" duration="2515000" />
+      <workItem from="1596693544955" duration="2296000" />
+      <workItem from="1596759202039" duration="4258000" />
+      <workItem from="1596809306351" duration="4926000" />
+      <workItem from="1596852905475" duration="5114000" />
+      <workItem from="1596864581269" duration="212000" />
+      <workItem from="1596936473489" duration="5941000" />
+      <workItem from="1597020698675" duration="606000" />
+      <workItem from="1597191376867" duration="5429000" />
+      <workItem from="1597363252930" duration="2396000" />
     </task>
     <task id="LOCAL-00010" summary="25 K个一组翻转链表">
       <created>1590627380952</created>
@@ -735,7 +750,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595734261363</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="打卡 143，144，145，147">
+      <created>1596337162061</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1596337162061</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -755,7 +777,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡58，最后一个单词的长度" />
     <MESSAGE value="打卡54 螺旋矩阵" />
     <MESSAGE value="打卡55 跳跃游戏" />
     <MESSAGE value="打卡 56 合并区间，57 插入区间" />
@@ -780,7 +801,8 @@
     <MESSAGE value="打卡 104二叉树的最大深度，106 从中序与后序遍历序列构造二叉树" />
     <MESSAGE value="打卡110 ，111，112知识点二叉树" />
     <MESSAGE value="打卡 126 ，127，129" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡 126 ，127，129" />
+    <MESSAGE value="打卡 143，144，145，147" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡 143，144，145，147" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
