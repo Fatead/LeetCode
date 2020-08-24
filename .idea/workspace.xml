@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="日常提交">
-      <change afterPath="$PROJECT_DIR$/src/array/RotateArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dfs/LandNums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/Rob1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/CourseGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashTable/HappyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashTable/IsomorphicStr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listTable/RemoveElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listTable/ReverList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/number/CountOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/number/CountPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/number/ReverseBit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/CountWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/RightViewTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/Trie.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡前缀树">
+      <change afterPath="$PROJECT_DIR$/src/array/MinSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/Rob2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/CourseGraph2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashTable/DuplicateNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashTable/DuplicateNum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashTable/DuplicateNum3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/NumOfTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/WordDictionary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/RainPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/RainPool.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,9 +57,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IsomorphicStr">
-    <configuration name="HappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashTable.HappyNumber" />
+  <component name="RunManager" selected="Application.DuplicateNum3">
+    <configuration name="CourseGraph2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.CourseGraph2" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DuplicateNum3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashTable.DuplicateNum3" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -78,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsomorphicStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashTable.IsomorphicStr" />
+    <configuration name="MinSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.MinSubArray" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashTable.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,38 +97,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LandNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dfs.LandNums" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="listTable.RemoveElement" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="listTable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Rob1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.Rob1" />
+    <configuration name="Rob2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.Rob2" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordDictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.WordDictionary" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,19 +222,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Rob1" />
-      <item itemvalue="Application.LandNums" />
-      <item itemvalue="Application.HappyNumber" />
-      <item itemvalue="Application.RemoveElement" />
-      <item itemvalue="Application.IsomorphicStr" />
+      <item itemvalue="Application.MinSubArray" />
+      <item itemvalue="Application.CourseGraph2" />
+      <item itemvalue="Application.WordDictionary" />
+      <item itemvalue="Application.Rob2" />
+      <item itemvalue="Application.DuplicateNum3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IsomorphicStr" />
-        <item itemvalue="Application.RemoveElement" />
-        <item itemvalue="Application.HappyNumber" />
-        <item itemvalue="Application.LandNums" />
-        <item itemvalue="Application.Rob1" />
+        <item itemvalue="Application.DuplicateNum3" />
+        <item itemvalue="Application.Rob2" />
+        <item itemvalue="Application.WordDictionary" />
+        <item itemvalue="Application.CourseGraph2" />
+        <item itemvalue="Application.MinSubArray" />
       </list>
     </recent_temporary>
   </component>
@@ -418,13 +411,14 @@
       <workItem from="1597793711981" duration="1459000" />
       <workItem from="1597801521216" duration="2958000" />
       <workItem from="1597879844372" duration="1739000" />
-    </task>
-    <task id="LOCAL-00011" summary="新增10，13">
-      <created>1590721335798</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1590721335798</updated>
+      <workItem from="1597887280030" duration="194000" />
+      <workItem from="1597923221186" duration="544000" />
+      <workItem from="1597965837818" duration="1473000" />
+      <workItem from="1597973195181" duration="1818000" />
+      <workItem from="1598145434734" duration="6675000" />
+      <workItem from="1598224155600" duration="3268000" />
+      <workItem from="1598233380711" duration="1671000" />
+      <workItem from="1598241764100" duration="1649000" />
     </task>
     <task id="LOCAL-00012" summary="打卡 11，14，15">
       <created>1590811046573</created>
@@ -762,7 +756,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597365820973</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="打卡前缀树">
+      <created>1597887351059</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1597887351059</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -782,7 +783,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡55 跳跃游戏" />
     <MESSAGE value="打卡 56 合并区间，57 插入区间" />
     <MESSAGE value="打卡61 旋转链表" />
     <MESSAGE value="打卡62 不同路径" />
@@ -807,7 +807,19 @@
     <MESSAGE value="打卡 126 ，127，129" />
     <MESSAGE value="打卡 143，144，145，147" />
     <MESSAGE value="日常提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="日常提交" />
+    <MESSAGE value="打卡前缀树" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡前缀树" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hashTable/DuplicateNum3.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
