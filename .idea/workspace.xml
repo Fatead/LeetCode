@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡前缀树">
-      <change afterPath="$PROJECT_DIR$/src/array/MinSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/Rob2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/CourseGraph2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashTable/DuplicateNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashTable/DuplicateNum2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashTable/DuplicateNum3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/NumOfTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/WordDictionary.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="8月24日打卡">
+      <change afterPath="$PROJECT_DIR$/src/array/KthElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/CombineNum3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/MaxSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/DeleteNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/PalindromeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/Calculator2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/RectangleArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/QueueAsStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/InvertTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,13 +59,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DuplicateNum3">
-    <configuration name="CourseGraph2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.CourseGraph2" />
+  <component name="RunManager" selected="Application.Calculator">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number.Calculator" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.*" />
+          <option name="PATTERN" value="number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DuplicateNum3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashTable.DuplicateNum3" />
+    <configuration name="Calculator2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number.Calculator2" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashTable.*" />
+          <option name="PATTERN" value="number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.MinSubArray" />
+    <configuration name="CombineNum3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.CombineNum3" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rob2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.Rob2" />
+    <configuration name="MaxSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.MaxSquare" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -110,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordDictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.WordDictionary" />
+    <configuration name="RectangleArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number.RectangleArea" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,19 +224,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MinSubArray" />
-      <item itemvalue="Application.CourseGraph2" />
-      <item itemvalue="Application.WordDictionary" />
-      <item itemvalue="Application.Rob2" />
-      <item itemvalue="Application.DuplicateNum3" />
+      <item itemvalue="Application.CombineNum3" />
+      <item itemvalue="Application.MaxSquare" />
+      <item itemvalue="Application.RectangleArea" />
+      <item itemvalue="Application.Calculator2" />
+      <item itemvalue="Application.Calculator" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DuplicateNum3" />
-        <item itemvalue="Application.Rob2" />
-        <item itemvalue="Application.WordDictionary" />
-        <item itemvalue="Application.CourseGraph2" />
-        <item itemvalue="Application.MinSubArray" />
+        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.Calculator2" />
+        <item itemvalue="Application.RectangleArea" />
+        <item itemvalue="Application.MaxSquare" />
+        <item itemvalue="Application.CombineNum3" />
       </list>
     </recent_temporary>
   </component>
@@ -418,14 +420,20 @@
       <workItem from="1598145434734" duration="6675000" />
       <workItem from="1598224155600" duration="3268000" />
       <workItem from="1598233380711" duration="1671000" />
-      <workItem from="1598241764100" duration="1649000" />
-    </task>
-    <task id="LOCAL-00012" summary="打卡 11，14，15">
-      <created>1590811046573</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1590811046573</updated>
+      <workItem from="1598241764100" duration="1846000" />
+      <workItem from="1598263804619" duration="130000" />
+      <workItem from="1598273689712" duration="3843000" />
+      <workItem from="1598312241498" duration="713000" />
+      <workItem from="1598318119707" duration="1132000" />
+      <workItem from="1598399268207" duration="614000" />
+      <workItem from="1598405982117" duration="3369000" />
+      <workItem from="1598484518366" duration="1246000" />
+      <workItem from="1598491771622" duration="5184000" />
+      <workItem from="1598570533250" duration="1365000" />
+      <workItem from="1598577265506" duration="761000" />
+      <workItem from="1598579642711" duration="728000" />
+      <workItem from="1598658207944" duration="1077000" />
+      <workItem from="1598664555867" duration="16018000" />
     </task>
     <task id="LOCAL-00013" summary="打卡101对称二叉树，16最接近的三数之和">
       <created>1590893534388</created>
@@ -763,7 +771,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597887351059</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="8月24日打卡">
+      <created>1598243456392</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1598243456392</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -783,7 +798,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡 56 合并区间，57 插入区间" />
     <MESSAGE value="打卡61 旋转链表" />
     <MESSAGE value="打卡62 不同路径" />
     <MESSAGE value="打卡 63不同的路径Ⅱ，64最小路径和" />
@@ -808,7 +822,8 @@
     <MESSAGE value="打卡 143，144，145，147" />
     <MESSAGE value="日常提交" />
     <MESSAGE value="打卡前缀树" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡前缀树" />
+    <MESSAGE value="8月24日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="8月24日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -817,6 +832,21 @@
           <url>file://$PROJECT_DIR$/src/hashTable/DuplicateNum3.java</url>
           <line>10</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/number/RectangleArea.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/number/RectangleArea.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/number/Calculator.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
