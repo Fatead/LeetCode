@@ -2,25 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="日常更新 9月15">
-      <change afterPath="$PROJECT_DIR$/src/array/CountSmaller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/DuplicateNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/GameOfLife.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/MatrixSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/MaxCoins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/MoveZeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/RangeSumQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/LongestIncreaseSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashTable/WordPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listTable/MedianFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listTable/MedianFinder2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listTable/PeekingIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/number/AdditiveNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/number/GuessNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/number/NumOfSquares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/number/PowerOfThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/MinHeightTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/SerializeTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/SerializeTree2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/ProductWordsLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/SumNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ArrayIntersection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ArrayIntersection2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/BubbleSwitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ReverseVowel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/SubArraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/TopKFrequent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/IncreasingTriplet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/IntegerBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/Rob3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashTable/RansomMagazine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashTable/Twitter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/NestedInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/NestedIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/OddEvenList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/PerfectNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/PowerOfFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/LexicalSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/WiggleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/DecodeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/FindDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/FirstUniqueChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/LongSubStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/SubSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/BinaryHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LeftLeavesSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/UnionFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/ValidTreeSerialization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,6 +46,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -51,10 +63,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="D:/CodeRecommendation" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -68,13 +80,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountSmaller">
-    <configuration name="CountSmaller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.CountSmaller" />
+  <component name="RunManager" selected="Application.RansomMagazine">
+    <configuration name="FindDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.FindDifference" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.MaxCoins" />
+    <configuration name="FirstUniqueChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.FirstUniqueChar" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinHeightTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.MinHeightTree" />
+    <configuration name="LexicalSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.LexicalSort" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerOfThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number.PowerOfThree" />
+    <configuration name="RansomMagazine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashTable.RansomMagazine" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="number.*" />
+          <option name="PATTERN" value="hashTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,8 +133,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RangeSumQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.RangeSumQuery" />
+    <configuration name="SubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.SubArraySum" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -233,19 +245,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.RangeSumQuery" />
-      <item itemvalue="Application.MinHeightTree" />
-      <item itemvalue="Application.MaxCoins" />
-      <item itemvalue="Application.PowerOfThree" />
-      <item itemvalue="Application.CountSmaller" />
+      <item itemvalue="Application.FirstUniqueChar" />
+      <item itemvalue="Application.FindDifference" />
+      <item itemvalue="Application.LexicalSort" />
+      <item itemvalue="Application.SubArraySum" />
+      <item itemvalue="Application.RansomMagazine" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountSmaller" />
-        <item itemvalue="Application.PowerOfThree" />
-        <item itemvalue="Application.MaxCoins" />
-        <item itemvalue="Application.MinHeightTree" />
-        <item itemvalue="Application.RangeSumQuery" />
+        <item itemvalue="Application.RansomMagazine" />
+        <item itemvalue="Application.SubArraySum" />
+        <item itemvalue="Application.LexicalSort" />
+        <item itemvalue="Application.FindDifference" />
+        <item itemvalue="Application.FirstUniqueChar" />
       </list>
     </recent_temporary>
   </component>
@@ -468,14 +480,30 @@
       <workItem from="1600044215907" duration="2176000" />
       <workItem from="1600130289226" duration="6803000" />
       <workItem from="1600146476328" duration="129000" />
-      <workItem from="1600146635294" duration="321000" />
-    </task>
-    <task id="LOCAL-00015" summary="不能使用乘除法、for、while、if、else、switch、case等关键字及条件判断语句的累加">
-      <created>1591055958674</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1591055958674</updated>
+      <workItem from="1600146635294" duration="369000" />
+      <workItem from="1600147027063" duration="28000" />
+      <workItem from="1600215513511" duration="5834000" />
+      <workItem from="1600235110068" duration="3061000" />
+      <workItem from="1600305039312" duration="686000" />
+      <workItem from="1600323903912" duration="388000" />
+      <workItem from="1600324815620" duration="2403000" />
+      <workItem from="1600337113723" duration="5886000" />
+      <workItem from="1600389299425" duration="3488000" />
+      <workItem from="1600647294172" duration="5584000" />
+      <workItem from="1600653018067" duration="16000" />
+      <workItem from="1600734574271" duration="3891000" />
+      <workItem from="1600822727355" duration="3609000" />
+      <workItem from="1600841075229" duration="162000" />
+      <workItem from="1600907088560" duration="1410000" />
+      <workItem from="1600994664698" duration="3700000" />
+      <workItem from="1601128851794" duration="995000" />
+      <workItem from="1601167073039" duration="4865000" />
+      <workItem from="1601212578708" duration="926000" />
+      <workItem from="1601215591872" duration="5470000" />
+      <workItem from="1601338848823" duration="2478000" />
+      <workItem from="1601425185607" duration="6067000" />
+      <workItem from="1601614440505" duration="1322000" />
+      <workItem from="1601688121236" duration="1860000" />
     </task>
     <task id="LOCAL-00016" summary="打卡26 删除排序数组中的重复项，知识点双指针">
       <created>1591149006692</created>
@@ -813,7 +841,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599361415631</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="日常更新 9月15">
+      <created>1600146968392</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1600146968392</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
