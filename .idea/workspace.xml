@@ -1,37 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="日常更新 9月15">
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/ProductWordsLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/SumNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ArrayIntersection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ArrayIntersection2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/BubbleSwitch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ReverseVowel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/SubArraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/TopKFrequent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/IncreasingTriplet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/IntegerBreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/Rob3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashTable/RansomMagazine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashTable/Twitter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listTable/NestedInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listTable/NestedIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listTable/OddEvenList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/number/PerfectNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/number/PowerOfFour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/LexicalSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/WiggleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/DecodeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/FindDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/FirstUniqueChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/LongSubStr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/SubSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/BinaryHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/LeftLeavesSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/UnionFind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/ValidTreeSerialization.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="日常更新 10月3日">
+      <change afterPath="$PROJECT_DIR$/src/array/ArithmeticSlices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/PartitionArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/ThirdMaxNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/AddString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/LongestPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,9 +56,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RansomMagazine">
-    <configuration name="FindDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.FindDifference" />
+  <component name="RunManager" selected="Application.PartitionArray">
+    <configuration name="AddString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.AddString" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -94,51 +70,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstUniqueChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.FirstUniqueChar" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LexicalSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.LexicalSort" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RansomMagazine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashTable.RansomMagazine" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hashTable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.SubArraySum" />
+    <configuration name="ArithmeticSlices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ArithmeticSlices" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.LongestPalindrome" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartitionArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.PartitionArray" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThirdMaxNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number.ThirdMaxNum" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,19 +221,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.FirstUniqueChar" />
-      <item itemvalue="Application.FindDifference" />
-      <item itemvalue="Application.LexicalSort" />
-      <item itemvalue="Application.SubArraySum" />
-      <item itemvalue="Application.RansomMagazine" />
+      <item itemvalue="Application.LongestPalindrome" />
+      <item itemvalue="Application.ArithmeticSlices" />
+      <item itemvalue="Application.ThirdMaxNum" />
+      <item itemvalue="Application.AddString" />
+      <item itemvalue="Application.PartitionArray" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RansomMagazine" />
-        <item itemvalue="Application.SubArraySum" />
-        <item itemvalue="Application.LexicalSort" />
-        <item itemvalue="Application.FindDifference" />
-        <item itemvalue="Application.FirstUniqueChar" />
+        <item itemvalue="Application.PartitionArray" />
+        <item itemvalue="Application.AddString" />
+        <item itemvalue="Application.ThirdMaxNum" />
+        <item itemvalue="Application.ArithmeticSlices" />
+        <item itemvalue="Application.LongestPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -503,14 +479,9 @@
       <workItem from="1601338848823" duration="2478000" />
       <workItem from="1601425185607" duration="6067000" />
       <workItem from="1601614440505" duration="1322000" />
-      <workItem from="1601688121236" duration="1860000" />
-    </task>
-    <task id="LOCAL-00016" summary="打卡26 删除排序数组中的重复项，知识点双指针">
-      <created>1591149006692</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1591149006692</updated>
+      <workItem from="1601688121236" duration="4394000" />
+      <workItem from="1601861141893" duration="4926000" />
+      <workItem from="1601959991124" duration="4756000" />
     </task>
     <task id="LOCAL-00017" summary="打卡22括号生成，知识点回溯">
       <created>1591231227906</created>
@@ -848,7 +819,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600146968392</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="日常更新 10月3日">
+      <created>1601690020401</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1601690020401</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -868,7 +846,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡 72编辑距离， 73矩阵置零" />
     <MESSAGE value="打卡 66 加1 67二进制求和" />
     <MESSAGE value="打卡 69 x的平方根" />
     <MESSAGE value="&#10;打卡74搜索二维矩阵" />
@@ -893,7 +870,8 @@
     <MESSAGE value="8月29日打卡" />
     <MESSAGE value="日常更新 9月6" />
     <MESSAGE value="日常更新 9月15" />
-    <option name="LAST_COMMIT_MESSAGE" value="日常更新 9月15" />
+    <MESSAGE value="日常更新 10月3日" />
+    <option name="LAST_COMMIT_MESSAGE" value="日常更新 10月3日" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
