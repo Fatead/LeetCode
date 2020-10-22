@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="日常更新 10月6日">
-      <change afterPath="$PROJECT_DIR$/src/array/FindDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/MinInterval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ReconstructQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backtracking/BinaryWatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dfs/CountBattleShips.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashTable/RandomizedSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listTable/FlattenList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/number/ArrangeCoins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/CountSegments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/ConstructQuadTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/LevelOrderNTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/PathSum3.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="日常更新 10月13日">
+      <change afterPath="$PROJECT_DIR$/src/array/CompressChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/FindDisappear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/MinArrowShots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/MinMoves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedy/CookiesAndChildren.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashTable/Boomerangs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashTable/FrequencySort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/slidingWindows/CheckInclusion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/slidingWindows/FindAnagrams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/RepeatSubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/SerializeBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/PartitionArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/PartitionArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/SerializeTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/SerializeTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,13 +62,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindDuplicates">
-    <configuration name="ArrangeCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number.ArrangeCoins" />
+  <component name="RunManager" selected="Application.RepeatSubString">
+    <configuration name="CookiesAndChildren" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.CookiesAndChildren" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="number.*" />
+          <option name="PATTERN" value="greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountBattleShips" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dfs.CountBattleShips" />
+    <configuration name="FrequencySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashTable.FrequencySort" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dfs.*" />
+          <option name="PATTERN" value="hashTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.FindDuplicates" />
+    <configuration name="MinArrowShots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.MinArrowShots" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -103,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathSum3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.PathSum3" />
+    <configuration name="MinMoves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.MinMoves" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReconstructQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ReconstructQueue" />
+    <configuration name="RepeatSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.RepeatSubString" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,19 +227,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ReconstructQueue" />
-      <item itemvalue="Application.PathSum3" />
-      <item itemvalue="Application.ArrangeCoins" />
-      <item itemvalue="Application.CountBattleShips" />
-      <item itemvalue="Application.FindDuplicates" />
+      <item itemvalue="Application.FrequencySort" />
+      <item itemvalue="Application.MinArrowShots" />
+      <item itemvalue="Application.MinMoves" />
+      <item itemvalue="Application.CookiesAndChildren" />
+      <item itemvalue="Application.RepeatSubString" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindDuplicates" />
-        <item itemvalue="Application.CountBattleShips" />
-        <item itemvalue="Application.ArrangeCoins" />
-        <item itemvalue="Application.PathSum3" />
-        <item itemvalue="Application.ReconstructQueue" />
+        <item itemvalue="Application.RepeatSubString" />
+        <item itemvalue="Application.CookiesAndChildren" />
+        <item itemvalue="Application.MinMoves" />
+        <item itemvalue="Application.MinArrowShots" />
+        <item itemvalue="Application.FrequencySort" />
       </list>
     </recent_temporary>
   </component>
@@ -496,14 +495,18 @@
       <workItem from="1602383603122" duration="6322000" />
       <workItem from="1602465275928" duration="400000" />
       <workItem from="1602470715593" duration="4004000" />
-      <workItem from="1602549040631" duration="1603000" />
-    </task>
-    <task id="LOCAL-00018" summary="打卡27移除元素，28实现strStr()">
-      <created>1591317976296</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1591317976296</updated>
+      <workItem from="1602549040631" duration="1826000" />
+      <workItem from="1602635569445" duration="10759000" />
+      <workItem from="1602722050049" duration="3178000" />
+      <workItem from="1602735686434" duration="36000" />
+      <workItem from="1602814710483" duration="1605000" />
+      <workItem from="1602985366129" duration="3597000" />
+      <workItem from="1603067409199" duration="3315000" />
+      <workItem from="1603071451616" duration="40000" />
+      <workItem from="1603153410998" duration="2629000" />
+      <workItem from="1603156661244" duration="1032000" />
+      <workItem from="1603239874522" duration="804000" />
+      <workItem from="1603326909298" duration="1548000" />
     </task>
     <task id="LOCAL-00019" summary="打卡18四数之和，29两数相除，30串联所有单词的子串">
       <created>1591414576548</created>
@@ -841,7 +844,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601964772319</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="日常更新 10月13日">
+      <created>1602550795901</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1602550795901</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -861,7 +871,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡 69 x的平方根" />
     <MESSAGE value="&#10;打卡74搜索二维矩阵" />
     <MESSAGE value="打卡 77 组合 知识点回溯" />
     <MESSAGE value="打卡 78 子集 知识点回溯" />
@@ -886,7 +895,8 @@
     <MESSAGE value="日常更新 9月15" />
     <MESSAGE value="日常更新 10月3日" />
     <MESSAGE value="日常更新 10月6日" />
-    <option name="LAST_COMMIT_MESSAGE" value="日常更新 10月6日" />
+    <MESSAGE value="日常更新 10月13日" />
+    <option name="LAST_COMMIT_MESSAGE" value="日常更新 10月13日" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

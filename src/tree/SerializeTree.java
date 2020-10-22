@@ -39,6 +39,7 @@ public class SerializeTree {
                 nodeQueue.add(treeNode.right);
                 nodeCount++;
             }
+            System.out.println(nodeQueue);
             if(nodeCount == 0)break;
         }
         return stringBuilder.toString();
@@ -46,11 +47,13 @@ public class SerializeTree {
 
     // Decodes your encoded data to tree.
     public TreeNode deserialize(String data) {
+        System.out.println(data);
         if(data == null||data.length() == 0)return null;
         String[] nodeValues = data.split(" ");
         int len = nodeValues.length;
         Map<Integer,TreeNode> nodeMap = new HashMap<>();
         for(int i = 0;i<len;i++){
+            System.out.println(i);
             if(!nodeValues[i].equals("-100")){
                 TreeNode node = new TreeNode(Integer.parseInt(nodeValues[i]));
                 nodeMap.put(i,node);
@@ -59,7 +62,7 @@ public class SerializeTree {
         for(int i = 0;i<len;i++){
             TreeNode node = nodeMap.get(i);
             if(node!=null){
-                node.left = nodeMap.get(i*2 +1);
+                node.left = nodeMap.get(i*2+1);
                 node.right = nodeMap.get(i*2+2);
             }
         }
