@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="日常更新 10月13日">
-      <change afterPath="$PROJECT_DIR$/src/array/CompressChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/FindDisappear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/MinArrowShots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/MinMoves.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedy/CookiesAndChildren.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashTable/Boomerangs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashTable/FrequencySort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingWindows/CheckInclusion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingWindows/FindAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/RepeatSubString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/SerializeBST.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="日常更新 10月22日">
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/ComplementNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/HammingDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dfs/LandPerimeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashTable/CircularArrayLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashTable/LFUCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/SerializeTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/SerializeTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/RepeatSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/RepeatSubString.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,22 +56,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RepeatSubString">
-    <configuration name="CookiesAndChildren" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.CookiesAndChildren" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FrequencySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashTable.FrequencySort" />
+  <component name="RunManager" selected="Application.ComplementNum">
+    <configuration name="CircularArrayLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashTable.CircularArrayLoop" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -89,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinArrowShots" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.MinArrowShots" />
+    <configuration name="ComplementNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BitManipulation.ComplementNum" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="BitManipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinMoves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.MinMoves" />
+    <configuration name="HammingDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BitManipulation.HammingDistance" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="BitManipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +96,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeatSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.RepeatSubString" />
+    <configuration name="LFUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashTable.LFUCache" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="hashTable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LandPerimeter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dfs.LandPerimeter" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,19 +221,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.FrequencySort" />
-      <item itemvalue="Application.MinArrowShots" />
-      <item itemvalue="Application.MinMoves" />
-      <item itemvalue="Application.CookiesAndChildren" />
-      <item itemvalue="Application.RepeatSubString" />
+      <item itemvalue="Application.CircularArrayLoop" />
+      <item itemvalue="Application.HammingDistance" />
+      <item itemvalue="Application.LandPerimeter" />
+      <item itemvalue="Application.LFUCache" />
+      <item itemvalue="Application.ComplementNum" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RepeatSubString" />
-        <item itemvalue="Application.CookiesAndChildren" />
-        <item itemvalue="Application.MinMoves" />
-        <item itemvalue="Application.MinArrowShots" />
-        <item itemvalue="Application.FrequencySort" />
+        <item itemvalue="Application.ComplementNum" />
+        <item itemvalue="Application.LFUCache" />
+        <item itemvalue="Application.LandPerimeter" />
+        <item itemvalue="Application.HammingDistance" />
+        <item itemvalue="Application.CircularArrayLoop" />
       </list>
     </recent_temporary>
   </component>
@@ -506,14 +500,10 @@
       <workItem from="1603153410998" duration="2629000" />
       <workItem from="1603156661244" duration="1032000" />
       <workItem from="1603239874522" duration="804000" />
-      <workItem from="1603326909298" duration="1548000" />
-    </task>
-    <task id="LOCAL-00019" summary="打卡18四数之和，29两数相除，30串联所有单词的子串">
-      <created>1591414576548</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1591414576548</updated>
+      <workItem from="1603326909298" duration="1844000" />
+      <workItem from="1603411728251" duration="2372000" />
+      <workItem from="1603515048440" duration="2672000" />
+      <workItem from="1603597851930" duration="6994000" />
     </task>
     <task id="LOCAL-00020" summary="全排列">
       <created>1591439400556</created>
@@ -851,7 +841,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602550795901</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="日常更新 10月22日">
+      <created>1603328559984</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1603328559984</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -871,7 +868,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="&#10;打卡74搜索二维矩阵" />
     <MESSAGE value="打卡 77 组合 知识点回溯" />
     <MESSAGE value="打卡 78 子集 知识点回溯" />
     <MESSAGE value="打卡 50，80， 82， 83 ，88" />
@@ -896,7 +892,8 @@
     <MESSAGE value="日常更新 10月3日" />
     <MESSAGE value="日常更新 10月6日" />
     <MESSAGE value="日常更新 10月13日" />
-    <option name="LAST_COMMIT_MESSAGE" value="日常更新 10月13日" />
+    <MESSAGE value="日常更新 10月22日" />
+    <option name="LAST_COMMIT_MESSAGE" value="日常更新 10月22日" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

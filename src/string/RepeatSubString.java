@@ -27,4 +27,5 @@ public class RepeatSubString {
         RepeatSubString repeatSubString = new RepeatSubString();
         System.out.println(repeatSubString.repeatedSubstringPattern("abab"));
     }
+
 }
