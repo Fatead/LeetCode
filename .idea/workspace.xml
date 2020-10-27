@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="日常更新 10月22日">
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/ComplementNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/HammingDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dfs/LandPerimeter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashTable/CircularArrayLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashTable/LFUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/TotalHammingDistance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/RepeatSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/RepeatSubString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BitManipulation/HammingDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BitManipulation/HammingDistance.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,20 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ComplementNum">
-    <configuration name="CircularArrayLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashTable.CircularArrayLoop" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hashTable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TotalHammingDistance">
     <configuration name="ComplementNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BitManipulation.ComplementNum" />
       <module name="leetcode" />
@@ -115,6 +98,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TotalHammingDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BitManipulation.TotalHammingDistance" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BitManipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,19 +217,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.CircularArrayLoop" />
       <item itemvalue="Application.HammingDistance" />
       <item itemvalue="Application.LandPerimeter" />
       <item itemvalue="Application.LFUCache" />
       <item itemvalue="Application.ComplementNum" />
+      <item itemvalue="Application.TotalHammingDistance" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TotalHammingDistance" />
+        <item itemvalue="Application.HammingDistance" />
         <item itemvalue="Application.ComplementNum" />
         <item itemvalue="Application.LFUCache" />
         <item itemvalue="Application.LandPerimeter" />
-        <item itemvalue="Application.HammingDistance" />
-        <item itemvalue="Application.CircularArrayLoop" />
       </list>
     </recent_temporary>
   </component>
@@ -503,14 +499,8 @@
       <workItem from="1603326909298" duration="1844000" />
       <workItem from="1603411728251" duration="2372000" />
       <workItem from="1603515048440" duration="2672000" />
-      <workItem from="1603597851930" duration="6994000" />
-    </task>
-    <task id="LOCAL-00020" summary="全排列">
-      <created>1591439400556</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1591439400556</updated>
+      <workItem from="1603597851930" duration="7619000" />
+      <workItem from="1603760276319" duration="903000" />
     </task>
     <task id="LOCAL-00021" summary="打卡31，下一个排列">
       <created>1591496201829</created>
@@ -848,7 +838,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603328559984</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="日常更新 10月22日">
+      <created>1603675513109</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1603675513110</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
