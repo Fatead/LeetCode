@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="日常更新 10月22日">
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/TotalHammingDistance.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="日常更新 10月27日">
+      <change afterPath="$PROJECT_DIR$/src/array/MaxConsecutiveOnes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/IncreaseSubSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/LicenseKey.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BitManipulation/HammingDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BitManipulation/HammingDistance.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,20 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TotalHammingDistance">
-    <configuration name="ComplementNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BitManipulation.ComplementNum" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BitManipulation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.IncreaseSubSequence">
     <configuration name="HammingDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BitManipulation.HammingDistance" />
       <module name="leetcode" />
@@ -79,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LFUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashTable.LFUCache" />
+    <configuration name="IncreaseSubSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.IncreaseSubSequence" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashTable.*" />
+          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +80,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LandPerimeter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dfs.LandPerimeter" />
+    <configuration name="LicenseKey" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.LicenseKey" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dfs.*" />
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxConsecutiveOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.MaxConsecutiveOnes" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,18 +219,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.HammingDistance" />
-      <item itemvalue="Application.LandPerimeter" />
-      <item itemvalue="Application.LFUCache" />
-      <item itemvalue="Application.ComplementNum" />
       <item itemvalue="Application.TotalHammingDistance" />
+      <item itemvalue="Application.LicenseKey" />
+      <item itemvalue="Application.MaxConsecutiveOnes" />
+      <item itemvalue="Application.IncreaseSubSequence" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IncreaseSubSequence" />
+        <item itemvalue="Application.MaxConsecutiveOnes" />
+        <item itemvalue="Application.LicenseKey" />
         <item itemvalue="Application.TotalHammingDistance" />
         <item itemvalue="Application.HammingDistance" />
-        <item itemvalue="Application.ComplementNum" />
-        <item itemvalue="Application.LFUCache" />
-        <item itemvalue="Application.LandPerimeter" />
       </list>
     </recent_temporary>
   </component>
@@ -500,14 +501,10 @@
       <workItem from="1603411728251" duration="2372000" />
       <workItem from="1603515048440" duration="2672000" />
       <workItem from="1603597851930" duration="7619000" />
-      <workItem from="1603760276319" duration="903000" />
-    </task>
-    <task id="LOCAL-00021" summary="打卡31，下一个排列">
-      <created>1591496201829</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1591496201829</updated>
+      <workItem from="1603760276319" duration="1717000" />
+      <workItem from="1603844753167" duration="1904000" />
+      <workItem from="1603865496088" duration="12000" />
+      <workItem from="1603933382874" duration="1814000" />
     </task>
     <task id="LOCAL-00022" summary="打卡32最长有效括号">
       <created>1591578208573</created>
@@ -845,7 +842,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603675513110</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="日常更新 10月27日">
+      <created>1603761384442</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1603761384443</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -865,7 +869,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡 77 组合 知识点回溯" />
     <MESSAGE value="打卡 78 子集 知识点回溯" />
     <MESSAGE value="打卡 50，80， 82， 83 ，88" />
     <MESSAGE value="打卡 81 搜索旋转排序数组Ⅱ" />
@@ -890,7 +893,8 @@
     <MESSAGE value="日常更新 10月6日" />
     <MESSAGE value="日常更新 10月13日" />
     <MESSAGE value="日常更新 10月22日" />
-    <option name="LAST_COMMIT_MESSAGE" value="日常更新 10月22日" />
+    <MESSAGE value="日常更新 10月27日" />
+    <option name="LAST_COMMIT_MESSAGE" value="日常更新 10月27日" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
