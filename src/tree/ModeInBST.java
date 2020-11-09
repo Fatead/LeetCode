@@ -15,7 +15,6 @@ public class ModeInBST {
 
     List<Integer> list = new ArrayList<>();
 
-
     private void preOrder(TreeNode node){
         if(node == null)return;
         list.add(node.val);
