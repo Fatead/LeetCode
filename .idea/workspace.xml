@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡 501 二叉搜索树中的众数">
-      <change afterPath="$PROJECT_DIR$/src/number/ConvertToBase7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/number/Fib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/RelativeRanks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/NextGreaterElement2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/BottomLeftValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/DeleteNodeInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/FrequentTreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/LargestValue.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡  513，515">
+      <change afterPath="$PROJECT_DIR$/src/array/LongestWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/SingleElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/SubArraySumK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/UpdateMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dfs/MinesSweeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/ChangeCoins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/LongestSubPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/CheckPerfectNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/CheckRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/DetectCapital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/LUSLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/ReverseString2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/ReverseWords3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/BinaryTreeDiameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/ConvertBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/MaxDepthOfNTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/MinimumDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/QuadTreeIntersect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/NextGreaterElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/NextGreaterElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/ModeInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/ModeInBST.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,13 +68,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Fib">
-    <configuration name="ConvertToBase7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number.ConvertToBase7" />
+  <component name="RunManager" selected="Application.SubArraySumK">
+    <configuration name="LongestWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.LongestWords" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="number.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fib" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number.Fib" />
+    <configuration name="ReverseWords3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.ReverseWords3" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="number.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModeInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.ModeInBST" />
+    <configuration name="SingleElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.SingleElement" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextGreaterElement2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.NextGreaterElement2" />
+    <configuration name="SubArraySumK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.SubArraySumK" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelativeRanks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.RelativeRanks" />
+    <configuration name="UpdateMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.UpdateMatrix" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -225,19 +233,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ModeInBST" />
-      <item itemvalue="Application.NextGreaterElement2" />
-      <item itemvalue="Application.ConvertToBase7" />
-      <item itemvalue="Application.RelativeRanks" />
-      <item itemvalue="Application.Fib" />
+      <item itemvalue="Application.UpdateMatrix" />
+      <item itemvalue="Application.SingleElement" />
+      <item itemvalue="Application.LongestWords" />
+      <item itemvalue="Application.ReverseWords3" />
+      <item itemvalue="Application.SubArraySumK" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Fib" />
-        <item itemvalue="Application.RelativeRanks" />
-        <item itemvalue="Application.ConvertToBase7" />
-        <item itemvalue="Application.NextGreaterElement2" />
-        <item itemvalue="Application.ModeInBST" />
+        <item itemvalue="Application.SubArraySumK" />
+        <item itemvalue="Application.ReverseWords3" />
+        <item itemvalue="Application.LongestWords" />
+        <item itemvalue="Application.SingleElement" />
+        <item itemvalue="Application.UpdateMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -524,14 +532,24 @@
       <workItem from="1604623312903" duration="2814000" />
       <workItem from="1604643357945" duration="19000" />
       <workItem from="1604715178152" duration="3227000" />
-      <workItem from="1604883457385" duration="974000" />
-    </task>
-    <task id="LOCAL-00024" summary="打卡36，有效的数独，知识点哈希表">
-      <created>1591836344887</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1591836344887</updated>
+      <workItem from="1604883457385" duration="1286000" />
+      <workItem from="1604920332291" duration="506000" />
+      <workItem from="1604970878455" duration="1998000" />
+      <workItem from="1604973294887" duration="718000" />
+      <workItem from="1604993780145" duration="26000" />
+      <workItem from="1605055889665" duration="3001000" />
+      <workItem from="1605141066853" duration="3448000" />
+      <workItem from="1605228743874" duration="1847000" />
+      <workItem from="1605316333525" duration="3760000" />
+      <workItem from="1605487606486" duration="2840000" />
+      <workItem from="1605511024532" duration="957000" />
+      <workItem from="1605573701149" duration="3456000" />
+      <workItem from="1605660006736" duration="4397000" />
+      <workItem from="1605834948675" duration="1939000" />
+      <workItem from="1605925641976" duration="1355000" />
+      <workItem from="1606091506888" duration="1815000" />
+      <workItem from="1606178646804" duration="1985000" />
+      <workItem from="1606536128568" duration="1830000" />
     </task>
     <task id="LOCAL-00025" summary="打卡37，解数独，知识点回溯">
       <created>1591886581921</created>
@@ -869,7 +887,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604451651304</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="打卡  513，515">
+      <created>1604884642686</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1604884642687</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -889,7 +914,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡 81 搜索旋转排序数组Ⅱ" />
     <MESSAGE value="打卡92 反转链表Ⅱ" />
     <MESSAGE value="打卡 68 文本左右对齐" />
     <MESSAGE value="打卡 51 N皇后，52， N皇后Ⅱ" />
@@ -914,7 +938,8 @@
     <MESSAGE value="日常更新 10月27日" />
     <MESSAGE value="打卡 491" />
     <MESSAGE value="打卡 501 二叉搜索树中的众数" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡 501 二叉搜索树中的众数" />
+    <MESSAGE value="打卡  513，515" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡  513，515" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
