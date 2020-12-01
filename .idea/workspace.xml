@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡  513，515">
-      <change afterPath="$PROJECT_DIR$/src/array/LongestWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/SingleElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/SubArraySumK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/UpdateMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dfs/MinesSweeper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/ChangeCoins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/LongestSubPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/number/CheckPerfectNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/CheckRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/DetectCapital.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/LUSLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/ReverseString2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/ReverseWords3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/BinaryTreeDiameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/ConvertBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/MaxDepthOfNTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/MinimumDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/QuadTreeIntersect.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="11月28日打卡">
+      <change afterPath="$PROJECT_DIR$/src/array/ArrayPairSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ReshapeMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/SubTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/TreeTilt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -549,14 +535,9 @@
       <workItem from="1605925641976" duration="1355000" />
       <workItem from="1606091506888" duration="1815000" />
       <workItem from="1606178646804" duration="1985000" />
-      <workItem from="1606536128568" duration="1830000" />
-    </task>
-    <task id="LOCAL-00025" summary="打卡37，解数独，知识点回溯">
-      <created>1591886581921</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1591886581921</updated>
+      <workItem from="1606536128568" duration="2084000" />
+      <workItem from="1606699764630" duration="1739000" />
+      <workItem from="1606784014861" duration="1743000" />
     </task>
     <task id="LOCAL-00026" summary="打卡39，组和总数，知识点回溯">
       <created>1591949227916</created>
@@ -894,7 +875,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604884642687</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="11月28日打卡">
+      <created>1606538195364</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1606538195364</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -914,7 +902,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡92 反转链表Ⅱ" />
     <MESSAGE value="打卡 68 文本左右对齐" />
     <MESSAGE value="打卡 51 N皇后，52， N皇后Ⅱ" />
     <MESSAGE value="打卡94 二叉树的中序遍历" />
@@ -939,7 +926,8 @@
     <MESSAGE value="打卡 491" />
     <MESSAGE value="打卡 501 二叉搜索树中的众数" />
     <MESSAGE value="打卡  513，515" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡  513，515" />
+    <MESSAGE value="11月28日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="11月28日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
