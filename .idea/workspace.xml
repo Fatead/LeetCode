@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="11月28日打卡">
-      <change afterPath="$PROJECT_DIR$/src/array/ArrayPairSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ReshapeMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/SubTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/TreeTilt.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="12月1日打卡">
+      <change afterPath="$PROJECT_DIR$/src/array/UnsortedSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ValidSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedy/DistributeCandies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/PostOrderNTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/PreOrderNTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SubArraySumK">
+  <component name="RunManager" selected="Application.ValidSquare">
     <configuration name="LongestWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.LongestWords" />
       <module name="leetcode" />
@@ -81,19 +82,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.SingleElement" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SubArraySumK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.SubArraySumK" />
       <module name="leetcode" />
@@ -107,8 +95,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdateMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.UpdateMatrix" />
+    <configuration name="UnsortedSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.UnsortedSubArray" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ValidSquare" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -219,19 +220,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.UpdateMatrix" />
-      <item itemvalue="Application.SingleElement" />
       <item itemvalue="Application.LongestWords" />
       <item itemvalue="Application.ReverseWords3" />
       <item itemvalue="Application.SubArraySumK" />
+      <item itemvalue="Application.UnsortedSubArray" />
+      <item itemvalue="Application.ValidSquare" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidSquare" />
+        <item itemvalue="Application.UnsortedSubArray" />
         <item itemvalue="Application.SubArraySumK" />
         <item itemvalue="Application.ReverseWords3" />
         <item itemvalue="Application.LongestWords" />
-        <item itemvalue="Application.SingleElement" />
-        <item itemvalue="Application.UpdateMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -537,14 +538,9 @@
       <workItem from="1606178646804" duration="1985000" />
       <workItem from="1606536128568" duration="2084000" />
       <workItem from="1606699764630" duration="1739000" />
-      <workItem from="1606784014861" duration="1743000" />
-    </task>
-    <task id="LOCAL-00026" summary="打卡39，组和总数，知识点回溯">
-      <created>1591949227916</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1591949227916</updated>
+      <workItem from="1606784014861" duration="1971000" />
+      <workItem from="1606870086797" duration="3643000" />
+      <workItem from="1606955723288" duration="3133000" />
     </task>
     <task id="LOCAL-00027" summary="打卡39，组和总数，知识点回溯">
       <created>1591950112341</created>
@@ -882,7 +878,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606538195364</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="12月1日打卡">
+      <created>1606785943808</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1606785943809</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -902,7 +905,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡 68 文本左右对齐" />
     <MESSAGE value="打卡 51 N皇后，52， N皇后Ⅱ" />
     <MESSAGE value="打卡94 二叉树的中序遍历" />
     <MESSAGE value="打卡 96不同的二叉搜索树" />
@@ -927,7 +929,8 @@
     <MESSAGE value="打卡 501 二叉搜索树中的众数" />
     <MESSAGE value="打卡  513，515" />
     <MESSAGE value="11月28日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="11月28日打卡" />
+    <MESSAGE value="12月1日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="12月1日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
