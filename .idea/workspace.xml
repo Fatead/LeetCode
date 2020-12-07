@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="12月3日打卡">
-      <change afterPath="$PROJECT_DIR$/src/array/LHS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/RangeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashTable/FindRestaurant.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="12月5日打卡">
+      <change afterPath="$PROJECT_DIR$/src/dp/DeleteWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashTable/NestArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/number/two_sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/number/TwoSum.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LHS">
+  <component name="RunManager" selected="Application.DeleteWords">
+    <configuration name="DeleteWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.DeleteWords" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LHS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.LHS" />
       <module name="leetcode" />
@@ -67,25 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWords3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.ReverseWords3" />
+    <configuration name="NestArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashTable.NestArray" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubArraySumK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.SubArraySumK" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="hashTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,19 +218,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ReverseWords3" />
-      <item itemvalue="Application.SubArraySumK" />
       <item itemvalue="Application.UnsortedSubArray" />
       <item itemvalue="Application.ValidSquare" />
       <item itemvalue="Application.LHS" />
+      <item itemvalue="Application.NestArray" />
+      <item itemvalue="Application.DeleteWords" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteWords" />
+        <item itemvalue="Application.NestArray" />
         <item itemvalue="Application.LHS" />
         <item itemvalue="Application.ValidSquare" />
         <item itemvalue="Application.UnsortedSubArray" />
-        <item itemvalue="Application.SubArraySumK" />
-        <item itemvalue="Application.ReverseWords3" />
       </list>
     </recent_temporary>
   </component>
@@ -540,14 +540,8 @@
       <workItem from="1606870086797" duration="3643000" />
       <workItem from="1606955723288" duration="3204000" />
       <workItem from="1607046549493" duration="1103000" />
-      <workItem from="1607133986412" duration="2159000" />
-    </task>
-    <task id="LOCAL-00028" summary="打卡43,字符串相乘">
-      <created>1591956457105</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1591956457105</updated>
+      <workItem from="1607133986412" duration="2470000" />
+      <workItem from="1607301267492" duration="1861000" />
     </task>
     <task id="LOCAL-00029" summary="打卡48，旋转图像">
       <created>1592044568470</created>
@@ -885,7 +879,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606960213674</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="12月5日打卡">
+      <created>1607137424910</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1607137424910</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -905,7 +906,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡94 二叉树的中序遍历" />
     <MESSAGE value="打卡 96不同的二叉搜索树" />
     <MESSAGE value="打卡 91 解码方法" />
     <MESSAGE value="打卡100 相同的树， 102 二叉树的层序遍历" />
@@ -930,7 +930,8 @@
     <MESSAGE value="11月28日打卡" />
     <MESSAGE value="12月1日打卡" />
     <MESSAGE value="12月3日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="12月3日打卡" />
+    <MESSAGE value="12月5日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="12月5日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -3,7 +3,7 @@ package number;
 /**
  * Created by zero on 2019/7/31.
  */
-public class two_sum {
+public class TwoSum {
 
     public static void main(String[] args)
     {
