@@ -9,9 +9,7 @@ public class MergeTree {
         public TreeNode(int x){
             this.val = x;
         }
-        public TreeNode(){
-
-        }
+        public TreeNode(){ }
     }
 
 
