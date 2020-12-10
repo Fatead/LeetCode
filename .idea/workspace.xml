@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="12月8日打卡">
-      <change afterPath="$PROJECT_DIR$/src/greedy/PlaceFlower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashTable/SearchFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/TreeToStr.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="12月9日打卡">
+      <change afterPath="$PROJECT_DIR$/src/array/ValidTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/AddRow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/MergeTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/MergeTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SearchFile">
+  <component name="RunManager" selected="Application.ValidTriangle">
     <configuration name="BallPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dfs.BallPath" />
       <module name="leetcode" />
@@ -81,19 +79,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashTable.NestArray" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hashTable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PlaceFlower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greedy.PlaceFlower" />
       <module name="leetcode" />
@@ -113,6 +98,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="hashTable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ValidTriangle" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,19 +217,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.NestArray" />
       <item itemvalue="Application.DeleteWords" />
       <item itemvalue="Application.BallPath" />
       <item itemvalue="Application.PlaceFlower" />
       <item itemvalue="Application.SearchFile" />
+      <item itemvalue="Application.ValidTriangle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidTriangle" />
         <item itemvalue="Application.SearchFile" />
         <item itemvalue="Application.PlaceFlower" />
         <item itemvalue="Application.BallPath" />
         <item itemvalue="Application.DeleteWords" />
-        <item itemvalue="Application.NestArray" />
       </list>
     </recent_temporary>
   </component>
@@ -544,14 +542,8 @@
       <workItem from="1607133986412" duration="2470000" />
       <workItem from="1607301267492" duration="2081000" />
       <workItem from="1607386742197" duration="3330000" />
-      <workItem from="1607474454956" duration="4358000" />
-    </task>
-    <task id="LOCAL-00031" summary="打卡49，字母异位词分组">
-      <created>1592268490007</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1592268490007</updated>
+      <workItem from="1607474454956" duration="4419000" />
+      <workItem from="1607560151399" duration="2472000" />
     </task>
     <task id="LOCAL-00032" summary="打卡58，最后一个单词的长度">
       <created>1592353746455</created>
@@ -889,7 +881,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607389975317</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="12月9日打卡">
+      <created>1607478918760</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1607478918762</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -909,7 +908,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡100 相同的树， 102 二叉树的层序遍历" />
     <MESSAGE value="打卡 104二叉树的最大深度，106 从中序与后序遍历序列构造二叉树" />
     <MESSAGE value="打卡110 ，111，112知识点二叉树" />
     <MESSAGE value="打卡 126 ，127，129" />
@@ -934,7 +932,8 @@
     <MESSAGE value="12月5日打卡" />
     <MESSAGE value="12月7日打卡" />
     <MESSAGE value="12月8日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="12月8日打卡" />
+    <MESSAGE value="12月9日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="12月9日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
