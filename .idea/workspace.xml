@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="12月9日打卡">
-      <change afterPath="$PROJECT_DIR$/src/array/ValidTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/AddRow.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="12月10日打卡">
+      <change afterPath="$PROJECT_DIR$/src/array/MaxAvg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/LongestChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedy/LeastInterval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedy/MaxProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashTable/ErrorNums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queue/MyCircularQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LevelAvg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +43,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -52,48 +57,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ValidTriangle">
-    <configuration name="BallPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dfs.BallPath" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeleteWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.DeleteWords" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlaceFlower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.PlaceFlower" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashTable.SearchFile" />
+  <component name="RunManager" selected="Application.ErrorNums">
+    <configuration name="ErrorNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashTable.ErrorNums" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -105,12 +71,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ValidTriangle" />
+    <configuration name="LeastInterval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.LeastInterval" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestChain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.LongestChain" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxAvg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.MaxAvg" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.MaxProduct" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,19 +222,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.DeleteWords" />
-      <item itemvalue="Application.BallPath" />
-      <item itemvalue="Application.PlaceFlower" />
-      <item itemvalue="Application.SearchFile" />
-      <item itemvalue="Application.ValidTriangle" />
+      <item itemvalue="Application.LeastInterval" />
+      <item itemvalue="Application.MaxProduct" />
+      <item itemvalue="Application.LongestChain" />
+      <item itemvalue="Application.MaxAvg" />
+      <item itemvalue="Application.ErrorNums" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ValidTriangle" />
-        <item itemvalue="Application.SearchFile" />
-        <item itemvalue="Application.PlaceFlower" />
-        <item itemvalue="Application.BallPath" />
-        <item itemvalue="Application.DeleteWords" />
+        <item itemvalue="Application.ErrorNums" />
+        <item itemvalue="Application.MaxAvg" />
+        <item itemvalue="Application.LongestChain" />
+        <item itemvalue="Application.MaxProduct" />
+        <item itemvalue="Application.LeastInterval" />
       </list>
     </recent_temporary>
   </component>
@@ -543,14 +548,10 @@
       <workItem from="1607301267492" duration="2081000" />
       <workItem from="1607386742197" duration="3330000" />
       <workItem from="1607474454956" duration="4419000" />
-      <workItem from="1607560151399" duration="2472000" />
-    </task>
-    <task id="LOCAL-00032" summary="打卡58，最后一个单词的长度">
-      <created>1592353746455</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1592353746455</updated>
+      <workItem from="1607560151399" duration="2647000" />
+      <workItem from="1607647639750" duration="5414000" />
+      <workItem from="1607779238426" duration="1746000" />
+      <workItem from="1607825189055" duration="3054000" />
     </task>
     <task id="LOCAL-00033" summary="打卡54 螺旋矩阵">
       <created>1592442178058</created>
@@ -888,7 +889,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607478918762</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="12月10日打卡">
+      <created>1607563646302</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1607563646303</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -908,7 +916,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡 104二叉树的最大深度，106 从中序与后序遍历序列构造二叉树" />
     <MESSAGE value="打卡110 ，111，112知识点二叉树" />
     <MESSAGE value="打卡 126 ，127，129" />
     <MESSAGE value="打卡 143，144，145，147" />
@@ -933,7 +940,8 @@
     <MESSAGE value="12月7日打卡" />
     <MESSAGE value="12月8日打卡" />
     <MESSAGE value="12月9日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="12月9日打卡" />
+    <MESSAGE value="12月10日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="12月10日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
