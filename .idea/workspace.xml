@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="12月10日打卡">
-      <change afterPath="$PROJECT_DIR$/src/array/MaxAvg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/LongestChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedy/LeastInterval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedy/MaxProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashTable/ErrorNums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/MyCircularQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/LevelAvg.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="12月13日打卡">
+      <change afterPath="$PROJECT_DIR$/src/hashTable/ReplaceWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queue/MyCircularDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/PredictVictory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,26 +53,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ErrorNums">
+  <component name="RunManager" selected="Application.PredictVictory">
     <configuration name="ErrorNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hashTable.ErrorNums" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="hashTable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeastInterval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.LeastInterval" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +93,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.MaxProduct" />
+    <configuration name="PredictVictory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.PredictVictory" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReplaceWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashTable.ReplaceWord" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hashTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,19 +218,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.LeastInterval" />
-      <item itemvalue="Application.MaxProduct" />
       <item itemvalue="Application.LongestChain" />
       <item itemvalue="Application.MaxAvg" />
       <item itemvalue="Application.ErrorNums" />
+      <item itemvalue="Application.ReplaceWord" />
+      <item itemvalue="Application.PredictVictory" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PredictVictory" />
+        <item itemvalue="Application.ReplaceWord" />
         <item itemvalue="Application.ErrorNums" />
         <item itemvalue="Application.MaxAvg" />
         <item itemvalue="Application.LongestChain" />
-        <item itemvalue="Application.MaxProduct" />
-        <item itemvalue="Application.LeastInterval" />
       </list>
     </recent_temporary>
   </component>
@@ -551,14 +547,8 @@
       <workItem from="1607560151399" duration="2647000" />
       <workItem from="1607647639750" duration="5414000" />
       <workItem from="1607779238426" duration="1746000" />
-      <workItem from="1607825189055" duration="3054000" />
-    </task>
-    <task id="LOCAL-00033" summary="打卡54 螺旋矩阵">
-      <created>1592442178058</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1592442178058</updated>
+      <workItem from="1607825189055" duration="3136000" />
+      <workItem from="1607905908126" duration="3579000" />
     </task>
     <task id="LOCAL-00034" summary="打卡55 跳跃游戏">
       <created>1592539440733</created>
@@ -896,7 +886,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607563646303</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="12月13日打卡">
+      <created>1607828281383</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1607828281384</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -916,7 +913,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡110 ，111，112知识点二叉树" />
     <MESSAGE value="打卡 126 ，127，129" />
     <MESSAGE value="打卡 143，144，145，147" />
     <MESSAGE value="日常提交" />
@@ -941,7 +937,8 @@
     <MESSAGE value="12月8日打卡" />
     <MESSAGE value="12月9日打卡" />
     <MESSAGE value="12月10日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="12月10日打卡" />
+    <MESSAGE value="12月13日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="12月13日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
