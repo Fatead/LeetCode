@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="12月14日打卡">
-      <change afterPath="$PROJECT_DIR$/src/dp/MinSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/number/SquareSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/TargetBST.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="12月15日打卡">
+      <change afterPath="$PROJECT_DIR$/src/tree/DuplicateSubTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/MaxBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -549,14 +548,8 @@
       <workItem from="1607779238426" duration="1746000" />
       <workItem from="1607825189055" duration="3136000" />
       <workItem from="1607905908126" duration="3615000" />
-      <workItem from="1607993009874" duration="3606000" />
-    </task>
-    <task id="LOCAL-00035" summary="打卡 56 合并区间，57 插入区间">
-      <created>1592622668119</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1592622668119</updated>
+      <workItem from="1607993009874" duration="3752000" />
+      <workItem from="1608079140637" duration="3295000" />
     </task>
     <task id="LOCAL-00036" summary="打卡61 旋转链表">
       <created>1592873447951</created>
@@ -894,7 +887,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607909533231</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="12月15日打卡">
+      <created>1607996732549</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1607996732549</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -914,7 +914,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡 143，144，145，147" />
     <MESSAGE value="日常提交" />
     <MESSAGE value="打卡前缀树" />
     <MESSAGE value="8月24日打卡" />
@@ -939,7 +938,8 @@
     <MESSAGE value="12月10日打卡" />
     <MESSAGE value="12月13日打卡" />
     <MESSAGE value="12月14日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="12月14日打卡" />
+    <MESSAGE value="12月15日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="12月15日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
