@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="12月15日打卡">
-      <change afterPath="$PROJECT_DIR$/src/tree/DuplicateSubTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/MaxBinaryTree.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="12月16日打卡">
+      <change afterPath="$PROJECT_DIR$/src/hashTable/JudgeCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/PrintTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,20 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinSteps">
-    <configuration name="ErrorNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashTable.ErrorNums" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hashTable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PrintTree">
     <configuration name="MinSteps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dp.MinSteps" />
       <module name="leetcode" />
@@ -85,6 +72,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.PrintTree" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,19 +217,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ErrorNums" />
       <item itemvalue="Application.ReplaceWord" />
       <item itemvalue="Application.PredictVictory" />
       <item itemvalue="Application.SquareSum" />
       <item itemvalue="Application.MinSteps" />
+      <item itemvalue="Application.PrintTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintTree" />
         <item itemvalue="Application.MinSteps" />
         <item itemvalue="Application.SquareSum" />
         <item itemvalue="Application.PredictVictory" />
         <item itemvalue="Application.ReplaceWord" />
-        <item itemvalue="Application.ErrorNums" />
       </list>
     </recent_temporary>
   </component>
@@ -549,14 +549,8 @@
       <workItem from="1607825189055" duration="3136000" />
       <workItem from="1607905908126" duration="3615000" />
       <workItem from="1607993009874" duration="3752000" />
-      <workItem from="1608079140637" duration="3295000" />
-    </task>
-    <task id="LOCAL-00036" summary="打卡61 旋转链表">
-      <created>1592873447951</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1592873447951</updated>
+      <workItem from="1608079140637" duration="3454000" />
+      <workItem from="1608165198062" duration="3287000" />
     </task>
     <task id="LOCAL-00037" summary="打卡62 不同路径">
       <created>1592960076242</created>
@@ -894,7 +888,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607996732549</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="12月16日打卡">
+      <created>1608082482635</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1608082482637</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -914,7 +915,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="日常提交" />
     <MESSAGE value="打卡前缀树" />
     <MESSAGE value="8月24日打卡" />
     <MESSAGE value="8月29日打卡" />
@@ -939,7 +939,8 @@
     <MESSAGE value="12月13日打卡" />
     <MESSAGE value="12月14日打卡" />
     <MESSAGE value="12月15日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="12月15日打卡" />
+    <MESSAGE value="12月16日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="12月16日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
