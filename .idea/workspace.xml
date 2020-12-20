@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="12月16日打卡">
-      <change afterPath="$PROJECT_DIR$/src/hashTable/JudgeCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/PrintTree.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="12月17日打卡">
+      <change afterPath="$PROJECT_DIR$/src/array/CheckPossibility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ClosestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ImageSmoother.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/SplitArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/BinaryTreeWidth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/TrimBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,13 +56,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrintTree">
-    <configuration name="MinSteps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.MinSteps" />
+  <component name="RunManager" selected="Application.CheckPossibility">
+    <configuration name="CheckPossibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.CheckPossibility" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +70,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredictVictory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.PredictVictory" />
+    <configuration name="ClosestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ClosestElement" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImageSmoother" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ImageSmoother" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,25 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashTable.ReplaceWord" />
+    <configuration name="SplitArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.SplitArray" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashTable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SquareSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number.SquareSum" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="number.*" />
+          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,19 +221,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ReplaceWord" />
-      <item itemvalue="Application.PredictVictory" />
-      <item itemvalue="Application.SquareSum" />
-      <item itemvalue="Application.MinSteps" />
       <item itemvalue="Application.PrintTree" />
+      <item itemvalue="Application.ClosestElement" />
+      <item itemvalue="Application.SplitArray" />
+      <item itemvalue="Application.ImageSmoother" />
+      <item itemvalue="Application.CheckPossibility" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckPossibility" />
+        <item itemvalue="Application.ImageSmoother" />
+        <item itemvalue="Application.SplitArray" />
+        <item itemvalue="Application.ClosestElement" />
         <item itemvalue="Application.PrintTree" />
-        <item itemvalue="Application.MinSteps" />
-        <item itemvalue="Application.SquareSum" />
-        <item itemvalue="Application.PredictVictory" />
-        <item itemvalue="Application.ReplaceWord" />
       </list>
     </recent_temporary>
   </component>
@@ -550,14 +554,12 @@
       <workItem from="1607905908126" duration="3615000" />
       <workItem from="1607993009874" duration="3752000" />
       <workItem from="1608079140637" duration="3454000" />
-      <workItem from="1608165198062" duration="3287000" />
-    </task>
-    <task id="LOCAL-00037" summary="打卡62 不同路径">
-      <created>1592960076242</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1592960076242</updated>
+      <workItem from="1608165198062" duration="3418000" />
+      <workItem from="1608208886350" duration="9000" />
+      <workItem from="1608251347952" duration="5030000" />
+      <workItem from="1608279672549" duration="27000" />
+      <workItem from="1608373064448" duration="2836000" />
+      <workItem from="1608427337531" duration="2629000" />
     </task>
     <task id="LOCAL-00038" summary="打卡 63不同的路径Ⅱ，64最小路径和">
       <created>1593048571769</created>
@@ -895,7 +897,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608082482637</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="12月17日打卡">
+      <created>1608170350056</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1608170350057</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -915,7 +924,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡前缀树" />
     <MESSAGE value="8月24日打卡" />
     <MESSAGE value="8月29日打卡" />
     <MESSAGE value="日常更新 9月6" />
@@ -940,7 +948,8 @@
     <MESSAGE value="12月14日打卡" />
     <MESSAGE value="12月15日打卡" />
     <MESSAGE value="12月16日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="12月16日打卡" />
+    <MESSAGE value="12月17日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="12月17日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
