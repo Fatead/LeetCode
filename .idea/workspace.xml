@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="12月17日打卡">
-      <change afterPath="$PROJECT_DIR$/src/array/CheckPossibility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ClosestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ImageSmoother.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backtracking/SplitArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/BinaryTreeWidth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/TrimBST.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="12月20日打卡">
+      <change afterPath="$PROJECT_DIR$/src/array/CalculatePoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/CircleNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/IncreaseSubSeq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/NumberOfLIS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedy/MaxSwap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashTable/MapSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/Palindrome2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/SecondMinValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/UnionFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/UnionFind.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,9 +59,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CheckPossibility">
-    <configuration name="CheckPossibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.CheckPossibility" />
+  <component name="RunManager" selected="Application.CalculatePoints">
+    <configuration name="CalculatePoints" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.CalculatePoints" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -70,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClosestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ClosestElement" />
+    <configuration name="IncreaseSubSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.IncreaseSubSeq" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImageSmoother" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ImageSmoother" />
+    <configuration name="MaxSwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.MaxSwap" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.PrintTree" />
+    <configuration name="NumberOfLIS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.NumberOfLIS" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SplitArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.SplitArray" />
+    <configuration name="Palindrome2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.Palindrome2" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="backtracking.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,19 +224,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.PrintTree" />
-      <item itemvalue="Application.ClosestElement" />
-      <item itemvalue="Application.SplitArray" />
-      <item itemvalue="Application.ImageSmoother" />
-      <item itemvalue="Application.CheckPossibility" />
+      <item itemvalue="Application.NumberOfLIS" />
+      <item itemvalue="Application.MaxSwap" />
+      <item itemvalue="Application.IncreaseSubSeq" />
+      <item itemvalue="Application.Palindrome2" />
+      <item itemvalue="Application.CalculatePoints" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CheckPossibility" />
-        <item itemvalue="Application.ImageSmoother" />
-        <item itemvalue="Application.SplitArray" />
-        <item itemvalue="Application.ClosestElement" />
-        <item itemvalue="Application.PrintTree" />
+        <item itemvalue="Application.CalculatePoints" />
+        <item itemvalue="Application.Palindrome2" />
+        <item itemvalue="Application.IncreaseSubSeq" />
+        <item itemvalue="Application.NumberOfLIS" />
+        <item itemvalue="Application.MaxSwap" />
       </list>
     </recent_temporary>
   </component>
@@ -559,14 +562,10 @@
       <workItem from="1608251347952" duration="5030000" />
       <workItem from="1608279672549" duration="27000" />
       <workItem from="1608373064448" duration="2836000" />
-      <workItem from="1608427337531" duration="2629000" />
-    </task>
-    <task id="LOCAL-00038" summary="打卡 63不同的路径Ⅱ，64最小路径和">
-      <created>1593048571769</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1593048571769</updated>
+      <workItem from="1608427337531" duration="4147000" />
+      <workItem from="1608512718112" duration="5461000" />
+      <workItem from="1608597692413" duration="2067000" />
+      <workItem from="1608684690884" duration="5335000" />
     </task>
     <task id="LOCAL-00039" summary="打卡 72编辑距离， 73矩阵置零">
       <created>1593131737117</created>
@@ -904,7 +903,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608170350057</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="12月20日打卡">
+      <created>1608430241528</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1608430241544</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -924,7 +930,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="8月24日打卡" />
     <MESSAGE value="8月29日打卡" />
     <MESSAGE value="日常更新 9月6" />
     <MESSAGE value="日常更新 9月15" />
@@ -949,7 +954,8 @@
     <MESSAGE value="12月15日打卡" />
     <MESSAGE value="12月16日打卡" />
     <MESSAGE value="12月17日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="12月17日打卡" />
+    <MESSAGE value="12月20日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="12月20日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,5 +1,7 @@
 package tree;
 
+import java.util.Arrays;
+
 /**
  * 并查集
  */
@@ -65,6 +67,7 @@ public class UnionFind {
         unionFind.union(1,6);
         unionFind.union(1,3);
         System.out.println(unionFind.connected(3,6));
+        System.out.println(Arrays.toString(unionFind.parent));
     }
 
 }
