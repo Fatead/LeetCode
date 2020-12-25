@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="12月23日打卡">
-      <change afterPath="$PROJECT_DIR$/src/graph/RedundantConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/RedundantConnectionUF.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="分别使用DFS和并查集解决684题">
+      <change afterPath="$PROJECT_DIR$/src/hashTable/TopKWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/ValidString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,39 +52,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RedundantConnection">
+  <component name="RunManager" selected="Application.TopKWords">
     <configuration name="CalculatePoints" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.CalculatePoints" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IncreaseSubSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.IncreaseSubSeq" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberOfLIS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.NumberOfLIS" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,6 +85,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopKWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashTable.TopKWords" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hashTable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.ValidString" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,19 +217,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.NumberOfLIS" />
-      <item itemvalue="Application.IncreaseSubSeq" />
       <item itemvalue="Application.Palindrome2" />
       <item itemvalue="Application.CalculatePoints" />
       <item itemvalue="Application.RedundantConnection" />
+      <item itemvalue="Application.ValidString" />
+      <item itemvalue="Application.TopKWords" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TopKWords" />
+        <item itemvalue="Application.ValidString" />
         <item itemvalue="Application.RedundantConnection" />
         <item itemvalue="Application.CalculatePoints" />
         <item itemvalue="Application.Palindrome2" />
-        <item itemvalue="Application.IncreaseSubSeq" />
-        <item itemvalue="Application.NumberOfLIS" />
       </list>
     </recent_temporary>
   </component>
@@ -560,14 +560,8 @@
       <workItem from="1608597692413" duration="2067000" />
       <workItem from="1608684690884" duration="5983000" />
       <workItem from="1608709892214" duration="519000" />
-      <workItem from="1608771228746" duration="5990000" />
-    </task>
-    <task id="LOCAL-00040" summary="打卡 66 加1 67二进制求和">
-      <created>1593303975234</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1593303975234</updated>
+      <workItem from="1608771228746" duration="6252000" />
+      <workItem from="1608857373174" duration="3199000" />
     </task>
     <task id="LOCAL-00041" summary="打卡 69 x的平方根">
       <created>1593393007956</created>
@@ -905,7 +899,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608690429541</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="分别使用DFS和并查集解决684题">
+      <created>1608777278604</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1608777278605</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -925,7 +926,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="日常更新 9月6" />
     <MESSAGE value="日常更新 9月15" />
     <MESSAGE value="日常更新 10月3日" />
     <MESSAGE value="日常更新 10月6日" />
@@ -950,7 +950,8 @@
     <MESSAGE value="12月17日打卡" />
     <MESSAGE value="12月20日打卡" />
     <MESSAGE value="12月23日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="12月23日打卡" />
+    <MESSAGE value="分别使用DFS和并查集解决684题" />
+    <option name="LAST_COMMIT_MESSAGE" value="分别使用DFS和并查集解决684题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
