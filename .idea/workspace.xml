@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="分别使用DFS和并查集解决684题">
-      <change afterPath="$PROJECT_DIR$/src/hashTable/TopKWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/ValidString.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡  678，692">
+      <change afterPath="$PROJECT_DIR$/src/dfs/MaxIslandArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/BinarySubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LongestUnivaluePath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,13 +53,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TopKWords">
-    <configuration name="CalculatePoints" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.CalculatePoints" />
+  <component name="RunManager" selected="Application.BinarySubString">
+    <configuration name="BinarySubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.BinarySubString" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.Palindrome2" />
+    <configuration name="CalculatePoints" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.CalculatePoints" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,19 +218,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Palindrome2" />
       <item itemvalue="Application.CalculatePoints" />
       <item itemvalue="Application.RedundantConnection" />
       <item itemvalue="Application.ValidString" />
       <item itemvalue="Application.TopKWords" />
+      <item itemvalue="Application.BinarySubString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySubString" />
         <item itemvalue="Application.TopKWords" />
         <item itemvalue="Application.ValidString" />
         <item itemvalue="Application.RedundantConnection" />
         <item itemvalue="Application.CalculatePoints" />
-        <item itemvalue="Application.Palindrome2" />
       </list>
     </recent_temporary>
   </component>
@@ -561,14 +562,9 @@
       <workItem from="1608684690884" duration="5983000" />
       <workItem from="1608709892214" duration="519000" />
       <workItem from="1608771228746" duration="6252000" />
-      <workItem from="1608857373174" duration="3199000" />
-    </task>
-    <task id="LOCAL-00041" summary="打卡 69 x的平方根">
-      <created>1593393007956</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1593393007956</updated>
+      <workItem from="1608857373174" duration="3499000" />
+      <workItem from="1608876010785" duration="8000" />
+      <workItem from="1608980296186" duration="4103000" />
     </task>
     <task id="LOCAL-00042" summary="&#10;打卡74搜索二维矩阵">
       <created>1593567237619</created>
@@ -906,7 +902,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608777278605</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="打卡  678，692">
+      <created>1608860801941</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1608860801941</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -926,7 +929,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="日常更新 9月15" />
     <MESSAGE value="日常更新 10月3日" />
     <MESSAGE value="日常更新 10月6日" />
     <MESSAGE value="日常更新 10月13日" />
@@ -951,7 +953,8 @@
     <MESSAGE value="12月20日打卡" />
     <MESSAGE value="12月23日打卡" />
     <MESSAGE value="分别使用DFS和并查集解决684题" />
-    <option name="LAST_COMMIT_MESSAGE" value="分别使用DFS和并查集解决684题" />
+    <MESSAGE value="打卡  678，692" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡  678，692" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
