@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡  687，695，696">
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/AlternativeBits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/DivideKSubSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ShortestSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/SearchInBST.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="12月28日打卡">
+      <change afterPath="$PROJECT_DIR$/src/array/EmployImportance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/InsertIntoBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +34,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/IdeaProjects/neo4j-vis.js/neo4j" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/课程资料/高级数据库/Advanced database/Advanced database" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -567,14 +565,8 @@
       <workItem from="1608876010785" duration="8000" />
       <workItem from="1608980296186" duration="4378000" />
       <workItem from="1609059206809" duration="2293000" />
-      <workItem from="1609114727976" duration="2470000" />
-    </task>
-    <task id="LOCAL-00043" summary="打卡 77 组合 知识点回溯">
-      <created>1593739354959</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1593739354959</updated>
+      <workItem from="1609114727976" duration="2805000" />
+      <workItem from="1609202617634" duration="2126000" />
     </task>
     <task id="LOCAL-00044" summary="打卡 77 组合 知识点回溯">
       <created>1593739436083</created>
@@ -912,7 +904,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608984702329</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="12月28日打卡">
+      <created>1609117245904</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1609117245904</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -932,7 +931,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="日常更新 10月6日" />
     <MESSAGE value="日常更新 10月13日" />
     <MESSAGE value="日常更新 10月22日" />
     <MESSAGE value="日常更新 10月27日" />
@@ -957,7 +955,8 @@
     <MESSAGE value="分别使用DFS和并查集解决684题" />
     <MESSAGE value="打卡  678，692" />
     <MESSAGE value="打卡  687，695，696" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡  687，695，696" />
+    <MESSAGE value="12月28日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="12月28日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
