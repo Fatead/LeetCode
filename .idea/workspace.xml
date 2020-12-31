@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="12月28日打卡">
-      <change afterPath="$PROJECT_DIR$/src/array/EmployImportance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/InsertIntoBST.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="12月29日打卡">
+      <change afterPath="$PROJECT_DIR$/src/array/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/KthLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/KthLargest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashTable/MyHashSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AlternativeBits">
+  <component name="RunManager" selected="Application.BinarySearch">
     <configuration name="AlternativeBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BitManipulation.AlternativeBits" />
       <module name="leetcode" />
@@ -66,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.BinarySubString" />
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.BinarySearch" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ShortestSubArray" />
+    <configuration name="KthLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.KthLargest" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -105,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopKWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashTable.TopKWords" />
+    <configuration name="ShortestSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ShortestSubArray" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashTable.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,19 +219,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.TopKWords" />
-      <item itemvalue="Application.BinarySubString" />
       <item itemvalue="Application.ShortestSubArray" />
       <item itemvalue="Application.DivideKSubSet" />
       <item itemvalue="Application.AlternativeBits" />
+      <item itemvalue="Application.KthLargest" />
+      <item itemvalue="Application.BinarySearch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.KthLargest" />
         <item itemvalue="Application.AlternativeBits" />
         <item itemvalue="Application.DivideKSubSet" />
         <item itemvalue="Application.ShortestSubArray" />
-        <item itemvalue="Application.BinarySubString" />
-        <item itemvalue="Application.TopKWords" />
       </list>
     </recent_temporary>
   </component>
@@ -566,14 +568,9 @@
       <workItem from="1608980296186" duration="4378000" />
       <workItem from="1609059206809" duration="2293000" />
       <workItem from="1609114727976" duration="2805000" />
-      <workItem from="1609202617634" duration="2126000" />
-    </task>
-    <task id="LOCAL-00044" summary="打卡 77 组合 知识点回溯">
-      <created>1593739436083</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1593739436083</updated>
+      <workItem from="1609202617634" duration="2414000" />
+      <workItem from="1609336960799" duration="2264000" />
+      <workItem from="1609376116846" duration="3299000" />
     </task>
     <task id="LOCAL-00045" summary="打卡 78 子集 知识点回溯">
       <created>1593825333260</created>
@@ -911,7 +908,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609117245904</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="12月29日打卡">
+      <created>1609204775166</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1609204775166</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -931,7 +935,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="日常更新 10月13日" />
     <MESSAGE value="日常更新 10月22日" />
     <MESSAGE value="日常更新 10月27日" />
     <MESSAGE value="打卡 491" />
@@ -956,7 +959,8 @@
     <MESSAGE value="打卡  678，692" />
     <MESSAGE value="打卡  687，695，696" />
     <MESSAGE value="12月28日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="12月28日打卡" />
+    <MESSAGE value="12月29日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="12月29日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
