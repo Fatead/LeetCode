@@ -33,29 +33,33 @@ class MyHashSet {
         int bucketIndex = this._hash(key);
         return this.bucketArray[bucketIndex].exists(key);
     }
-}
 
 
-class Bucket {
-    private LinkedList<Integer> container;
+    class Bucket {
+        private LinkedList<Integer> container;
 
-    public Bucket() {
-        container = new LinkedList<Integer>();
-    }
+        public Bucket() {
+            container = new LinkedList<Integer>();
+        }
 
-    public void insert(Integer key) {
-        int index = this.container.indexOf(key);
-        if (index == -1) {
-            this.container.addFirst(key);
+        public void insert(Integer key) {
+            int index = this.container.indexOf(key);
+            if (index == -1) {
+                this.container.addFirst(key);
+            }
+        }
+
+        public void delete(Integer key) {
+            this.container.remove(key);
+        }
+
+        public boolean exists(Integer key) {
+            int index = this.container.indexOf(key);
+            return (index != -1);
         }
     }
 
-    public void delete(Integer key) {
-        this.container.remove(key);
-    }
-
-    public boolean exists(Integer key) {
-        int index = this.container.indexOf(key);
-        return (index != -1);
-    }
 }
+
+
+
