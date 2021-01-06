@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="12月31日打卡">
-      <change afterPath="$PROJECT_DIR$/src/array/PivotIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/LongestWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashTable/MyHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listTable/SplitList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/ToLowerCase.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="1月3日打卡">
+      <change afterPath="$PROJECT_DIR$/src/UnionFind/MergeAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnionFind/MergeAccount2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/AsteroidsCollision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/FloodFill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/CommonLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/MinCostClimbingStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/MonotoneIncreaseNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/SelfDividingNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hashTable/MyHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashTable/MyHashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/UnionFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnionFind/UnionFind.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,9 +59,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PivotIndex">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.BinarySearch" />
+  <component name="RunManager" selected="Application.MinCostClimbingStairs">
+    <configuration name="AsteroidsCollision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.AsteroidsCollision" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -70,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.KthLargest" />
+    <configuration name="MergeAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UnionFind.MergeAccount" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="UnionFind.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,8 +86,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.LongestWord" />
+    <configuration name="MergeAccount2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UnionFind.MergeAccount2" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UnionFind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinCostClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.MinCostClimbingStairs" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -96,25 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PivotIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.PivotIndex" />
+    <configuration name="MonotoneIncreaseNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number.MonotoneIncreaseNum" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ToLowerCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.ToLowerCase" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,19 +224,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.KthLargest" />
-      <item itemvalue="Application.BinarySearch" />
-      <item itemvalue="Application.ToLowerCase" />
-      <item itemvalue="Application.LongestWord" />
-      <item itemvalue="Application.PivotIndex" />
+      <item itemvalue="Application.AsteroidsCollision" />
+      <item itemvalue="Application.MergeAccount2" />
+      <item itemvalue="Application.MergeAccount" />
+      <item itemvalue="Application.MonotoneIncreaseNum" />
+      <item itemvalue="Application.MinCostClimbingStairs" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PivotIndex" />
-        <item itemvalue="Application.LongestWord" />
-        <item itemvalue="Application.ToLowerCase" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.KthLargest" />
+        <item itemvalue="Application.MinCostClimbingStairs" />
+        <item itemvalue="Application.MonotoneIncreaseNum" />
+        <item itemvalue="Application.MergeAccount" />
+        <item itemvalue="Application.MergeAccount2" />
+        <item itemvalue="Application.AsteroidsCollision" />
       </list>
     </recent_temporary>
   </component>
@@ -574,14 +577,11 @@
       <workItem from="1609336960799" duration="2264000" />
       <workItem from="1609376116846" duration="5360000" />
       <workItem from="1609465509724" duration="2791000" />
-      <workItem from="1609638156451" duration="2605000" />
-    </task>
-    <task id="LOCAL-00046" summary="打卡 50，80， 82， 83 ，88">
-      <created>1593919302709</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1593919302709</updated>
+      <workItem from="1609638156451" duration="3314000" />
+      <workItem from="1609720260688" duration="2328000" />
+      <workItem from="1609743683831" duration="3528000" />
+      <workItem from="1609807476992" duration="8823000" />
+      <workItem from="1609893296661" duration="1469000" />
     </task>
     <task id="LOCAL-00047" summary="打卡 81 搜索旋转排序数组Ⅱ">
       <created>1594172135114</created>
@@ -919,7 +919,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609379453542</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="1月3日打卡">
+      <created>1609640796831</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1609640796832</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -939,7 +946,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="日常更新 10月27日" />
     <MESSAGE value="打卡 491" />
     <MESSAGE value="打卡 501 二叉搜索树中的众数" />
     <MESSAGE value="打卡  513，515" />
@@ -964,7 +970,8 @@
     <MESSAGE value="12月28日打卡" />
     <MESSAGE value="12月29日打卡" />
     <MESSAGE value="12月31日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="12月31日打卡" />
+    <MESSAGE value="1月3日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="1月3日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
