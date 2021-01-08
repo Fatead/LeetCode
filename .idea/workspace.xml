@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="1月3日打卡">
-      <change afterPath="$PROJECT_DIR$/src/UnionFind/MergeAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnionFind/MergeAccount2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/AsteroidsCollision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/FloodFill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/CommonLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/MinCostClimbingStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/number/MonotoneIncreaseNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/number/SelfDividingNum.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="1月6日打卡">
+      <change afterPath="$PROJECT_DIR$/src/array/NextGreatestLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/DominantIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/DailyTemperatures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/NextSmallerElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/UnionFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnionFind/UnionFind.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,13 +54,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinCostClimbingStairs">
-    <configuration name="AsteroidsCollision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.AsteroidsCollision" />
+  <component name="RunManager" selected="Application.NextSmallerElement">
+    <configuration name="DailyTemperatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.DailyTemperatures" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,25 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UnionFind.MergeAccount" />
+    <configuration name="DominantIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number.DominantIndex" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnionFind.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeAccount2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UnionFind.MergeAccount2" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UnionFind.*" />
+          <option name="PATTERN" value="number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +94,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonotoneIncreaseNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number.MonotoneIncreaseNum" />
+    <configuration name="NextGreatestLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.NextGreatestLetter" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="number.*" />
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NextSmallerElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.NextSmallerElement" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,19 +219,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.AsteroidsCollision" />
-      <item itemvalue="Application.MergeAccount2" />
-      <item itemvalue="Application.MergeAccount" />
-      <item itemvalue="Application.MonotoneIncreaseNum" />
       <item itemvalue="Application.MinCostClimbingStairs" />
+      <item itemvalue="Application.DominantIndex" />
+      <item itemvalue="Application.NextGreatestLetter" />
+      <item itemvalue="Application.DailyTemperatures" />
+      <item itemvalue="Application.NextSmallerElement" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NextSmallerElement" />
+        <item itemvalue="Application.DailyTemperatures" />
+        <item itemvalue="Application.NextGreatestLetter" />
+        <item itemvalue="Application.DominantIndex" />
         <item itemvalue="Application.MinCostClimbingStairs" />
-        <item itemvalue="Application.MonotoneIncreaseNum" />
-        <item itemvalue="Application.MergeAccount" />
-        <item itemvalue="Application.MergeAccount2" />
-        <item itemvalue="Application.AsteroidsCollision" />
       </list>
     </recent_temporary>
   </component>
@@ -581,14 +576,9 @@
       <workItem from="1609720260688" duration="2328000" />
       <workItem from="1609743683831" duration="3528000" />
       <workItem from="1609807476992" duration="8823000" />
-      <workItem from="1609893296661" duration="1469000" />
-    </task>
-    <task id="LOCAL-00047" summary="打卡 81 搜索旋转排序数组Ⅱ">
-      <created>1594172135114</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1594172135114</updated>
+      <workItem from="1609893296661" duration="1743000" />
+      <workItem from="1609981382177" duration="1241000" />
+      <workItem from="1610066515050" duration="2212000" />
     </task>
     <task id="LOCAL-00048" summary="打卡92 反转链表Ⅱ">
       <created>1594257383124</created>
@@ -926,7 +916,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609640796832</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="1月6日打卡">
+      <created>1609894961443</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1609894961443</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -946,7 +943,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡 491" />
     <MESSAGE value="打卡 501 二叉搜索树中的众数" />
     <MESSAGE value="打卡  513，515" />
     <MESSAGE value="11月28日打卡" />
@@ -971,7 +967,8 @@
     <MESSAGE value="12月29日打卡" />
     <MESSAGE value="12月31日打卡" />
     <MESSAGE value="1月3日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="1月3日打卡" />
+    <MESSAGE value="1月6日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="1月6日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
