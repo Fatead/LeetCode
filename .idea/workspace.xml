@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="1月6日打卡">
-      <change afterPath="$PROJECT_DIR$/src/array/NextGreatestLetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/number/DominantIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/DailyTemperatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/NextSmallerElement.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡 739 单调栈">
+      <change afterPath="$PROJECT_DIR$/src/array/ToeplitzMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashTable/JewelInStone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/ReorganizeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/MinDiffInBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack/NextSmallerElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/NextSmallerElement.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NextSmallerElement">
+  <component name="RunManager" selected="Application.ReorganizeString">
     <configuration name="DailyTemperatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stack.DailyTemperatures" />
       <module name="leetcode" />
@@ -68,38 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DominantIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number.DominantIndex" />
+    <configuration name="JewelInStone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashTable.JewelInStone" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="number.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinCostClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.MinCostClimbingStairs" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NextGreatestLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.NextGreatestLetter" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="hashTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,6 +88,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReorganizeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.ReorganizeString" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToeplitzMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ToeplitzMatrix" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,19 +220,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MinCostClimbingStairs" />
-      <item itemvalue="Application.DominantIndex" />
-      <item itemvalue="Application.NextGreatestLetter" />
       <item itemvalue="Application.DailyTemperatures" />
       <item itemvalue="Application.NextSmallerElement" />
+      <item itemvalue="Application.ToeplitzMatrix" />
+      <item itemvalue="Application.JewelInStone" />
+      <item itemvalue="Application.ReorganizeString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReorganizeString" />
+        <item itemvalue="Application.JewelInStone" />
+        <item itemvalue="Application.ToeplitzMatrix" />
         <item itemvalue="Application.NextSmallerElement" />
         <item itemvalue="Application.DailyTemperatures" />
-        <item itemvalue="Application.NextGreatestLetter" />
-        <item itemvalue="Application.DominantIndex" />
-        <item itemvalue="Application.MinCostClimbingStairs" />
       </list>
     </recent_temporary>
   </component>
@@ -578,14 +579,9 @@
       <workItem from="1609807476992" duration="8823000" />
       <workItem from="1609893296661" duration="1743000" />
       <workItem from="1609981382177" duration="1241000" />
-      <workItem from="1610066515050" duration="2212000" />
-    </task>
-    <task id="LOCAL-00048" summary="打卡92 反转链表Ⅱ">
-      <created>1594257383124</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1594257383124</updated>
+      <workItem from="1610066515050" duration="2671000" />
+      <workItem from="1610189760544" duration="3262000" />
+      <workItem from="1610240139881" duration="2435000" />
     </task>
     <task id="LOCAL-00049" summary="打卡 68 文本左右对齐">
       <created>1594348634397</created>
@@ -923,7 +919,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609894961443</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="打卡 739 单调栈">
+      <created>1610068916471</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1610068916471</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -943,7 +946,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡 501 二叉搜索树中的众数" />
     <MESSAGE value="打卡  513，515" />
     <MESSAGE value="11月28日打卡" />
     <MESSAGE value="12月1日打卡" />
@@ -968,7 +970,8 @@
     <MESSAGE value="12月31日打卡" />
     <MESSAGE value="1月3日打卡" />
     <MESSAGE value="1月6日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="1月6日打卡" />
+    <MESSAGE value="打卡 739 单调栈" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡 739 单调栈" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

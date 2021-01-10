@@ -6,6 +6,10 @@ import java.util.Stack;
 public class NextSmallerElement {
 
 
+    /**
+     * 单调栈，单调栈中入栈的是元素的index，而不是元素本身
+     * 单调栈计算模板
+     */
     private int[] nextSmallerElementIndex(int[] nums){
         int[] result = new int[nums.length];
         Arrays.fill(result,-1);
