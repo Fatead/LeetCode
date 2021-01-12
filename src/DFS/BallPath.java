@@ -1,4 +1,4 @@
-package dfs;
+package DFS;
 
 public class BallPath {
 

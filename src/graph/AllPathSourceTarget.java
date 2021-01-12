@@ -17,6 +17,7 @@ public class AllPathSourceTarget {
         }
     }
 
+
     public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
         if(graph.length == 0)return result;
         dfs(graph,0,new ArrayList<>());
