@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="dfs的应用">
-      <change afterPath="$PROJECT_DIR$/src/BFS/OpenLock.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="BFS">
+      <change afterPath="$PROJECT_DIR$/src/hashTable/PartitionLabels.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dfs/BallPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS/BallPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dfs/CountBattleShips.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS/CountBattleShips.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dfs/LandNums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS/LandNums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dfs/LandPerimeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS/LandPerimeter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dfs/LetterCasePermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS/LetterCasePermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dfs/MaxIslandArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS/MaxIslandArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dfs/MinesSweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS/MinesSweeper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dfs/TargetSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS/TargetSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dfs/WordLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS/WordLadder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dfs/WordLadder2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS/WordLadder2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dfs/wordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DFS/wordSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/AllPathSourceTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/AllPathSourceTarget.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OpenLock">
+  <component name="RunManager" selected="Application.PartitionLabels">
     <configuration name="AllPathSourceTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.AllPathSourceTarget" />
       <module name="leetcode" />
@@ -103,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReorganizeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.ReorganizeString" />
+    <configuration name="PartitionLabels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashTable.PartitionLabels" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="hashTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,19 +216,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ReorganizeString" />
       <item itemvalue="Application.RotateString" />
       <item itemvalue="Application.LetterCasePermutation" />
       <item itemvalue="Application.AllPathSourceTarget" />
       <item itemvalue="Application.OpenLock" />
+      <item itemvalue="Application.PartitionLabels" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PartitionLabels" />
         <item itemvalue="Application.OpenLock" />
         <item itemvalue="Application.AllPathSourceTarget" />
         <item itemvalue="Application.LetterCasePermutation" />
         <item itemvalue="Application.RotateString" />
-        <item itemvalue="Application.ReorganizeString" />
       </list>
     </recent_temporary>
   </component>
@@ -591,14 +579,8 @@
       <workItem from="1610189760544" duration="3262000" />
       <workItem from="1610240139881" duration="3331000" />
       <workItem from="1610325161977" duration="3834000" />
-      <workItem from="1610412331882" duration="1806000" />
-    </task>
-    <task id="LOCAL-00051" summary="打卡94 二叉树的中序遍历">
-      <created>1594602781177</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1594602781177</updated>
+      <workItem from="1610412331882" duration="3477000" />
+      <workItem from="1610502006793" duration="2374000" />
     </task>
     <task id="LOCAL-00052" summary="打卡 96不同的二叉搜索树">
       <created>1594688955203</created>
@@ -936,7 +918,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610328164025</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="BFS">
+      <created>1610414164247</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1610414164247</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -956,7 +945,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="12月1日打卡" />
     <MESSAGE value="12月3日打卡" />
     <MESSAGE value="12月5日打卡" />
     <MESSAGE value="12月7日打卡" />
@@ -981,7 +969,8 @@
     <MESSAGE value="打卡 739 单调栈" />
     <MESSAGE value="最大堆的应用" />
     <MESSAGE value="dfs的应用" />
-    <option name="LAST_COMMIT_MESSAGE" value="dfs的应用" />
+    <MESSAGE value="BFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="BFS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
