@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="BFS">
-      <change afterPath="$PROJECT_DIR$/src/hashTable/PartitionLabels.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="11月13号打卡">
+      <change afterPath="$PROJECT_DIR$/src/backtracking/NumSubArrayBounded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/CustomSortString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PartitionLabels">
+  <component name="RunManager" selected="Application.NumSubArrayBounded">
     <configuration name="AllPathSourceTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.AllPathSourceTarget" />
       <module name="leetcode" />
@@ -65,12 +66,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetterCasePermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFS.LetterCasePermutation" />
+    <configuration name="CustomSortString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.CustomSortString" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DFS.*" />
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumSubArrayBounded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.NumSubArrayBounded" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,19 +111,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="hashTable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RotateString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.RotateString" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,19 +217,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.RotateString" />
-      <item itemvalue="Application.LetterCasePermutation" />
       <item itemvalue="Application.AllPathSourceTarget" />
       <item itemvalue="Application.OpenLock" />
       <item itemvalue="Application.PartitionLabels" />
+      <item itemvalue="Application.CustomSortString" />
+      <item itemvalue="Application.NumSubArrayBounded" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumSubArrayBounded" />
+        <item itemvalue="Application.CustomSortString" />
         <item itemvalue="Application.PartitionLabels" />
         <item itemvalue="Application.OpenLock" />
         <item itemvalue="Application.AllPathSourceTarget" />
-        <item itemvalue="Application.LetterCasePermutation" />
-        <item itemvalue="Application.RotateString" />
       </list>
     </recent_temporary>
   </component>
@@ -580,14 +581,8 @@
       <workItem from="1610240139881" duration="3331000" />
       <workItem from="1610325161977" duration="3834000" />
       <workItem from="1610412331882" duration="3477000" />
-      <workItem from="1610502006793" duration="2374000" />
-    </task>
-    <task id="LOCAL-00052" summary="打卡 96不同的二叉搜索树">
-      <created>1594688955203</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1594688955203</updated>
+      <workItem from="1610502006793" duration="2597000" />
+      <workItem from="1610585733933" duration="4022000" />
     </task>
     <task id="LOCAL-00053" summary="打卡 91 解码方法">
       <created>1594949986000</created>
@@ -925,7 +920,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610414164247</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="11月13号打卡">
+      <created>1610504404402</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1610504404402</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -945,7 +947,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="12月3日打卡" />
     <MESSAGE value="12月5日打卡" />
     <MESSAGE value="12月7日打卡" />
     <MESSAGE value="12月8日打卡" />
@@ -970,7 +971,8 @@
     <MESSAGE value="最大堆的应用" />
     <MESSAGE value="dfs的应用" />
     <MESSAGE value="BFS" />
-    <option name="LAST_COMMIT_MESSAGE" value="BFS" />
+    <MESSAGE value="11月13号打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="11月13号打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
