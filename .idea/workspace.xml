@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡 791，795">
-      <change afterPath="$PROJECT_DIR$/src/graph/BiPartition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/MyEntry.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡 785，判断二分图">
+      <change afterPath="$PROJECT_DIR$/src/hashTable/UniqueMorse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/KthGrammar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BiPartition">
+  <component name="RunManager" selected="Application.KthGrammar">
     <configuration name="BiPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.BiPartition" />
       <module name="leetcode" />
@@ -79,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumSubArrayBounded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.NumSubArrayBounded" />
+    <configuration name="KthGrammar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.KthGrammar" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="backtracking.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BFS.OpenLock" />
+    <configuration name="NumSubArrayBounded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.NumSubArrayBounded" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BFS.*" />
+          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,19 +217,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.OpenLock" />
       <item itemvalue="Application.PartitionLabels" />
       <item itemvalue="Application.CustomSortString" />
       <item itemvalue="Application.NumSubArrayBounded" />
       <item itemvalue="Application.BiPartition" />
+      <item itemvalue="Application.KthGrammar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KthGrammar" />
         <item itemvalue="Application.BiPartition" />
         <item itemvalue="Application.NumSubArrayBounded" />
         <item itemvalue="Application.CustomSortString" />
         <item itemvalue="Application.PartitionLabels" />
-        <item itemvalue="Application.OpenLock" />
       </list>
     </recent_temporary>
   </component>
@@ -583,14 +583,8 @@
       <workItem from="1610412331882" duration="3477000" />
       <workItem from="1610502006793" duration="2597000" />
       <workItem from="1610585733933" duration="4782000" />
-      <workItem from="1610672188517" duration="3840000" />
-    </task>
-    <task id="LOCAL-00054" summary="打卡100 相同的树， 102 二叉树的层序遍历">
-      <created>1595125399685</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1595125399685</updated>
+      <workItem from="1610672188517" duration="4740000" />
+      <workItem from="1610700805772" duration="2122000" />
     </task>
     <task id="LOCAL-00055" summary="打卡 104二叉树的最大深度，106 从中序与后序遍历序列构造二叉树">
       <created>1595295576613</created>
@@ -928,7 +922,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610589939655</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="打卡 785，判断二分图">
+      <created>1610676130249</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1610676130250</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -948,7 +949,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="12月7日打卡" />
     <MESSAGE value="12月8日打卡" />
     <MESSAGE value="12月9日打卡" />
     <MESSAGE value="12月10日打卡" />
@@ -973,7 +973,8 @@
     <MESSAGE value="BFS" />
     <MESSAGE value="11月13号打卡" />
     <MESSAGE value="打卡 791，795" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡 791，795" />
+    <MESSAGE value="打卡 785，判断二分图" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡 785，判断二分图" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
