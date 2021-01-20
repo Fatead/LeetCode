@@ -22,7 +22,6 @@ public class SubDomainVisits {
                     StringBuilder stringBuilder1 = new StringBuilder(sites[i]);
                     stringBuilder1.append(".").append(stringBuilder);
                     stringBuilder = stringBuilder1;
-                    //stringBuilder.append(".").append(sites[i]);
                     countMap.put(stringBuilder.toString(), countMap.getOrDefault(stringBuilder.toString(),0)+counts);
                 }
             }
