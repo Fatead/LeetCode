@@ -5,7 +5,6 @@ import java.util.Map;
 
 public class DuplicateNum3 {
 
-
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
         Map<Integer,Integer> map = new HashMap<>();
         if(nums.length == 1)return false;

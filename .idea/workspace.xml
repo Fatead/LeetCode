@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡  806，811">
-      <change afterPath="$PROJECT_DIR$/src/array/MaxIncreaseSkyline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashTable/MostCommonWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/PruneTree.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="1月20日打卡">
+      <change afterPath="$PROJECT_DIR$/src/string/LargeGroupPositions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/MinLengthEncoding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/ShortestToChar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hashTable/SubDomainVisits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashTable/SubDomainVisits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hashTable/DuplicateNum3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashTable/DuplicateNum3.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,9 +54,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MostCommonWord">
-    <configuration name="KthGrammar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.KthGrammar" />
+  <component name="RunManager" selected="Application.LargeGroupPositions">
+    <configuration name="LargeGroupPositions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.LargeGroupPositions" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -81,6 +81,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinLengthEncoding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.MinLengthEncoding" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MostCommonWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hashTable.MostCommonWord" />
       <module name="leetcode" />
@@ -94,25 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumOfLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashTable.NumOfLines" />
+    <configuration name="ShortestToChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.ShortestToChar" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashTable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubDomainVisits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashTable.SubDomainVisits" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hashTable.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,19 +219,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.KthGrammar" />
-      <item itemvalue="Application.NumOfLines" />
-      <item itemvalue="Application.SubDomainVisits" />
       <item itemvalue="Application.MaxIncreaseSkyline" />
       <item itemvalue="Application.MostCommonWord" />
+      <item itemvalue="Application.MinLengthEncoding" />
+      <item itemvalue="Application.ShortestToChar" />
+      <item itemvalue="Application.LargeGroupPositions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LargeGroupPositions" />
+        <item itemvalue="Application.ShortestToChar" />
+        <item itemvalue="Application.MinLengthEncoding" />
         <item itemvalue="Application.MostCommonWord" />
         <item itemvalue="Application.MaxIncreaseSkyline" />
-        <item itemvalue="Application.SubDomainVisits" />
-        <item itemvalue="Application.NumOfLines" />
-        <item itemvalue="Application.KthGrammar" />
       </list>
     </recent_temporary>
   </component>
@@ -590,14 +590,9 @@
       <workItem from="1610852654789" duration="3292000" />
       <workItem from="1610930343559" duration="1558000" />
       <workItem from="1611017226549" duration="1180000" />
-      <workItem from="1611103506320" duration="1805000" />
-    </task>
-    <task id="LOCAL-00057" summary="打卡 126 ，127，129">
-      <created>1595734261363</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1595734261363</updated>
+      <workItem from="1611103506320" duration="6778000" />
+      <workItem from="1611189970104" duration="4019000" />
+      <workItem from="1611276991040" duration="3111000" />
     </task>
     <task id="LOCAL-00058" summary="打卡 143，144，145，147">
       <created>1596337162061</created>
@@ -935,7 +930,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610854940036</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="1月20日打卡">
+      <created>1611105337142</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1611105337142</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -955,7 +957,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="12月10日打卡" />
     <MESSAGE value="12月13日打卡" />
     <MESSAGE value="12月14日打卡" />
     <MESSAGE value="12月15日打卡" />
@@ -980,16 +981,12 @@
     <MESSAGE value="打卡 785，判断二分图" />
     <MESSAGE value="打卡 779，804" />
     <MESSAGE value="打卡  806，811" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡  806，811" />
+    <MESSAGE value="1月20日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="1月20日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/hashTable/DuplicateNum3.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/number/RectangleArea.java</url>
           <line>6</line>
