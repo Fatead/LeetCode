@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="1月20日打卡">
-      <change afterPath="$PROJECT_DIR$/src/string/LargeGroupPositions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/MinLengthEncoding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/ShortestToChar.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="1月22日打卡">
+      <change afterPath="$PROJECT_DIR$/src/array/InvertImg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/RectangleOverlap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hashTable/DuplicateNum3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashTable/DuplicateNum3.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,13 +52,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LargeGroupPositions">
-    <configuration name="LargeGroupPositions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.LargeGroupPositions" />
+  <component name="RunManager" selected="Application.RectangleOverlap">
+    <configuration name="InvertImg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.InvertImg" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxIncreaseSkyline" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.MaxIncreaseSkyline" />
+    <configuration name="LargeGroupPositions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.LargeGroupPositions" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MostCommonWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashTable.MostCommonWord" />
+    <configuration name="RectangleOverlap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.RectangleOverlap" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashTable.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,19 +217,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MaxIncreaseSkyline" />
-      <item itemvalue="Application.MostCommonWord" />
       <item itemvalue="Application.MinLengthEncoding" />
       <item itemvalue="Application.ShortestToChar" />
       <item itemvalue="Application.LargeGroupPositions" />
+      <item itemvalue="Application.InvertImg" />
+      <item itemvalue="Application.RectangleOverlap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RectangleOverlap" />
+        <item itemvalue="Application.InvertImg" />
         <item itemvalue="Application.LargeGroupPositions" />
         <item itemvalue="Application.ShortestToChar" />
         <item itemvalue="Application.MinLengthEncoding" />
-        <item itemvalue="Application.MostCommonWord" />
-        <item itemvalue="Application.MaxIncreaseSkyline" />
       </list>
     </recent_temporary>
   </component>
@@ -592,14 +590,8 @@
       <workItem from="1611017226549" duration="1180000" />
       <workItem from="1611103506320" duration="6778000" />
       <workItem from="1611189970104" duration="4019000" />
-      <workItem from="1611276991040" duration="3111000" />
-    </task>
-    <task id="LOCAL-00058" summary="打卡 143，144，145，147">
-      <created>1596337162061</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1596337162061</updated>
+      <workItem from="1611276991040" duration="5328000" />
+      <workItem from="1611369332949" duration="2242000" />
     </task>
     <task id="LOCAL-00059" summary="日常提交">
       <created>1597365820973</created>
@@ -937,7 +929,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611105337142</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="1月22日打卡">
+      <created>1611283468613</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1611283468614</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -957,7 +956,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="12月13日打卡" />
     <MESSAGE value="12月14日打卡" />
     <MESSAGE value="12月15日打卡" />
     <MESSAGE value="12月16日打卡" />
@@ -982,7 +980,8 @@
     <MESSAGE value="打卡 779，804" />
     <MESSAGE value="打卡  806，811" />
     <MESSAGE value="1月20日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="1月20日打卡" />
+    <MESSAGE value="1月22日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="1月22日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
