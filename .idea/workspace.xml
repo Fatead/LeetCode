@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="1月25日打卡">
-      <change afterPath="$PROJECT_DIR$/src/string/CompareBackSpace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/GoatLatin.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡 824，844">
+      <change afterPath="$PROJECT_DIR$/src/BFS/VisitRooms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/LongestMountain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CompareBackSpace">
+  <component name="RunManager" selected="Application.LongestMountain">
     <configuration name="CompareBackSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.CompareBackSpace" />
       <module name="leetcode" />
@@ -79,25 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvertImg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.InvertImg" />
+    <configuration name="LongestMountain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.LongestMountain" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RectangleOverlap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.RectangleOverlap" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,6 +98,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisitRooms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BFS.VisitRooms" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,19 +217,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.InvertImg" />
-      <item itemvalue="Application.RectangleOverlap" />
       <item itemvalue="Application.SplitIntoFibonacci" />
       <item itemvalue="Application.GoatLatin" />
       <item itemvalue="Application.CompareBackSpace" />
+      <item itemvalue="Application.VisitRooms" />
+      <item itemvalue="Application.LongestMountain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestMountain" />
+        <item itemvalue="Application.VisitRooms" />
         <item itemvalue="Application.CompareBackSpace" />
         <item itemvalue="Application.GoatLatin" />
         <item itemvalue="Application.SplitIntoFibonacci" />
-        <item itemvalue="Application.RectangleOverlap" />
-        <item itemvalue="Application.InvertImg" />
       </list>
     </recent_temporary>
   </component>
@@ -594,14 +594,8 @@
       <workItem from="1611369332949" duration="4474000" />
       <workItem from="1611455595938" duration="4584000" />
       <workItem from="1611537039307" duration="2272000" />
-      <workItem from="1611621758222" duration="2069000" />
-    </task>
-    <task id="LOCAL-00062" summary="8月29日打卡">
-      <created>1598683571866</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1598683571866</updated>
+      <workItem from="1611621758222" duration="3490000" />
+      <workItem from="1611709855814" duration="4057000" />
     </task>
     <task id="LOCAL-00063" summary="日常更新 9月6">
       <created>1599361415631</created>
@@ -939,7 +933,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611538653184</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="打卡 824，844">
+      <created>1611623851585</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1611623851585</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -959,7 +960,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="12月17日打卡" />
     <MESSAGE value="12月20日打卡" />
     <MESSAGE value="12月23日打卡" />
     <MESSAGE value="分别使用DFS和并查集解决684题" />
@@ -984,7 +984,8 @@
     <MESSAGE value="1月23日打卡" />
     <MESSAGE value="打卡 842   回溯 + 剪枝" />
     <MESSAGE value="1月25日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="1月25日打卡" />
+    <MESSAGE value="打卡 824，844" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡 824，844" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
