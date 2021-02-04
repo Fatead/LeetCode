@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡 824，844">
-      <change afterPath="$PROJECT_DIR$/src/BFS/VisitRooms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/LongestMountain.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡  841，845">
+      <change afterPath="$PROJECT_DIR$/src/array/MagicSquaresInside.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/MatrixScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/PeakIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/TransposeMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/MaxProfit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashTable/ShortestCompletingWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/MyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack/DailyTemperatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/DailyTemperatures.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/课程资料/高级数据库/Advanced database/Advanced database" />
+    <property name="last_opened_file_path" value="D:/GaodunOCRM/ace-listener.gaodunwangxiao.com" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -52,13 +58,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestMountain">
-    <configuration name="CompareBackSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.CompareBackSpace" />
+  <component name="RunManager" selected="Application.MaxProfit">
+    <configuration name="MagicSquaresInside" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.MagicSquaresInside" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoatLatin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.GoatLatin" />
+    <configuration name="MatrixScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.MatrixScore" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestMountain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.LongestMountain" />
+    <configuration name="MaxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.MaxProfit" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -92,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SplitIntoFibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.SplitIntoFibonacci" />
+    <configuration name="ShortestCompletingWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashTable.ShortestCompletingWord" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="backtracking.*" />
+          <option name="PATTERN" value="hashTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VisitRooms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BFS.VisitRooms" />
+    <configuration name="TransposeMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.TransposeMatrix" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BFS.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,19 +223,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.SplitIntoFibonacci" />
-      <item itemvalue="Application.GoatLatin" />
-      <item itemvalue="Application.CompareBackSpace" />
-      <item itemvalue="Application.VisitRooms" />
-      <item itemvalue="Application.LongestMountain" />
+      <item itemvalue="Application.TransposeMatrix" />
+      <item itemvalue="Application.MatrixScore" />
+      <item itemvalue="Application.MagicSquaresInside" />
+      <item itemvalue="Application.ShortestCompletingWord" />
+      <item itemvalue="Application.MaxProfit" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LongestMountain" />
-        <item itemvalue="Application.VisitRooms" />
-        <item itemvalue="Application.CompareBackSpace" />
-        <item itemvalue="Application.GoatLatin" />
-        <item itemvalue="Application.SplitIntoFibonacci" />
+        <item itemvalue="Application.MaxProfit" />
+        <item itemvalue="Application.ShortestCompletingWord" />
+        <item itemvalue="Application.MagicSquaresInside" />
+        <item itemvalue="Application.MatrixScore" />
+        <item itemvalue="Application.TransposeMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -595,14 +601,15 @@
       <workItem from="1611455595938" duration="4584000" />
       <workItem from="1611537039307" duration="2272000" />
       <workItem from="1611621758222" duration="3490000" />
-      <workItem from="1611709855814" duration="4057000" />
-    </task>
-    <task id="LOCAL-00063" summary="日常更新 9月6">
-      <created>1599361415631</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1599361415631</updated>
+      <workItem from="1611709855814" duration="5009000" />
+      <workItem from="1611726831127" duration="1745000" />
+      <workItem from="1611818766955" duration="78000" />
+      <workItem from="1611881682737" duration="1039000" />
+      <workItem from="1611972175277" duration="1929000" />
+      <workItem from="1612139872708" duration="1350000" />
+      <workItem from="1612226396751" duration="2885000" />
+      <workItem from="1612312440541" duration="2442000" />
+      <workItem from="1612398982319" duration="3043000" />
     </task>
     <task id="LOCAL-00064" summary="日常更新 9月15">
       <created>1600146968392</created>
@@ -940,7 +947,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611623851585</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="打卡  841，845">
+      <created>1611714652911</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1611714652911</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -960,7 +974,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="12月20日打卡" />
     <MESSAGE value="12月23日打卡" />
     <MESSAGE value="分别使用DFS和并查集解决684题" />
     <MESSAGE value="打卡  678，692" />
@@ -985,7 +998,8 @@
     <MESSAGE value="打卡 842   回溯 + 剪枝" />
     <MESSAGE value="1月25日打卡" />
     <MESSAGE value="打卡 824，844" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡 824，844" />
+    <MESSAGE value="打卡  841，845" />
+    <option name="LAST_COMMIT_MESSAGE" value="打卡  841，845" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

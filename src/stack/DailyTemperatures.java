@@ -24,7 +24,7 @@ public class DailyTemperatures {
 
 
     /**
-     * 单调栈
+     * 单调栈，单调栈中放的是数组中的序号
      */
     public int[] dailyTemperatures2(int[] T) {
         Stack<Integer> stack = new Stack<>();
