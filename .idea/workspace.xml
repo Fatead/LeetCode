@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="打卡  841，845">
-      <change afterPath="$PROJECT_DIR$/src/array/MagicSquaresInside.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/MatrixScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/PeakIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/TransposeMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/MaxProfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashTable/ShortestCompletingWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listTable/MyLinkedList.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="2月4号打卡">
+      <change afterPath="$PROJECT_DIR$/src/array/FindNumberIn2DArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/MaxDistToClosest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashTable/RepeatNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/PrintLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/ReplaceSpace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/DailyTemperatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/DailyTemperatures.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,9 +55,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaxProfit">
-    <configuration name="MagicSquaresInside" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.MagicSquaresInside" />
+  <component name="RunManager" selected="Application.ReplaceSpace">
+    <configuration name="FindNumberIn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.FindNumberIn2DArray" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -72,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.MatrixScore" />
+    <configuration name="MaxDistToClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.MaxDistToClosest" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestCompletingWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashTable.ShortestCompletingWord" />
+    <configuration name="RepeatNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashTable.RepeatNumber" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -111,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransposeMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.TransposeMatrix" />
+    <configuration name="ReplaceSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.ReplaceSpace" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,19 +220,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.TransposeMatrix" />
-      <item itemvalue="Application.MatrixScore" />
-      <item itemvalue="Application.MagicSquaresInside" />
-      <item itemvalue="Application.ShortestCompletingWord" />
       <item itemvalue="Application.MaxProfit" />
+      <item itemvalue="Application.MaxDistToClosest" />
+      <item itemvalue="Application.RepeatNumber" />
+      <item itemvalue="Application.FindNumberIn2DArray" />
+      <item itemvalue="Application.ReplaceSpace" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReplaceSpace" />
+        <item itemvalue="Application.FindNumberIn2DArray" />
+        <item itemvalue="Application.RepeatNumber" />
+        <item itemvalue="Application.MaxDistToClosest" />
         <item itemvalue="Application.MaxProfit" />
-        <item itemvalue="Application.ShortestCompletingWord" />
-        <item itemvalue="Application.MagicSquaresInside" />
-        <item itemvalue="Application.MatrixScore" />
-        <item itemvalue="Application.TransposeMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -609,14 +606,9 @@
       <workItem from="1612139872708" duration="1350000" />
       <workItem from="1612226396751" duration="2885000" />
       <workItem from="1612312440541" duration="2442000" />
-      <workItem from="1612398982319" duration="3043000" />
-    </task>
-    <task id="LOCAL-00064" summary="日常更新 9月15">
-      <created>1600146968392</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1600146968392</updated>
+      <workItem from="1612398982319" duration="3259000" />
+      <workItem from="1612485775750" duration="2358000" />
+      <workItem from="1612511680290" duration="4487000" />
     </task>
     <task id="LOCAL-00065" summary="日常更新 10月3日">
       <created>1601690020401</created>
@@ -954,7 +946,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611714652911</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="2月4号打卡">
+      <created>1612402280012</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1612402280012</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -974,7 +973,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="12月23日打卡" />
     <MESSAGE value="分别使用DFS和并查集解决684题" />
     <MESSAGE value="打卡  678，692" />
     <MESSAGE value="打卡  687，695，696" />
@@ -999,7 +997,8 @@
     <MESSAGE value="1月25日打卡" />
     <MESSAGE value="打卡 824，844" />
     <MESSAGE value="打卡  841，845" />
-    <option name="LAST_COMMIT_MESSAGE" value="打卡  841，845" />
+    <MESSAGE value="2月4号打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="2月4号打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
