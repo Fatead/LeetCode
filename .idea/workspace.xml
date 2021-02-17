@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="2月4号打卡">
-      <change afterPath="$PROJECT_DIR$/src/array/FindNumberIn2DArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/MaxDistToClosest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashTable/RepeatNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/PrintLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/ReplaceSpace.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="2月5号打卡">
+      <change afterPath="$PROJECT_DIR$/src/array/LemonChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/LongestFib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/AddTwoNums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/MiddleNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/Fiber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queue/CQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/ParenthesesScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/RebuildTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/SimilarLeaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/SubTreeDeepest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,9 +60,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReplaceSpace">
-    <configuration name="FindNumberIn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.FindNumberIn2DArray" />
+  <component name="RunManager" selected="Application.LongestFib">
+    <configuration name="Fiber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number.Fiber" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="number.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LemonChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.LemonChange" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -69,21 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxDistToClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.MaxDistToClosest" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.MaxProfit" />
+    <configuration name="LongestFib" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.LongestFib" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -95,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeatNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashTable.RepeatNumber" />
+    <configuration name="ParenthesesScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.ParenthesesScore" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashTable.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.ReplaceSpace" />
+    <configuration name="RebuildTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.RebuildTree" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,19 +225,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MaxProfit" />
-      <item itemvalue="Application.MaxDistToClosest" />
-      <item itemvalue="Application.RepeatNumber" />
-      <item itemvalue="Application.FindNumberIn2DArray" />
-      <item itemvalue="Application.ReplaceSpace" />
+      <item itemvalue="Application.RebuildTree" />
+      <item itemvalue="Application.Fiber" />
+      <item itemvalue="Application.LemonChange" />
+      <item itemvalue="Application.ParenthesesScore" />
+      <item itemvalue="Application.LongestFib" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReplaceSpace" />
-        <item itemvalue="Application.FindNumberIn2DArray" />
-        <item itemvalue="Application.RepeatNumber" />
-        <item itemvalue="Application.MaxDistToClosest" />
-        <item itemvalue="Application.MaxProfit" />
+        <item itemvalue="Application.LongestFib" />
+        <item itemvalue="Application.ParenthesesScore" />
+        <item itemvalue="Application.LemonChange" />
+        <item itemvalue="Application.Fiber" />
+        <item itemvalue="Application.RebuildTree" />
       </list>
     </recent_temporary>
   </component>
@@ -608,14 +613,19 @@
       <workItem from="1612312440541" duration="2442000" />
       <workItem from="1612398982319" duration="3259000" />
       <workItem from="1612485775750" duration="2358000" />
-      <workItem from="1612511680290" duration="4487000" />
-    </task>
-    <task id="LOCAL-00065" summary="日常更新 10月3日">
-      <created>1601690020401</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1601690020401</updated>
+      <workItem from="1612511680290" duration="5576000" />
+      <workItem from="1612518577042" duration="292000" />
+      <workItem from="1612571584195" duration="1116000" />
+      <workItem from="1612579617137" duration="249000" />
+      <workItem from="1612660478600" duration="1362000" />
+      <workItem from="1612749655667" duration="3464000" />
+      <workItem from="1612917589695" duration="1481000" />
+      <workItem from="1613089607046" duration="4491000" />
+      <workItem from="1613176600538" duration="4766000" />
+      <workItem from="1613272517430" duration="1085000" />
+      <workItem from="1613349502037" duration="2763000" />
+      <workItem from="1613435120641" duration="1662000" />
+      <workItem from="1613521852643" duration="687000" />
     </task>
     <task id="LOCAL-00066" summary="日常更新 10月6日">
       <created>1601964772319</created>
@@ -953,7 +963,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612402280012</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="2月5号打卡">
+      <created>1612516181772</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1612516181772</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -973,7 +990,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="分别使用DFS和并查集解决684题" />
     <MESSAGE value="打卡  678，692" />
     <MESSAGE value="打卡  687，695，696" />
     <MESSAGE value="12月28日打卡" />
@@ -998,7 +1014,8 @@
     <MESSAGE value="打卡 824，844" />
     <MESSAGE value="打卡  841，845" />
     <MESSAGE value="2月4号打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="2月4号打卡" />
+    <MESSAGE value="2月5号打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="2月5号打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
