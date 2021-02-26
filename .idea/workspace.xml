@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="2月17号打卡">
-      <change afterPath="$PROJECT_DIR$/src/BFS/MovingCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DFS/MatrixPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/MinArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/Monotonic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ProjectionArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/CuttingRope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/NumWays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/number/HammingWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/number/MyPow.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="2月25号打卡">
+      <change afterPath="$PROJECT_DIR$/src/designPattern/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designPattern/SingletonHungry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/DeleteNode2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/PrintNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyPow">
+  <component name="RunManager" selected="Application.PrintNumbers">
     <configuration name="CuttingRope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dp.CuttingRope" />
       <module name="leetcode" />
@@ -86,19 +81,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.MinArray" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MovingCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BFS.MovingCount" />
       <module name="leetcode" />
@@ -114,6 +96,19 @@
     </configuration>
     <configuration name="MyPow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="number.MyPow" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="number.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number.PrintNumbers" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -224,19 +219,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MinArray" />
       <item itemvalue="Application.MatrixPath" />
       <item itemvalue="Application.MovingCount" />
       <item itemvalue="Application.CuttingRope" />
       <item itemvalue="Application.MyPow" />
+      <item itemvalue="Application.PrintNumbers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintNumbers" />
         <item itemvalue="Application.MyPow" />
         <item itemvalue="Application.CuttingRope" />
         <item itemvalue="Application.MovingCount" />
         <item itemvalue="Application.MatrixPath" />
-        <item itemvalue="Application.MinArray" />
       </list>
     </recent_temporary>
   </component>
@@ -633,14 +628,10 @@
       <workItem from="1614067632663" duration="2058000" />
       <workItem from="1614079066778" duration="1218000" />
       <workItem from="1614127671552" duration="2145000" />
-      <workItem from="1614213669861" duration="492000" />
-    </task>
-    <task id="LOCAL-00067" summary="日常更新 10月13日">
-      <created>1602550795901</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1602550795901</updated>
+      <workItem from="1614213669861" duration="665000" />
+      <workItem from="1614214438632" duration="358000" />
+      <workItem from="1614256486877" duration="1087000" />
+      <workItem from="1614301107386" duration="1160000" />
     </task>
     <task id="LOCAL-00068" summary="日常更新 10月22日">
       <created>1603328559984</created>
@@ -978,7 +969,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613522565465</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="2月25号打卡">
+      <created>1614214318343</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1614214318343</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -998,7 +996,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡  687，695，696" />
     <MESSAGE value="12月28日打卡" />
     <MESSAGE value="12月29日打卡" />
     <MESSAGE value="12月31日打卡" />
@@ -1023,7 +1020,8 @@
     <MESSAGE value="2月4号打卡" />
     <MESSAGE value="2月5号打卡" />
     <MESSAGE value="2月17号打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="2月17号打卡" />
+    <MESSAGE value="2月25号打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="2月25号打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
