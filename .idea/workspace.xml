@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="2月25号打卡">
-      <change afterPath="$PROJECT_DIR$/src/designPattern/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/designPattern/SingletonHungry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listTable/DeleteNode2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/number/PrintNumbers.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="增加单例设计模式">
+      <change afterPath="$PROJECT_DIR$/src/array/ExchangeArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/ReverseList2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/getKthFromEnd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrintNumbers">
+  <component name="RunManager" selected="Application.ExchangeArray">
     <configuration name="CuttingRope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dp.CuttingRope" />
       <module name="leetcode" />
@@ -68,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFS.MatrixPath" />
+    <configuration name="ExchangeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ExchangeArray" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DFS.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,19 +218,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MatrixPath" />
       <item itemvalue="Application.MovingCount" />
       <item itemvalue="Application.CuttingRope" />
       <item itemvalue="Application.MyPow" />
       <item itemvalue="Application.PrintNumbers" />
+      <item itemvalue="Application.ExchangeArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExchangeArray" />
         <item itemvalue="Application.PrintNumbers" />
         <item itemvalue="Application.MyPow" />
         <item itemvalue="Application.CuttingRope" />
         <item itemvalue="Application.MovingCount" />
-        <item itemvalue="Application.MatrixPath" />
       </list>
     </recent_temporary>
   </component>
@@ -631,14 +630,10 @@
       <workItem from="1614213669861" duration="665000" />
       <workItem from="1614214438632" duration="358000" />
       <workItem from="1614256486877" duration="1087000" />
-      <workItem from="1614301107386" duration="1160000" />
-    </task>
-    <task id="LOCAL-00068" summary="日常更新 10月22日">
-      <created>1603328559984</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1603328559984</updated>
+      <workItem from="1614301107386" duration="1354000" />
+      <workItem from="1614388861565" duration="1305000" />
+      <workItem from="1614474671119" duration="304000" />
+      <workItem from="1614558824908" duration="397000" />
     </task>
     <task id="LOCAL-00069" summary="日常更新 10月22日">
       <created>1603675513109</created>
@@ -976,7 +971,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614214318343</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="增加单例设计模式">
+      <created>1614302410328</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1614302410328</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -996,7 +998,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="12月28日打卡" />
     <MESSAGE value="12月29日打卡" />
     <MESSAGE value="12月31日打卡" />
     <MESSAGE value="1月3日打卡" />
@@ -1021,7 +1022,8 @@
     <MESSAGE value="2月5号打卡" />
     <MESSAGE value="2月17号打卡" />
     <MESSAGE value="2月25号打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="2月25号打卡" />
+    <MESSAGE value="增加单例设计模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加单例设计模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
