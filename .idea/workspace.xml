@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="3月4号打卡">
-      <change afterPath="$PROJECT_DIR$/src/array/PrintMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listTable/CopyRandomList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/MiniStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/ValidStackSeq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/CodeC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/IsSymmetricTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/LevelOrderPrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/TreeByDoublyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/VerifyPostOrder.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="3月12号打卡">
+      <change afterPath="$PROJECT_DIR$/src/array/LeastNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,9 +54,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VerifyPostOrder">
-    <configuration name="ExchangeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ExchangeArray" />
+  <component name="RunManager" selected="Application.QuickSort">
+    <configuration name="LeastNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.LeastNumbers" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -73,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.PrintMatrix" />
+    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.MajorityElement" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -86,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number.PrintNumbers" />
+    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.Permutation" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="number.*" />
+          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidStackSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.ValidStackSeq" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,19 +219,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.PrintNumbers" />
-      <item itemvalue="Application.ExchangeArray" />
-      <item itemvalue="Application.PrintMatrix" />
-      <item itemvalue="Application.ValidStackSeq" />
       <item itemvalue="Application.VerifyPostOrder" />
+      <item itemvalue="Application.Permutation" />
+      <item itemvalue="Application.MajorityElement" />
+      <item itemvalue="Application.LeastNumbers" />
+      <item itemvalue="Application.QuickSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.LeastNumbers" />
+        <item itemvalue="Application.MajorityElement" />
+        <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.VerifyPostOrder" />
-        <item itemvalue="Application.ValidStackSeq" />
-        <item itemvalue="Application.PrintMatrix" />
-        <item itemvalue="Application.ExchangeArray" />
-        <item itemvalue="Application.PrintNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -650,14 +645,10 @@
       <workItem from="1615336439361" duration="2928000" />
       <workItem from="1615365977943" duration="14000" />
       <workItem from="1615423352326" duration="2658000" />
-      <workItem from="1615509506622" duration="4193000" />
-    </task>
-    <task id="LOCAL-00071" summary="打卡 491">
-      <created>1603935213899</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1603935213899</updated>
+      <workItem from="1615509506622" duration="4455000" />
+      <workItem from="1615514941367" duration="36000" />
+      <workItem from="1615601352959" duration="989000" />
+      <workItem from="1615687495757" duration="3451000" />
     </task>
     <task id="LOCAL-00072" summary="打卡 501 二叉搜索树中的众数">
       <created>1604451651304</created>
@@ -995,7 +986,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614818814313</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="3月12号打卡">
+      <created>1615513947981</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1615513947981</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1015,7 +1013,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1月3日打卡" />
     <MESSAGE value="1月6日打卡" />
     <MESSAGE value="打卡 739 单调栈" />
     <MESSAGE value="最大堆的应用" />
@@ -1040,7 +1037,8 @@
     <MESSAGE value="增加单例设计模式" />
     <MESSAGE value="打卡 剑指24" />
     <MESSAGE value="3月4号打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="3月4号打卡" />
+    <MESSAGE value="3月12号打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="3月12号打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
