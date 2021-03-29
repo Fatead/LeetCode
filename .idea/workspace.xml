@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="3月15号打卡">
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/MinFlips.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ArrayToMinNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backtracking/MaxValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backtracking/TranslateNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashTable/FileSharing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/number/NthUglyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingWindows/CheckInclusion2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingWindows/LongestSubString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingWindows/MinWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/FindNthDigit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/UniqueChar.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="3月22号打卡">
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/SingleNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/CountNums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/MissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ReversePairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/IntersectionNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/SqrtDouble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/IsBalancedTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/KthBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/MaxDepthTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,13 +59,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UniqueChar">
-    <configuration name="CheckInclusion2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingWindows.CheckInclusion2" />
+  <component name="RunManager" selected="Application.MissingNumber">
+    <configuration name="CountNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.CountNums" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingWindows.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,25 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingWindows.LongestSubString" />
+    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.MissingNumber" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingWindows.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingWindows.MinWindow" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="slidingWindows.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,6 +92,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="number.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReversePairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ReversePairs" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,19 +224,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.LongestSubString" />
-      <item itemvalue="Application.MinWindow" />
-      <item itemvalue="Application.CheckInclusion2" />
       <item itemvalue="Application.NthUglyNumber" />
       <item itemvalue="Application.UniqueChar" />
+      <item itemvalue="Application.ReversePairs" />
+      <item itemvalue="Application.CountNums" />
+      <item itemvalue="Application.MissingNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MissingNumber" />
+        <item itemvalue="Application.CountNums" />
+        <item itemvalue="Application.ReversePairs" />
         <item itemvalue="Application.UniqueChar" />
         <item itemvalue="Application.NthUglyNumber" />
-        <item itemvalue="Application.CheckInclusion2" />
-        <item itemvalue="Application.MinWindow" />
-        <item itemvalue="Application.LongestSubString" />
       </list>
     </recent_temporary>
   </component>
@@ -667,14 +665,18 @@
       <workItem from="1616133212134" duration="4485000" />
       <workItem from="1616236166910" duration="5128000" />
       <workItem from="1616329107898" duration="1152000" />
-      <workItem from="1616374079584" duration="360000" />
-    </task>
-    <task id="LOCAL-00074" summary="11月28日打卡">
-      <created>1606538195364</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1606538195364</updated>
+      <workItem from="1616374079584" duration="553000" />
+      <workItem from="1616397137076" duration="764000" />
+      <workItem from="1616415632073" duration="422000" />
+      <workItem from="1616459733730" duration="1094000" />
+      <workItem from="1616545659849" duration="1932000" />
+      <workItem from="1616559477568" duration="9000" />
+      <workItem from="1616633808765" duration="638000" />
+      <workItem from="1616720731018" duration="1079000" />
+      <workItem from="1616725508677" duration="607000" />
+      <workItem from="1616744730166" duration="47000" />
+      <workItem from="1616809287705" duration="3268000" />
+      <workItem from="1616979722119" duration="947000" />
     </task>
     <task id="LOCAL-00075" summary="12月1日打卡">
       <created>1606785943808</created>
@@ -1012,7 +1014,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615769189299</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="3月22号打卡">
+      <created>1616374608944</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1616374608944</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1032,7 +1041,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="最大堆的应用" />
     <MESSAGE value="dfs的应用" />
     <MESSAGE value="BFS" />
     <MESSAGE value="11月13号打卡" />
@@ -1057,7 +1065,8 @@
     <MESSAGE value="3月12号打卡" />
     <MESSAGE value="3月14号打卡" />
     <MESSAGE value="3月15号打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="3月15号打卡" />
+    <MESSAGE value="3月22号打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="3月22号打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
