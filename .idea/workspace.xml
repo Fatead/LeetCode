@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="4月1号打卡">
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="更新readme">
+      <change afterPath="$PROJECT_DIR$/src/string/ReverseLeftWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/ReverseWordsInSentence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,20 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindContinuousSequence">
-    <configuration name="CountNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.CountNums" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ReverseLeftWords">
     <configuration name="FindContinuousSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.FindContinuousSequence" />
       <module name="leetcode" />
@@ -78,12 +66,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.MissingNumber" />
+    <configuration name="ReverseLeftWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.ReverseLeftWords" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseWordsInSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.ReverseWordsInSentence" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,19 +217,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.CountNums" />
-      <item itemvalue="Application.MissingNumber" />
       <item itemvalue="Application.SingleNum" />
       <item itemvalue="Application.TwoSum" />
       <item itemvalue="Application.FindContinuousSequence" />
+      <item itemvalue="Application.ReverseWordsInSentence" />
+      <item itemvalue="Application.ReverseLeftWords" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseLeftWords" />
+        <item itemvalue="Application.ReverseWordsInSentence" />
         <item itemvalue="Application.FindContinuousSequence" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.SingleNum" />
-        <item itemvalue="Application.MissingNumber" />
-        <item itemvalue="Application.CountNums" />
       </list>
     </recent_temporary>
   </component>
@@ -673,14 +674,8 @@
       <workItem from="1617152562710" duration="2061000" />
       <workItem from="1617238034591" duration="1546000" />
       <workItem from="1617259445803" duration="151000" />
-      <workItem from="1617286565399" duration="614000" />
-    </task>
-    <task id="LOCAL-00077" summary="12月5日打卡">
-      <created>1607137424910</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1607137424910</updated>
+      <workItem from="1617286565399" duration="848000" />
+      <workItem from="1617324496327" duration="804000" />
     </task>
     <task id="LOCAL-00078" summary="12月7日打卡">
       <created>1607303273690</created>
@@ -1018,7 +1013,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617239576485</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="更新readme">
+      <created>1617287277409</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1617287277410</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1038,7 +1040,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="11月13号打卡" />
     <MESSAGE value="打卡 791，795" />
     <MESSAGE value="打卡 785，判断二分图" />
     <MESSAGE value="打卡 779，804" />
@@ -1063,7 +1064,8 @@
     <MESSAGE value="3月22号打卡" />
     <MESSAGE value="3月29号打卡" />
     <MESSAGE value="4月1号打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="4月1号打卡" />
+    <MESSAGE value="更新readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
