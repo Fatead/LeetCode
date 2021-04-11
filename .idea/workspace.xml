@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="4月2日打卡">
-      <change afterPath="$PROJECT_DIR$/src/listTable/MaxQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listTable/MaxQueue2.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="4月3日打卡">
+      <change afterPath="$PROJECT_DIR$/src/array/FairCandySwap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/LastRemaining.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/Straight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/DicesProbability.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/CommonAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/DistanceSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/IncreasingBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/LowCommonAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/TreePathSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,9 +59,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseLeftWords">
-    <configuration name="FindContinuousSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.FindContinuousSequence" />
+  <component name="RunManager" selected="Application.FairCandySwap">
+    <configuration name="FairCandySwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.FairCandySwap" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LastRemaining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.LastRemaining" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -92,25 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.SingleNum" />
+    <configuration name="Straight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.Straight" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashTable.TwoSum" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hashTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,19 +224,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.SingleNum" />
-      <item itemvalue="Application.TwoSum" />
-      <item itemvalue="Application.FindContinuousSequence" />
       <item itemvalue="Application.ReverseWordsInSentence" />
       <item itemvalue="Application.ReverseLeftWords" />
+      <item itemvalue="Application.Straight" />
+      <item itemvalue="Application.LastRemaining" />
+      <item itemvalue="Application.FairCandySwap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FairCandySwap" />
+        <item itemvalue="Application.LastRemaining" />
+        <item itemvalue="Application.Straight" />
         <item itemvalue="Application.ReverseLeftWords" />
         <item itemvalue="Application.ReverseWordsInSentence" />
-        <item itemvalue="Application.FindContinuousSequence" />
-        <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.SingleNum" />
       </list>
     </recent_temporary>
   </component>
@@ -677,14 +684,17 @@
       <workItem from="1617286565399" duration="848000" />
       <workItem from="1617324496327" duration="967000" />
       <workItem from="1617329683771" duration="21000" />
-      <workItem from="1617412585298" duration="1046000" />
-    </task>
-    <task id="LOCAL-00079" summary="12月8日打卡">
-      <created>1607389975317</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1607389975317</updated>
+      <workItem from="1617412585298" duration="1237000" />
+      <workItem from="1617544412648" duration="2318000" />
+      <workItem from="1617546753378" duration="203000" />
+      <workItem from="1617588173801" duration="2474000" />
+      <workItem from="1617670233896" duration="1002000" />
+      <workItem from="1617691678394" duration="295000" />
+      <workItem from="1617757629397" duration="2266000" />
+      <workItem from="1617843725023" duration="2274000" />
+      <workItem from="1617930096897" duration="2227000" />
+      <workItem from="1617946302470" duration="63000" />
+      <workItem from="1618116298451" duration="921000" />
     </task>
     <task id="LOCAL-00080" summary="12月9日打卡">
       <created>1607478918760</created>
@@ -1022,7 +1032,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617325316239</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="4月3日打卡">
+      <created>1617413750896</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1617413750897</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1042,7 +1059,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡 785，判断二分图" />
     <MESSAGE value="打卡 779，804" />
     <MESSAGE value="打卡  806，811" />
     <MESSAGE value="1月20日打卡" />
@@ -1067,7 +1083,8 @@
     <MESSAGE value="4月1号打卡" />
     <MESSAGE value="更新readme" />
     <MESSAGE value="4月2日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="4月2日打卡" />
+    <MESSAGE value="4月3日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="4月3日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
