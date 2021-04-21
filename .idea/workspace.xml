@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="4月18日打卡">
-      <change afterPath="$PROJECT_DIR$/src/array/PartitionDisjoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/SortArray.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="4月20日打卡">
+      <change afterPath="$PROJECT_DIR$/src/hashTable/WordSubSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PartitionDisjoint">
+  <component name="RunManager" selected="Application.WordSubSet">
     <configuration name="GroupSizeX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.GroupSizeX" />
       <module name="leetcode" />
@@ -105,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortArrayByParity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.SortArrayByParity" />
+    <configuration name="WordSubSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashTable.WordSubSet" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="hashTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,19 +216,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.SortArrayByParity" />
       <item itemvalue="Application.SmallestRangeI" />
       <item itemvalue="Application.GroupSizeX" />
       <item itemvalue="Application.SortArray" />
       <item itemvalue="Application.PartitionDisjoint" />
+      <item itemvalue="Application.WordSubSet" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordSubSet" />
         <item itemvalue="Application.PartitionDisjoint" />
         <item itemvalue="Application.SortArray" />
         <item itemvalue="Application.GroupSizeX" />
         <item itemvalue="Application.SmallestRangeI" />
-        <item itemvalue="Application.SortArrayByParity" />
       </list>
     </recent_temporary>
   </component>
@@ -700,14 +699,8 @@
       <workItem from="1618641846573" duration="673000" />
       <workItem from="1618734370786" duration="2529000" />
       <workItem from="1618793207236" duration="1804000" />
-      <workItem from="1618879909671" duration="1242000" />
-    </task>
-    <task id="LOCAL-00082" summary="12月13日打卡">
-      <created>1607828281383</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1607828281384</updated>
+      <workItem from="1618879909671" duration="1381000" />
+      <workItem from="1618966337471" duration="1782000" />
     </task>
     <task id="LOCAL-00083" summary="12月14日打卡">
       <created>1607909533231</created>
@@ -1045,7 +1038,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618736209607</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="4月20日打卡">
+      <created>1618881257696</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1618881257696</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1065,7 +1065,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1月20日打卡" />
     <MESSAGE value="1月22日打卡" />
     <MESSAGE value="1月23日打卡" />
     <MESSAGE value="打卡 842   回溯 + 剪枝" />
@@ -1090,7 +1089,8 @@
     <MESSAGE value="4月3日打卡" />
     <MESSAGE value="4月11日打卡" />
     <MESSAGE value="4月18日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="4月18日打卡" />
+    <MESSAGE value="4月20日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="4月20日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
