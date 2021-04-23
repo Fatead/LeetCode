@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="4月20日打卡">
-      <change afterPath="$PROJECT_DIR$/src/hashTable/WordSubSet.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="4月21日打卡">
+      <change afterPath="$PROJECT_DIR$/src/string/ReverseOnlyLetters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/CBTInserter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/META-INF/leetcode.kotlin_module" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +30,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -38,20 +43,9 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.WordSubSet">
+  <component name="RunManager" selected="Application.ReverseOnlyLetters">
     <configuration name="GroupSizeX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.GroupSizeX" />
       <module name="leetcode" />
@@ -78,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallestRangeI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number.SmallestRangeI" />
+    <configuration name="ReverseOnlyLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.ReverseOnlyLetters" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="number.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,6 +143,7 @@
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
@@ -162,7 +157,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
       <option name="vmParameters" />
       <option name="alternativeJrePath" />
@@ -216,22 +211,23 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.SmallestRangeI" />
       <item itemvalue="Application.GroupSizeX" />
       <item itemvalue="Application.SortArray" />
       <item itemvalue="Application.PartitionDisjoint" />
       <item itemvalue="Application.WordSubSet" />
+      <item itemvalue="Application.ReverseOnlyLetters" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseOnlyLetters" />
         <item itemvalue="Application.WordSubSet" />
         <item itemvalue="Application.PartitionDisjoint" />
         <item itemvalue="Application.SortArray" />
         <item itemvalue="Application.GroupSizeX" />
-        <item itemvalue="Application.SmallestRangeI" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -700,14 +696,9 @@
       <workItem from="1618734370786" duration="2529000" />
       <workItem from="1618793207236" duration="1804000" />
       <workItem from="1618879909671" duration="1381000" />
-      <workItem from="1618966337471" duration="1782000" />
-    </task>
-    <task id="LOCAL-00083" summary="12月14日打卡">
-      <created>1607909533231</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1607909533231</updated>
+      <workItem from="1618966337471" duration="2336000" />
+      <workItem from="1619052673566" duration="1053000" />
+      <workItem from="1619139857535" duration="1333000" />
     </task>
     <task id="LOCAL-00084" summary="12月15日打卡">
       <created>1607996732549</created>
@@ -1045,27 +1036,32 @@
       <option name="project" value="LOCAL" />
       <updated>1618881257696</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="4月21日打卡">
+      <created>1618968393715</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1618968393715</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1月22日打卡" />
     <MESSAGE value="1月23日打卡" />
     <MESSAGE value="打卡 842   回溯 + 剪枝" />
     <MESSAGE value="1月25日打卡" />
@@ -1090,7 +1086,8 @@
     <MESSAGE value="4月11日打卡" />
     <MESSAGE value="4月18日打卡" />
     <MESSAGE value="4月20日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="4月20日打卡" />
+    <MESSAGE value="4月21日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="4月21日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
