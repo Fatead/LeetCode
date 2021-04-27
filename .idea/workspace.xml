@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="4月23日打卡">
-      <change afterPath="$PROJECT_DIR$/src/array/SortArrayByParity2.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="4月24日打卡">
+      <change afterPath="$PROJECT_DIR$/src/array/RecentCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/MinFallingPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/UniqueEmails.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,16 +38,29 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/GaodunOCRM/ace-listener.gaodunwangxiao.com" />
+    <property name="last_opened_file_path" value="D:/IdeaProjects/CodeRecomToken" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.SortArrayByParity2">
-    <configuration name="PartitionDisjoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.PartitionDisjoint" />
+  <component name="RunManager" selected="Application.RecentCounter">
+    <configuration name="MinFallingPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.MinFallingPathSum" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecentCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.RecentCounter" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -70,19 +85,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.SortArray" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SortArrayByParity2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.SortArrayByParity2" />
       <module name="leetcode" />
@@ -96,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordSubSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashTable.WordSubSet" />
+    <configuration name="UniqueEmails" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.UniqueEmails" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashTable.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,19 +211,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.SortArray" />
-      <item itemvalue="Application.PartitionDisjoint" />
-      <item itemvalue="Application.WordSubSet" />
       <item itemvalue="Application.ReverseOnlyLetters" />
       <item itemvalue="Application.SortArrayByParity2" />
+      <item itemvalue="Application.UniqueEmails" />
+      <item itemvalue="Application.MinFallingPathSum" />
+      <item itemvalue="Application.RecentCounter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecentCounter" />
+        <item itemvalue="Application.MinFallingPathSum" />
+        <item itemvalue="Application.UniqueEmails" />
         <item itemvalue="Application.SortArrayByParity2" />
         <item itemvalue="Application.ReverseOnlyLetters" />
-        <item itemvalue="Application.WordSubSet" />
-        <item itemvalue="Application.PartitionDisjoint" />
-        <item itemvalue="Application.SortArray" />
       </list>
     </recent_temporary>
   </component>
@@ -697,14 +699,11 @@
       <workItem from="1618966337471" duration="2336000" />
       <workItem from="1619052673566" duration="1053000" />
       <workItem from="1619139857535" duration="1565000" />
-      <workItem from="1619229986084" duration="411000" />
-    </task>
-    <task id="LOCAL-00085" summary="12月16日打卡">
-      <created>1608082482635</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1608082482637</updated>
+      <workItem from="1619229986084" duration="685000" />
+      <workItem from="1619311082170" duration="521000" />
+      <workItem from="1619397386583" duration="1130000" />
+      <workItem from="1619485075555" duration="1381000" />
+      <workItem from="1619491526814" duration="460000" />
     </task>
     <task id="LOCAL-00086" summary="12月17日打卡">
       <created>1608170350056</created>
@@ -1042,7 +1041,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619141400206</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="4月24日打卡">
+      <created>1619230663997</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1619230663998</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1061,7 +1067,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="打卡 842   回溯 + 剪枝" />
     <MESSAGE value="1月25日打卡" />
     <MESSAGE value="打卡 824，844" />
     <MESSAGE value="打卡  841，845" />
@@ -1086,7 +1091,8 @@
     <MESSAGE value="4月20日打卡" />
     <MESSAGE value="4月21日打卡" />
     <MESSAGE value="4月23日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="4月23日打卡" />
+    <MESSAGE value="4月24日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="4月24日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
