@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="4月24日打卡">
-      <change afterPath="$PROJECT_DIR$/src/array/RecentCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/MinFallingPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/UniqueEmails.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="4月27日打卡">
+      <change afterPath="$PROJECT_DIR$/src/DFS/ShortestBridge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ResortLogFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/LongPressedName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,20 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.RecentCounter">
+  <component name="RunManager" selected="Application.ResortLogFiles">
+    <configuration name="LongPressedName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.LongPressedName" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MinFallingPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dp.MinFallingPathSum" />
       <module name="leetcode" />
@@ -72,21 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseOnlyLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.ReverseOnlyLetters" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortArrayByParity2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.SortArrayByParity2" />
+    <configuration name="ResortLogFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ResortLogFiles" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -98,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueEmails" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.UniqueEmails" />
+    <configuration name="ShortestBridge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS.ShortestBridge" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="DFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,19 +211,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ReverseOnlyLetters" />
-      <item itemvalue="Application.SortArrayByParity2" />
-      <item itemvalue="Application.UniqueEmails" />
       <item itemvalue="Application.MinFallingPathSum" />
       <item itemvalue="Application.RecentCounter" />
+      <item itemvalue="Application.LongPressedName" />
+      <item itemvalue="Application.ShortestBridge" />
+      <item itemvalue="Application.ResortLogFiles" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ResortLogFiles" />
+        <item itemvalue="Application.ShortestBridge" />
+        <item itemvalue="Application.LongPressedName" />
         <item itemvalue="Application.RecentCounter" />
         <item itemvalue="Application.MinFallingPathSum" />
-        <item itemvalue="Application.UniqueEmails" />
-        <item itemvalue="Application.SortArrayByParity2" />
-        <item itemvalue="Application.ReverseOnlyLetters" />
       </list>
     </recent_temporary>
   </component>
@@ -703,14 +703,11 @@
       <workItem from="1619311082170" duration="521000" />
       <workItem from="1619397386583" duration="1130000" />
       <workItem from="1619485075555" duration="1381000" />
-      <workItem from="1619491526814" duration="460000" />
-    </task>
-    <task id="LOCAL-00086" summary="12月17日打卡">
-      <created>1608170350056</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1608170350057</updated>
+      <workItem from="1619491526814" duration="506000" />
+      <workItem from="1619570618817" duration="2397000" />
+      <workItem from="1619656697077" duration="4183000" />
+      <workItem from="1619675838331" duration="266000" />
+      <workItem from="1619743470222" duration="1413000" />
     </task>
     <task id="LOCAL-00087" summary="12月20日打卡">
       <created>1608430241528</created>
@@ -1048,7 +1045,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619230663998</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="4月27日打卡">
+      <created>1619492015912</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1619492015913</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1067,7 +1071,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1月25日打卡" />
     <MESSAGE value="打卡 824，844" />
     <MESSAGE value="打卡  841，845" />
     <MESSAGE value="2月4号打卡" />
@@ -1092,7 +1095,8 @@
     <MESSAGE value="4月21日打卡" />
     <MESSAGE value="4月23日打卡" />
     <MESSAGE value="4月24日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="4月24日打卡" />
+    <MESSAGE value="4月27日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="4月27日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
