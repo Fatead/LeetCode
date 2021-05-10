@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="5月8日打卡">
-      <change afterPath="$PROJECT_DIR$/src/UnionFind/NumIslands.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="5月9日打卡">
+      <change afterPath="$PROJECT_DIR$/src/UnionFind/CircleNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,9 +51,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.NumIslands">
-    <configuration name="LongestConsecutive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UnionFind.LongestConsecutive" />
+  <component name="RunManager" selected="Application.CircleNum">
+    <configuration name="CircleNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UnionFind.CircleNum" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -65,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinIncreaseForUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashTable.MinIncreaseForUnique" />
+    <configuration name="LongestConsecutive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UnionFind.LongestConsecutive" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashTable.*" />
+          <option name="PATTERN" value="UnionFind.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,19 +217,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MinIncreaseForUnique" />
       <item itemvalue="Application.XorOperation" />
       <item itemvalue="Application.LongestConsecutive" />
       <item itemvalue="Application.Solve" />
       <item itemvalue="Application.NumIslands" />
+      <item itemvalue="Application.CircleNum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CircleNum" />
         <item itemvalue="Application.NumIslands" />
         <item itemvalue="Application.Solve" />
         <item itemvalue="Application.LongestConsecutive" />
         <item itemvalue="Application.XorOperation" />
-        <item itemvalue="Application.MinIncreaseForUnique" />
       </list>
     </recent_temporary>
   </component>
@@ -721,14 +721,8 @@
       <workItem from="1620266812828" duration="169000" />
       <workItem from="1620346891024" duration="909000" />
       <workItem from="1620432579334" duration="3110000" />
-      <workItem from="1620522962289" duration="1028000" />
-    </task>
-    <task id="LOCAL-00089" summary="分别使用DFS和并查集解决684题">
-      <created>1608777278604</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1608777278605</updated>
+      <workItem from="1620522962289" duration="1367000" />
+      <workItem from="1620606929975" duration="806000" />
     </task>
     <task id="LOCAL-00090" summary="打卡  678，692">
       <created>1608860801941</created>
@@ -1066,7 +1060,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620435555936</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="5月9日打卡">
+      <created>1620524190588</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1620524190588</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1085,7 +1086,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2月4号打卡" />
     <MESSAGE value="2月5号打卡" />
     <MESSAGE value="2月17号打卡" />
     <MESSAGE value="2月25号打卡" />
@@ -1110,7 +1110,8 @@
     <MESSAGE value="4月27日打卡" />
     <MESSAGE value="4月30日打卡" />
     <MESSAGE value="5月8日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="5月8日打卡" />
+    <MESSAGE value="5月9日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="5月9日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
