@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="5月10日打卡">
-      <change afterPath="$PROJECT_DIR$/src/UnionFind/FindRedundantConnection.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="5月11日打卡">
+      <change afterPath="$PROJECT_DIR$/src/UnionFind/FindRedundantDirectedConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnionFind/MakeConnected.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +52,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.FindRedundantConnection">
+  <component name="RunManager" selected="Application.MakeConnected">
     <configuration name="CircleNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UnionFind.CircleNum" />
       <module name="leetcode" />
@@ -78,8 +79,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestConsecutive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UnionFind.LongestConsecutive" />
+    <configuration name="FindRedundantDirectedConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UnionFind.FindRedundantDirectedConnection" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UnionFind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MakeConnected" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UnionFind.MakeConnected" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -93,19 +107,6 @@
     </configuration>
     <configuration name="NumIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UnionFind.NumIslands" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UnionFind.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UnionFind.Solve" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -217,19 +218,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.LongestConsecutive" />
-      <item itemvalue="Application.Solve" />
       <item itemvalue="Application.NumIslands" />
       <item itemvalue="Application.CircleNum" />
       <item itemvalue="Application.FindRedundantConnection" />
+      <item itemvalue="Application.FindRedundantDirectedConnection" />
+      <item itemvalue="Application.MakeConnected" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MakeConnected" />
+        <item itemvalue="Application.FindRedundantDirectedConnection" />
         <item itemvalue="Application.FindRedundantConnection" />
         <item itemvalue="Application.CircleNum" />
         <item itemvalue="Application.NumIslands" />
-        <item itemvalue="Application.Solve" />
-        <item itemvalue="Application.LongestConsecutive" />
       </list>
     </recent_temporary>
   </component>
@@ -723,14 +724,10 @@
       <workItem from="1620432579334" duration="3110000" />
       <workItem from="1620522962289" duration="1367000" />
       <workItem from="1620606929975" duration="866000" />
-      <workItem from="1620692823159" duration="1007000" />
-    </task>
-    <task id="LOCAL-00091" summary="打卡  687，695，696">
-      <created>1608984702329</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1608984702329</updated>
+      <workItem from="1620692823159" duration="1140000" />
+      <workItem from="1620694193172" duration="93000" />
+      <workItem from="1620779310946" duration="2446000" />
+      <workItem from="1620865777798" duration="1486000" />
     </task>
     <task id="LOCAL-00092" summary="12月28日打卡">
       <created>1609117245904</created>
@@ -1068,7 +1065,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620607776650</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="5月11日打卡">
+      <created>1620693895428</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1620693895428</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1087,7 +1091,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2月17号打卡" />
     <MESSAGE value="2月25号打卡" />
     <MESSAGE value="增加单例设计模式" />
     <MESSAGE value="打卡 剑指24" />
@@ -1112,7 +1115,8 @@
     <MESSAGE value="5月8日打卡" />
     <MESSAGE value="5月9日打卡" />
     <MESSAGE value="5月10日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="5月10日打卡" />
+    <MESSAGE value="5月11日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="5月11日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
