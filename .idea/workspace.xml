@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="5月19日打卡">
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="5月20日打卡">
+      <change afterPath="$PROJECT_DIR$/src/stack/Find132Pattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/Inorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/ValidParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,13 +53,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.RepeatedNTimes">
-    <configuration name="IntegerReplacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFS.IntegerReplacement" />
+  <component name="RunManager" selected="Application.Find132Pattern">
+    <configuration name="Find132Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.Find132Pattern" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DFS.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallestStringWithSwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UnionFind.SmallestStringWithSwap" />
+    <configuration name="ToHex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number.ToHex" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnionFind.*" />
+          <option name="PATTERN" value="number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToHex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number.ToHex" />
+    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.ValidParentheses" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="number.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,19 +219,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.IntegerReplacement" />
-      <item itemvalue="Application.SmallestStringWithSwap" />
       <item itemvalue="Application.RandomIndex" />
       <item itemvalue="Application.ToHex" />
       <item itemvalue="Application.RepeatedNTimes" />
+      <item itemvalue="Application.ValidParentheses" />
+      <item itemvalue="Application.Find132Pattern" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Find132Pattern" />
+        <item itemvalue="Application.ValidParentheses" />
         <item itemvalue="Application.RepeatedNTimes" />
         <item itemvalue="Application.ToHex" />
         <item itemvalue="Application.RandomIndex" />
-        <item itemvalue="Application.SmallestStringWithSwap" />
-        <item itemvalue="Application.IntegerReplacement" />
       </list>
     </recent_temporary>
   </component>
@@ -733,13 +736,10 @@
       <workItem from="1621298205816" duration="1122000" />
       <workItem from="1621384868577" duration="1366000" />
       <workItem from="1621408239121" duration="78000" />
-    </task>
-    <task id="LOCAL-00095" summary="1月3日打卡">
-      <created>1609640796831</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1609640796832</updated>
+      <workItem from="1621470064534" duration="899000" />
+      <workItem from="1621556730849" duration="636000" />
+      <workItem from="1621576351235" duration="39000" />
+      <workItem from="1621652291339" duration="3012000" />
     </task>
     <task id="LOCAL-00096" summary="1月6日打卡">
       <created>1609894961443</created>
@@ -1077,7 +1077,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621386190860</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="5月20日打卡">
+      <created>1621470332350</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1621470332352</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1096,7 +1103,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3月4号打卡" />
     <MESSAGE value="3月12号打卡" />
     <MESSAGE value="3月14号打卡" />
     <MESSAGE value="3月15号打卡" />
@@ -1121,7 +1127,8 @@
     <MESSAGE value="5月13日打卡" />
     <MESSAGE value="5月17日打卡" />
     <MESSAGE value="5月19日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="5月19日打卡" />
+    <MESSAGE value="5月20日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="5月20日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
