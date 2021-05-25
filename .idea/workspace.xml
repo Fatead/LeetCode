@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="5月22日打卡">
-      <change afterPath="$PROJECT_DIR$/src/tree/Trie2.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="5月23日打卡">
+      <change afterPath="$PROJECT_DIR$/src/stack/BuildArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/ZigZagLevelOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,9 +52,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Find132Pattern">
-    <configuration name="Find132Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.Find132Pattern" />
+  <component name="RunManager" selected="Application.BuildArray">
+    <configuration name="BuildArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.BuildArray" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -65,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="random.RandomIndex" />
+    <configuration name="Find132Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.Find132Pattern" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="random.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,19 +218,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.RandomIndex" />
       <item itemvalue="Application.ToHex" />
       <item itemvalue="Application.RepeatedNTimes" />
       <item itemvalue="Application.ValidParentheses" />
       <item itemvalue="Application.Find132Pattern" />
+      <item itemvalue="Application.BuildArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuildArray" />
         <item itemvalue="Application.Find132Pattern" />
         <item itemvalue="Application.ValidParentheses" />
         <item itemvalue="Application.RepeatedNTimes" />
         <item itemvalue="Application.ToHex" />
-        <item itemvalue="Application.RandomIndex" />
       </list>
     </recent_temporary>
   </component>
@@ -738,14 +739,10 @@
       <workItem from="1621556730849" duration="636000" />
       <workItem from="1621576351235" duration="39000" />
       <workItem from="1621652291339" duration="3140000" />
-      <workItem from="1621737601910" duration="1322000" />
-    </task>
-    <task id="LOCAL-00097" summary="打卡 739 单调栈">
-      <created>1610068916471</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1610068916471</updated>
+      <workItem from="1621737601910" duration="1442000" />
+      <workItem from="1621850033815" duration="721000" />
+      <workItem from="1621852618547" duration="4057000" />
+      <workItem from="1621903613593" duration="772000" />
     </task>
     <task id="LOCAL-00098" summary="最大堆的应用">
       <created>1610242769518</created>
@@ -1083,7 +1080,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621656098608</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="5月23日打卡">
+      <created>1621739380026</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1621739380026</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1102,7 +1106,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3月14号打卡" />
     <MESSAGE value="3月15号打卡" />
     <MESSAGE value="3月22号打卡" />
     <MESSAGE value="3月29号打卡" />
@@ -1127,7 +1130,8 @@
     <MESSAGE value="5月19日打卡" />
     <MESSAGE value="5月20日打卡" />
     <MESSAGE value="5月22日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="5月22日打卡" />
+    <MESSAGE value="5月23日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="5月23日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
