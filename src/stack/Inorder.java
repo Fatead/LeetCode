@@ -6,6 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+/**
+ * 借助栈实现的中序遍历
+ */
 public class Inorder {
 
     public class TreeNode{
