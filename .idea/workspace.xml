@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="5月30日打卡">
-      <change afterPath="$PROJECT_DIR$/src/tree/ValidCompleteTree.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="5月31日打卡">
+      <change afterPath="$PROJECT_DIR$/src/hashTable/ValidAlienSorted.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.BuildArray">
+  <component name="RunManager" selected="Application.ValidAlienSorted">
     <configuration name="BuildArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stack.BuildArray" />
       <module name="leetcode" />
@@ -91,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToHex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number.ToHex" />
+    <configuration name="ValidAlienSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashTable.ValidAlienSorted" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="number.*" />
+          <option name="PATTERN" value="hashTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,19 +217,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ToHex" />
       <item itemvalue="Application.RepeatedNTimes" />
       <item itemvalue="Application.ValidParentheses" />
       <item itemvalue="Application.Find132Pattern" />
       <item itemvalue="Application.BuildArray" />
+      <item itemvalue="Application.ValidAlienSorted" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidAlienSorted" />
         <item itemvalue="Application.BuildArray" />
         <item itemvalue="Application.Find132Pattern" />
         <item itemvalue="Application.ValidParentheses" />
         <item itemvalue="Application.RepeatedNTimes" />
-        <item itemvalue="Application.ToHex" />
       </list>
     </recent_temporary>
   </component>
@@ -747,14 +747,8 @@
       <workItem from="1622162312952" duration="751000" />
       <workItem from="1622253253020" duration="1568000" />
       <workItem from="1622347391458" duration="1512000" />
-      <workItem from="1622420857118" duration="930000" />
-    </task>
-    <task id="LOCAL-00104" summary="打卡 779，804">
-      <created>1610765014337</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1610765014338</updated>
+      <workItem from="1622420857118" duration="1740000" />
+      <workItem from="1622507588772" duration="844000" />
     </task>
     <task id="LOCAL-00105" summary="打卡  806，811">
       <created>1610854940035</created>
@@ -1092,7 +1086,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622348653389</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="5月31日打卡">
+      <created>1622421993202</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1622421993203</updated>
+    </task>
+    <option name="localTasksCounter" value="154" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1111,7 +1112,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="4月3日打卡" />
     <MESSAGE value="4月11日打卡" />
     <MESSAGE value="4月18日打卡" />
     <MESSAGE value="4月20日打卡" />
@@ -1136,7 +1136,8 @@
     <MESSAGE value="5月28日打卡" />
     <MESSAGE value="5月29日打卡" />
     <MESSAGE value="5月30日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="5月30日打卡" />
+    <MESSAGE value="5月31日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="5月31日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
