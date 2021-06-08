@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="6月2日打卡">
-      <change afterPath="$PROJECT_DIR$/src/array/SubArraysDiv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/FlipMatchVoyage.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="6月7日打卡">
+      <change afterPath="$PROJECT_DIR$/src/dp/MinCostTickets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,20 +51,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.FlipMatchVoyage">
-    <configuration name="BuildArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.BuildArray" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MinCostTickets">
     <configuration name="FlipMatchVoyage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.FlipMatchVoyage" />
       <module name="leetcode" />
@@ -85,6 +71,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinCostTickets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.MinCostTickets" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,19 +217,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.BuildArray" />
       <item itemvalue="Application.ValidAlienSorted" />
       <item itemvalue="Application.SortedSquares" />
       <item itemvalue="Application.LargestPerimeter" />
       <item itemvalue="Application.FlipMatchVoyage" />
+      <item itemvalue="Application.MinCostTickets" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinCostTickets" />
         <item itemvalue="Application.FlipMatchVoyage" />
         <item itemvalue="Application.LargestPerimeter" />
         <item itemvalue="Application.SortedSquares" />
         <item itemvalue="Application.ValidAlienSorted" />
-        <item itemvalue="Application.BuildArray" />
       </list>
     </recent_temporary>
   </component>
@@ -756,14 +755,8 @@
       <workItem from="1622705523374" duration="12000" />
       <workItem from="1622766221126" duration="1793000" />
       <workItem from="1622858716954" duration="1764000" />
-      <workItem from="1622943824874" duration="4230000" />
-    </task>
-    <task id="LOCAL-00109" summary="打卡 842   回溯 + 剪枝">
-      <created>1611459144884</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1611459144885</updated>
+      <workItem from="1622943824874" duration="5575000" />
+      <workItem from="1623113808505" duration="2120000" />
     </task>
     <task id="LOCAL-00110" summary="1月25日打卡">
       <created>1611538653184</created>
@@ -1101,7 +1094,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622861161565</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="6月7日打卡">
+      <created>1623027702537</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1623027702538</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1120,7 +1120,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="4月23日打卡" />
     <MESSAGE value="4月24日打卡" />
     <MESSAGE value="4月27日打卡" />
     <MESSAGE value="4月30日打卡" />
@@ -1145,7 +1144,8 @@
     <MESSAGE value="6月2日打卡" />
     <MESSAGE value="6月4日打卡" />
     <MESSAGE value="6月5日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="6月5日打卡" />
+    <MESSAGE value="6月7日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="6月7日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
