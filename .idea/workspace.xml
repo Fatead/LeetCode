@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="6月7日打卡">
-      <change afterPath="$PROJECT_DIR$/src/dp/MinCostTickets.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="6月8日打卡">
+      <change afterPath="$PROJECT_DIR$/src/tree/DistanceK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -756,14 +756,9 @@
       <workItem from="1622766221126" duration="1793000" />
       <workItem from="1622858716954" duration="1764000" />
       <workItem from="1622943824874" duration="5575000" />
-      <workItem from="1623113808505" duration="2120000" />
-    </task>
-    <task id="LOCAL-00110" summary="1月25日打卡">
-      <created>1611538653184</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1611538653184</updated>
+      <workItem from="1623113808505" duration="3637000" />
+      <workItem from="1623119661139" duration="116000" />
+      <workItem from="1623198615713" duration="1889000" />
     </task>
     <task id="LOCAL-00111" summary="打卡 824，844">
       <created>1611623851585</created>
@@ -1101,7 +1096,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623027702538</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="6月8日打卡">
+      <created>1623115959703</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1623115959703</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1120,7 +1122,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="4月24日打卡" />
     <MESSAGE value="4月27日打卡" />
     <MESSAGE value="4月30日打卡" />
     <MESSAGE value="5月8日打卡" />
@@ -1145,7 +1146,8 @@
     <MESSAGE value="6月4日打卡" />
     <MESSAGE value="6月5日打卡" />
     <MESSAGE value="6月7日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="6月7日打卡" />
+    <MESSAGE value="6月8日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="6月8日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
