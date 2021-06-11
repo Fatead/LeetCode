@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="6月8日打卡">
-      <change afterPath="$PROJECT_DIR$/src/tree/DistanceK.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="6月9日打卡">
+      <change afterPath="$PROJECT_DIR$/src/array/SurfaceArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashTable/NumSpecialEquivGroups.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +52,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.MinCostTickets">
+  <component name="RunManager" selected="Application.NumSpecialEquivGroups">
     <configuration name="FlipMatchVoyage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.FlipMatchVoyage" />
       <module name="leetcode" />
@@ -91,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.SortedSquares" />
+    <configuration name="NumSpecialEquivGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashTable.NumSpecialEquivGroups" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="hashTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidAlienSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashTable.ValidAlienSorted" />
+    <configuration name="SurfaceArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.SurfaceArea" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashTable.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,19 +218,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ValidAlienSorted" />
-      <item itemvalue="Application.SortedSquares" />
       <item itemvalue="Application.LargestPerimeter" />
       <item itemvalue="Application.FlipMatchVoyage" />
       <item itemvalue="Application.MinCostTickets" />
+      <item itemvalue="Application.SurfaceArea" />
+      <item itemvalue="Application.NumSpecialEquivGroups" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumSpecialEquivGroups" />
+        <item itemvalue="Application.SurfaceArea" />
         <item itemvalue="Application.MinCostTickets" />
         <item itemvalue="Application.FlipMatchVoyage" />
         <item itemvalue="Application.LargestPerimeter" />
-        <item itemvalue="Application.SortedSquares" />
-        <item itemvalue="Application.ValidAlienSorted" />
       </list>
     </recent_temporary>
   </component>
@@ -758,14 +759,8 @@
       <workItem from="1622943824874" duration="5575000" />
       <workItem from="1623113808505" duration="3637000" />
       <workItem from="1623119661139" duration="116000" />
-      <workItem from="1623198615713" duration="1889000" />
-    </task>
-    <task id="LOCAL-00111" summary="打卡 824，844">
-      <created>1611623851585</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1611623851585</updated>
+      <workItem from="1623198615713" duration="2460000" />
+      <workItem from="1623373219877" duration="1903000" />
     </task>
     <task id="LOCAL-00112" summary="打卡  841，845">
       <created>1611714652911</created>
@@ -1103,7 +1098,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623115959703</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="6月9日打卡">
+      <created>1623200604612</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1623200604613</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1122,7 +1124,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="4月27日打卡" />
     <MESSAGE value="4月30日打卡" />
     <MESSAGE value="5月8日打卡" />
     <MESSAGE value="5月9日打卡" />
@@ -1147,7 +1148,8 @@
     <MESSAGE value="6月5日打卡" />
     <MESSAGE value="6月7日打卡" />
     <MESSAGE value="6月8日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="6月8日打卡" />
+    <MESSAGE value="6月9日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="6月9日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
