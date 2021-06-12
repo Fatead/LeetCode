@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="6月9日打卡">
-      <change afterPath="$PROJECT_DIR$/src/array/SurfaceArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashTable/NumSpecialEquivGroups.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="6月11日打卡">
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/BinaryGap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,13 +51,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.NumSpecialEquivGroups">
-    <configuration name="FlipMatchVoyage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.FlipMatchVoyage" />
+  <component name="RunManager" selected="Application.BinaryGap">
+    <configuration name="BinaryGap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BitManipulation.BinaryGap" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="BitManipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestPerimeter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.LargestPerimeter" />
+    <configuration name="FlipMatchVoyage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.FlipMatchVoyage" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greedy.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,19 +217,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.LargestPerimeter" />
       <item itemvalue="Application.FlipMatchVoyage" />
       <item itemvalue="Application.MinCostTickets" />
       <item itemvalue="Application.SurfaceArea" />
       <item itemvalue="Application.NumSpecialEquivGroups" />
+      <item itemvalue="Application.BinaryGap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryGap" />
         <item itemvalue="Application.NumSpecialEquivGroups" />
         <item itemvalue="Application.SurfaceArea" />
         <item itemvalue="Application.MinCostTickets" />
         <item itemvalue="Application.FlipMatchVoyage" />
-        <item itemvalue="Application.LargestPerimeter" />
       </list>
     </recent_temporary>
   </component>
@@ -761,13 +760,8 @@
       <workItem from="1623119661139" duration="116000" />
       <workItem from="1623198615713" duration="2460000" />
       <workItem from="1623373219877" duration="1903000" />
-    </task>
-    <task id="LOCAL-00112" summary="打卡  841，845">
-      <created>1611714652911</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1611714652911</updated>
+      <workItem from="1623391145589" duration="792000" />
+      <workItem from="1623504689955" duration="447000" />
     </task>
     <task id="LOCAL-00113" summary="2月4号打卡">
       <created>1612402280012</created>
@@ -1105,7 +1099,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623200604613</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="6月11日打卡">
+      <created>1623391248899</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1623391248900</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1124,7 +1125,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="4月30日打卡" />
     <MESSAGE value="5月8日打卡" />
     <MESSAGE value="5月9日打卡" />
     <MESSAGE value="5月10日打卡" />
@@ -1149,7 +1149,8 @@
     <MESSAGE value="6月7日打卡" />
     <MESSAGE value="6月8日打卡" />
     <MESSAGE value="6月9日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="6月9日打卡" />
+    <MESSAGE value="6月11日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="6月11日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
