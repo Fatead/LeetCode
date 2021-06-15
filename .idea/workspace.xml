@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="6月12日打卡">
-      <change afterPath="$PROJECT_DIR$/src/DFS/OrangesRotting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/DiStringMatch.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="6月14日打卡">
+      <change afterPath="$PROJECT_DIR$/src/array/SumEvent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +51,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.OrangesRotting">
+  <component name="RunManager" selected="Application.SumEvent">
     <configuration name="BinaryGap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BitManipulation.BinaryGap" />
       <module name="leetcode" />
@@ -105,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SurfaceArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.SurfaceArea" />
+    <configuration name="SumEvent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.SumEvent" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -218,19 +217,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.SurfaceArea" />
       <item itemvalue="Application.NumSpecialEquivGroups" />
       <item itemvalue="Application.BinaryGap" />
       <item itemvalue="Application.DiStringMatch" />
       <item itemvalue="Application.OrangesRotting" />
+      <item itemvalue="Application.SumEvent" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumEvent" />
         <item itemvalue="Application.OrangesRotting" />
         <item itemvalue="Application.DiStringMatch" />
         <item itemvalue="Application.BinaryGap" />
         <item itemvalue="Application.NumSpecialEquivGroups" />
-        <item itemvalue="Application.SurfaceArea" />
       </list>
     </recent_temporary>
   </component>
@@ -764,14 +763,8 @@
       <workItem from="1623391145589" duration="792000" />
       <workItem from="1623504689955" duration="1549000" />
       <workItem from="1623549003222" duration="1419000" />
-      <workItem from="1623635492459" duration="2001000" />
-    </task>
-    <task id="LOCAL-00114" summary="2月5号打卡">
-      <created>1612516181772</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1612516181772</updated>
+      <workItem from="1623635492459" duration="3405000" />
+      <workItem from="1623717426132" duration="1501000" />
     </task>
     <task id="LOCAL-00115" summary="2月17号打卡">
       <created>1613522565465</created>
@@ -1109,7 +1102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623505280069</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="6月14日打卡">
+      <created>1623638019882</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1623638019882</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1128,7 +1128,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5月9日打卡" />
     <MESSAGE value="5月10日打卡" />
     <MESSAGE value="5月11日打卡" />
     <MESSAGE value="5月13日打卡" />
@@ -1153,7 +1152,8 @@
     <MESSAGE value="6月9日打卡" />
     <MESSAGE value="6月11日打卡" />
     <MESSAGE value="6月12日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="6月12日打卡" />
+    <MESSAGE value="6月14日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="6月14日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1182,11 +1182,6 @@
           <url>file://$PROJECT_DIR$/src/array/SortArrayByParity.java</url>
           <line>23</line>
           <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DFS/OrangesRotting.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
