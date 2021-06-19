@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="6月14日打卡">
-      <change afterPath="$PROJECT_DIR$/src/array/SumEvent.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="6月15日打卡">
+      <change afterPath="$PROJECT_DIR$/src/array/PancakeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,22 +51,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.SumEvent">
-    <configuration name="BinaryGap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BitManipulation.BinaryGap" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BitManipulation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DiStringMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.DiStringMatch" />
+  <component name="RunManager" selected="Application.PancakeSort">
+    <configuration name="AddToArrayForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.AddToArrayForm" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -78,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumSpecialEquivGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashTable.NumSpecialEquivGroups" />
+    <configuration name="FindJudge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.FindJudge" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashTable.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,6 +84,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="BFS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PancakeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.PancakeSort" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,19 +217,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.NumSpecialEquivGroups" />
-      <item itemvalue="Application.BinaryGap" />
-      <item itemvalue="Application.DiStringMatch" />
       <item itemvalue="Application.OrangesRotting" />
       <item itemvalue="Application.SumEvent" />
+      <item itemvalue="Application.AddToArrayForm" />
+      <item itemvalue="Application.FindJudge" />
+      <item itemvalue="Application.PancakeSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PancakeSort" />
+        <item itemvalue="Application.FindJudge" />
+        <item itemvalue="Application.AddToArrayForm" />
         <item itemvalue="Application.SumEvent" />
         <item itemvalue="Application.OrangesRotting" />
-        <item itemvalue="Application.DiStringMatch" />
-        <item itemvalue="Application.BinaryGap" />
-        <item itemvalue="Application.NumSpecialEquivGroups" />
       </list>
     </recent_temporary>
   </component>
@@ -764,21 +764,12 @@
       <workItem from="1623504689955" duration="1549000" />
       <workItem from="1623549003222" duration="1419000" />
       <workItem from="1623635492459" duration="3405000" />
-      <workItem from="1623717426132" duration="1501000" />
-    </task>
-    <task id="LOCAL-00115" summary="2月17号打卡">
-      <created>1613522565465</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1613522565465</updated>
-    </task>
-    <task id="LOCAL-00116" summary="2月25号打卡">
-      <created>1614214318343</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1614214318343</updated>
+      <workItem from="1623717426132" duration="2190000" />
+      <workItem from="1623759683115" duration="2119000" />
+      <workItem from="1623822371873" duration="410000" />
+      <workItem from="1623889761688" duration="1985000" />
+      <workItem from="1623976462267" duration="596000" />
+      <workItem from="1624067766807" duration="1773000" />
     </task>
     <task id="LOCAL-00117" summary="增加单例设计模式">
       <created>1614302410328</created>
@@ -1109,7 +1100,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623638019882</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="6月15日打卡">
+      <created>1623718946974</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1623718946974</updated>
+    </task>
+    <task id="LOCAL-00165" summary="6月18日打卡">
+      <created>1623976950453</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1623976950453</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1128,8 +1133,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5月10日打卡" />
-    <MESSAGE value="5月11日打卡" />
     <MESSAGE value="5月13日打卡" />
     <MESSAGE value="5月17日打卡" />
     <MESSAGE value="5月19日打卡" />
@@ -1153,7 +1156,9 @@
     <MESSAGE value="6月11日打卡" />
     <MESSAGE value="6月12日打卡" />
     <MESSAGE value="6月14日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="6月14日打卡" />
+    <MESSAGE value="6月15日打卡" />
+    <MESSAGE value="6月18日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="6月18日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
