@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="6月15日打卡">
-      <change afterPath="$PROJECT_DIR$/src/array/PancakeSort.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="6月19日打卡">
+      <change afterPath="$PROJECT_DIR$/src/DFS/NumRookCapture.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.PancakeSort">
+  <component name="RunManager" selected="Application.NumRookCapture">
     <configuration name="AddToArrayForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.AddToArrayForm" />
       <module name="leetcode" />
@@ -78,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrangesRotting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BFS.OrangesRotting" />
+    <configuration name="NumRookCapture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS.NumRookCapture" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BFS.*" />
+          <option name="PATTERN" value="DFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,19 +217,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.OrangesRotting" />
       <item itemvalue="Application.SumEvent" />
       <item itemvalue="Application.AddToArrayForm" />
       <item itemvalue="Application.FindJudge" />
       <item itemvalue="Application.PancakeSort" />
+      <item itemvalue="Application.NumRookCapture" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumRookCapture" />
         <item itemvalue="Application.PancakeSort" />
         <item itemvalue="Application.FindJudge" />
         <item itemvalue="Application.AddToArrayForm" />
         <item itemvalue="Application.SumEvent" />
-        <item itemvalue="Application.OrangesRotting" />
       </list>
     </recent_temporary>
   </component>
@@ -769,14 +769,8 @@
       <workItem from="1623822371873" duration="410000" />
       <workItem from="1623889761688" duration="1985000" />
       <workItem from="1623976462267" duration="596000" />
-      <workItem from="1624067766807" duration="1773000" />
-    </task>
-    <task id="LOCAL-00117" summary="增加单例设计模式">
-      <created>1614302410328</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1614302410328</updated>
+      <workItem from="1624067766807" duration="1871000" />
+      <workItem from="1624237229206" duration="1587000" />
     </task>
     <task id="LOCAL-00118" summary="打卡 剑指24">
       <created>1614559466489</created>
@@ -1114,7 +1108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623976950453</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="6月19日打卡">
+      <created>1624069558583</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1624069558583</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1133,7 +1134,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5月13日打卡" />
     <MESSAGE value="5月17日打卡" />
     <MESSAGE value="5月19日打卡" />
     <MESSAGE value="5月20日打卡" />
@@ -1158,7 +1158,8 @@
     <MESSAGE value="6月14日打卡" />
     <MESSAGE value="6月15日打卡" />
     <MESSAGE value="6月18日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="6月18日打卡" />
+    <MESSAGE value="6月19日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="6月19日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
