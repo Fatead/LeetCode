@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="6月19日打卡">
-      <change afterPath="$PROJECT_DIR$/src/DFS/NumRookCapture.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="6月21日打卡">
+      <change afterPath="$PROJECT_DIR$/src/array/KClosest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashTable/CommonChars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,9 +52,22 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.NumRookCapture">
-    <configuration name="AddToArrayForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.AddToArrayForm" />
+  <component name="RunManager" selected="Application.CommonChars">
+    <configuration name="CommonChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashTable.CommonChars" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hashTable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindJudge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.FindJudge" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -65,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindJudge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.FindJudge" />
+    <configuration name="KClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.KClosest" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -93,19 +107,6 @@
     </configuration>
     <configuration name="PancakeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.PancakeSort" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumEvent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.SumEvent" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -217,19 +218,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.SumEvent" />
-      <item itemvalue="Application.AddToArrayForm" />
       <item itemvalue="Application.FindJudge" />
       <item itemvalue="Application.PancakeSort" />
       <item itemvalue="Application.NumRookCapture" />
+      <item itemvalue="Application.KClosest" />
+      <item itemvalue="Application.CommonChars" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CommonChars" />
+        <item itemvalue="Application.KClosest" />
         <item itemvalue="Application.NumRookCapture" />
         <item itemvalue="Application.PancakeSort" />
         <item itemvalue="Application.FindJudge" />
-        <item itemvalue="Application.AddToArrayForm" />
-        <item itemvalue="Application.SumEvent" />
       </list>
     </recent_temporary>
   </component>
@@ -770,14 +771,10 @@
       <workItem from="1623889761688" duration="1985000" />
       <workItem from="1623976462267" duration="596000" />
       <workItem from="1624067766807" duration="1871000" />
-      <workItem from="1624237229206" duration="1587000" />
-    </task>
-    <task id="LOCAL-00118" summary="打卡 剑指24">
-      <created>1614559466489</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1614559466489</updated>
+      <workItem from="1624237229206" duration="2418000" />
+      <workItem from="1624263682329" duration="608000" />
+      <workItem from="1624322668278" duration="2132000" />
+      <workItem from="1624408554216" duration="1889000" />
     </task>
     <task id="LOCAL-00119" summary="3月4号打卡">
       <created>1614818814312</created>
@@ -1115,7 +1112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624069558583</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="6月21日打卡">
+      <created>1624238837368</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1624238837368</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1134,7 +1138,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5月17日打卡" />
     <MESSAGE value="5月19日打卡" />
     <MESSAGE value="5月20日打卡" />
     <MESSAGE value="5月22日打卡" />
@@ -1159,7 +1162,8 @@
     <MESSAGE value="6月15日打卡" />
     <MESSAGE value="6月18日打卡" />
     <MESSAGE value="6月19日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="6月19日打卡" />
+    <MESSAGE value="6月21日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="6月21日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
