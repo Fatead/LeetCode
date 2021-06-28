@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="6月23日打卡">
-      <change afterPath="$PROJECT_DIR$/src/backtracking/NumSameConsecDiff.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="6月24日打卡">
+      <change afterPath="$PROJECT_DIR$/src/array/LargestSumAfterKNegations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ValidAbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/number/Clumsy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/slidingWindows/LongestOnes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,13 +54,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.NumSameConsecDiff">
-    <configuration name="CommonChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashTable.CommonChars" />
+  <component name="RunManager" selected="Application.Clumsy">
+    <configuration name="Clumsy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number.Clumsy" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashTable.*" />
+          <option name="PATTERN" value="number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.KClosest" />
+    <configuration name="LargestSumAfterKNegations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.LargestSumAfterKNegations" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -78,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumRookCapture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFS.NumRookCapture" />
+    <configuration name="LongestOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingWindows.LongestOnes" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DFS.*" />
+          <option name="PATTERN" value="slidingWindows.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PancakeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.PancakeSort" />
+    <configuration name="ValidAbc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ValidAbc" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -217,19 +220,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.PancakeSort" />
-      <item itemvalue="Application.NumRookCapture" />
-      <item itemvalue="Application.KClosest" />
-      <item itemvalue="Application.CommonChars" />
       <item itemvalue="Application.NumSameConsecDiff" />
+      <item itemvalue="Application.ValidAbc" />
+      <item itemvalue="Application.LongestOnes" />
+      <item itemvalue="Application.LargestSumAfterKNegations" />
+      <item itemvalue="Application.Clumsy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Clumsy" />
+        <item itemvalue="Application.LargestSumAfterKNegations" />
+        <item itemvalue="Application.LongestOnes" />
+        <item itemvalue="Application.ValidAbc" />
         <item itemvalue="Application.NumSameConsecDiff" />
-        <item itemvalue="Application.CommonChars" />
-        <item itemvalue="Application.KClosest" />
-        <item itemvalue="Application.NumRookCapture" />
-        <item itemvalue="Application.PancakeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -774,14 +777,12 @@
       <workItem from="1624263682329" duration="608000" />
       <workItem from="1624322668278" duration="2132000" />
       <workItem from="1624408554216" duration="1964000" />
-      <workItem from="1624494655077" duration="1047000" />
-    </task>
-    <task id="LOCAL-00120" summary="3月12号打卡">
-      <created>1615513947981</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1615513947981</updated>
+      <workItem from="1624494655077" duration="1359000" />
+      <workItem from="1624582072530" duration="2514000" />
+      <workItem from="1624589146739" duration="9000" />
+      <workItem from="1624705384611" duration="847000" />
+      <workItem from="1624758501495" duration="1856000" />
+      <workItem from="1624840788638" duration="1394000" />
     </task>
     <task id="LOCAL-00121" summary="3月14号打卡">
       <created>1615690972938</created>
@@ -1119,7 +1120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624410464994</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <task id="LOCAL-00169" summary="6月24日打卡">
+      <created>1624495985108</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1624495985109</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1138,7 +1146,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5月20日打卡" />
     <MESSAGE value="5月22日打卡" />
     <MESSAGE value="5月23日打卡" />
     <MESSAGE value="5月25日打卡" />
@@ -1163,7 +1170,8 @@
     <MESSAGE value="6月19日打卡" />
     <MESSAGE value="6月21日打卡" />
     <MESSAGE value="6月23日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="6月23日打卡" />
+    <MESSAGE value="6月24日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="6月24日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1192,6 +1200,11 @@
           <url>file://$PROJECT_DIR$/src/array/SortArrayByParity.java</url>
           <line>23</line>
           <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/number/Clumsy.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
