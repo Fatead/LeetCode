@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="6月24日打卡">
-      <change afterPath="$PROJECT_DIR$/src/array/LargestSumAfterKNegations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ValidAbc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/number/Clumsy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingWindows/LongestOnes.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="6月28打卡">
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/BitWiseComplement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitManipulation/BitWiseComplement2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/BstFromPreOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/number/Clumsy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/number/Clumsy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,46 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Clumsy">
+  <component name="RunManager" selected="Application.BitWiseComplement2">
+    <configuration name="BitWiseComplement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BitManipulation.BitWiseComplement" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BitManipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BitWiseComplement2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BitManipulation.BitWiseComplement2" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BitManipulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BstFromPreOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.BstFromPreOrder" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Clumsy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="number.Clumsy" />
       <module name="leetcode" />
@@ -70,45 +109,6 @@
     </configuration>
     <configuration name="LargestSumAfterKNegations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.LargestSumAfterKNegations" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingWindows.LongestOnes" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="slidingWindows.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumSameConsecDiff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.NumSameConsecDiff" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidAbc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ValidAbc" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -220,19 +220,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.NumSameConsecDiff" />
-      <item itemvalue="Application.ValidAbc" />
-      <item itemvalue="Application.LongestOnes" />
       <item itemvalue="Application.LargestSumAfterKNegations" />
       <item itemvalue="Application.Clumsy" />
+      <item itemvalue="Application.BstFromPreOrder" />
+      <item itemvalue="Application.BitWiseComplement" />
+      <item itemvalue="Application.BitWiseComplement2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BitWiseComplement2" />
+        <item itemvalue="Application.BitWiseComplement" />
+        <item itemvalue="Application.BstFromPreOrder" />
         <item itemvalue="Application.Clumsy" />
         <item itemvalue="Application.LargestSumAfterKNegations" />
-        <item itemvalue="Application.LongestOnes" />
-        <item itemvalue="Application.ValidAbc" />
-        <item itemvalue="Application.NumSameConsecDiff" />
       </list>
     </recent_temporary>
   </component>
@@ -782,14 +782,9 @@
       <workItem from="1624589146739" duration="9000" />
       <workItem from="1624705384611" duration="847000" />
       <workItem from="1624758501495" duration="1856000" />
-      <workItem from="1624840788638" duration="1394000" />
-    </task>
-    <task id="LOCAL-00121" summary="3月14号打卡">
-      <created>1615690972938</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1615690972938</updated>
+      <workItem from="1624840788638" duration="1535000" />
+      <workItem from="1624927310549" duration="1523000" />
+      <workItem from="1625013896140" duration="1779000" />
     </task>
     <task id="LOCAL-00122" summary="3月15号打卡">
       <created>1615769189299</created>
@@ -1127,7 +1122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624495985109</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="6月28打卡">
+      <created>1624842298307</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1624842298307</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1146,7 +1148,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5月22日打卡" />
     <MESSAGE value="5月23日打卡" />
     <MESSAGE value="5月25日打卡" />
     <MESSAGE value="5月26日打卡" />
@@ -1171,7 +1172,8 @@
     <MESSAGE value="6月21日打卡" />
     <MESSAGE value="6月23日打卡" />
     <MESSAGE value="6月24日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="6月24日打卡" />
+    <MESSAGE value="6月28打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="6月28打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1201,9 +1203,12 @@
           <line>23</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/number/Clumsy.java</url>
-          <line>13</line>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/tree/BSTIterator.java</url>
+          <line>15</line>
+          <properties class="tree.BSTIterator.TreeNode" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>

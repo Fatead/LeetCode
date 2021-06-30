@@ -1,8 +1,5 @@
 package number;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Clumsy {
 
     /**
