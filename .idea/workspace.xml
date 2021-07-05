@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="6月28打卡">
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/BitWiseComplement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation/BitWiseComplement2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/BstFromPreOrder.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="6月30打卡">
+      <change afterPath="$PROJECT_DIR$/src/DFS/NumEnclaves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/MaxScoreSightseeingPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/NumPairsDivisible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/PrefixesDivBy5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ThreePartsEqualSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedy/ShipWithDays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/NextLargerNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/RemoveOuterParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/number/Clumsy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/number/Clumsy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +58,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.BitWiseComplement2">
-    <configuration name="BitWiseComplement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BitManipulation.BitWiseComplement" />
+  <component name="RunManager" selected="Application.RemoveOuterParentheses">
+    <configuration name="MaxScoreSightseeingPair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.MaxScoreSightseeingPair" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BitManipulation.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BitWiseComplement2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BitManipulation.BitWiseComplement2" />
+    <configuration name="NumEnclaves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS.NumEnclaves" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BitManipulation.*" />
+          <option name="PATTERN" value="DFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BstFromPreOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.BstFromPreOrder" />
+    <configuration name="PrefixesDivBy5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.PrefixesDivBy5" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Clumsy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number.Clumsy" />
+    <configuration name="RemoveOuterParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.RemoveOuterParentheses" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="number.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestSumAfterKNegations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.LargestSumAfterKNegations" />
+    <configuration name="ThreePartsEqualSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ThreePartsEqualSum" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -220,19 +224,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.LargestSumAfterKNegations" />
-      <item itemvalue="Application.Clumsy" />
-      <item itemvalue="Application.BstFromPreOrder" />
-      <item itemvalue="Application.BitWiseComplement" />
-      <item itemvalue="Application.BitWiseComplement2" />
+      <item itemvalue="Application.ThreePartsEqualSum" />
+      <item itemvalue="Application.MaxScoreSightseeingPair" />
+      <item itemvalue="Application.PrefixesDivBy5" />
+      <item itemvalue="Application.NumEnclaves" />
+      <item itemvalue="Application.RemoveOuterParentheses" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BitWiseComplement2" />
-        <item itemvalue="Application.BitWiseComplement" />
-        <item itemvalue="Application.BstFromPreOrder" />
-        <item itemvalue="Application.Clumsy" />
-        <item itemvalue="Application.LargestSumAfterKNegations" />
+        <item itemvalue="Application.RemoveOuterParentheses" />
+        <item itemvalue="Application.NumEnclaves" />
+        <item itemvalue="Application.PrefixesDivBy5" />
+        <item itemvalue="Application.MaxScoreSightseeingPair" />
+        <item itemvalue="Application.ThreePartsEqualSum" />
       </list>
     </recent_temporary>
   </component>
@@ -784,14 +788,13 @@
       <workItem from="1624758501495" duration="1856000" />
       <workItem from="1624840788638" duration="1535000" />
       <workItem from="1624927310549" duration="1523000" />
-      <workItem from="1625013896140" duration="1779000" />
-    </task>
-    <task id="LOCAL-00122" summary="3月15号打卡">
-      <created>1615769189299</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1615769189299</updated>
+      <workItem from="1625013896140" duration="2669000" />
+      <workItem from="1625099372607" duration="2993000" />
+      <workItem from="1625184831542" duration="2162000" />
+      <workItem from="1625192196474" duration="50000" />
+      <workItem from="1625274952725" duration="2008000" />
+      <workItem from="1625361575589" duration="4273000" />
+      <workItem from="1625445652767" duration="3737000" />
     </task>
     <task id="LOCAL-00123" summary="3月22号打卡">
       <created>1616374608944</created>
@@ -1129,7 +1132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624842298307</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="6月30打卡">
+      <created>1625015855004</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1625015855004</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1148,7 +1158,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5月23日打卡" />
     <MESSAGE value="5月25日打卡" />
     <MESSAGE value="5月26日打卡" />
     <MESSAGE value="5月27日打卡" />
@@ -1173,7 +1182,8 @@
     <MESSAGE value="6月23日打卡" />
     <MESSAGE value="6月24日打卡" />
     <MESSAGE value="6月28打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="6月28打卡" />
+    <MESSAGE value="6月30打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="6月30打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1221,6 +1231,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$FindStr.ic" NAME="FindStr Coverage Results" MODIFIED="1591316893186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>string.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leetcode$ShipWithDays.ic" NAME="ShipWithDays Coverage Results" MODIFIED="1625187058070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>greedy.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/leetcode$SortArrayByParity.ic" NAME="SortArrayByParity Coverage Results" MODIFIED="1618642307147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>array.*</FILTER>
