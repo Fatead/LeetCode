@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="6月30打卡">
-      <change afterPath="$PROJECT_DIR$/src/DFS/NumEnclaves.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/MaxScoreSightseeingPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/NumPairsDivisible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/PrefixesDivBy5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ThreePartsEqualSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedy/ShipWithDays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listTable/NextLargerNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/RemoveOuterParentheses.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="7月5打卡">
+      <change afterPath="$PROJECT_DIR$/src/array/AllCellsDistOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/LongestArithSeqLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedy/DivisorGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedy/TwoCitySchedCost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedy/VideoStitching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/slidingWindows/LengthOfLongestSubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/CamelMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/MaxAncestorDiff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/RecoverFromPreorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/SumRootToLeaf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,9 +60,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.RemoveOuterParentheses">
-    <configuration name="MaxScoreSightseeingPair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.MaxScoreSightseeingPair" />
+  <component name="RunManager" selected="Application.AllCellsDistOrder">
+    <configuration name="AllCellsDistOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.AllCellsDistOrder" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -72,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumEnclaves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFS.NumEnclaves" />
+    <configuration name="DivisorGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.DivisorGame" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DFS.*" />
+          <option name="PATTERN" value="greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,8 +87,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrefixesDivBy5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.PrefixesDivBy5" />
+    <configuration name="LengthOfLongestSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingWindows.LengthOfLongestSubString" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="slidingWindows.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestArithSeqLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.LongestArithSeqLength" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -98,25 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveOuterParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.RemoveOuterParentheses" />
+    <configuration name="TwoCitySchedCost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.TwoCitySchedCost" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreePartsEqualSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ThreePartsEqualSum" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,19 +226,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ThreePartsEqualSum" />
-      <item itemvalue="Application.MaxScoreSightseeingPair" />
-      <item itemvalue="Application.PrefixesDivBy5" />
-      <item itemvalue="Application.NumEnclaves" />
-      <item itemvalue="Application.RemoveOuterParentheses" />
+      <item itemvalue="Application.LengthOfLongestSubString" />
+      <item itemvalue="Application.LongestArithSeqLength" />
+      <item itemvalue="Application.DivisorGame" />
+      <item itemvalue="Application.TwoCitySchedCost" />
+      <item itemvalue="Application.AllCellsDistOrder" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RemoveOuterParentheses" />
-        <item itemvalue="Application.NumEnclaves" />
-        <item itemvalue="Application.PrefixesDivBy5" />
-        <item itemvalue="Application.MaxScoreSightseeingPair" />
-        <item itemvalue="Application.ThreePartsEqualSum" />
+        <item itemvalue="Application.AllCellsDistOrder" />
+        <item itemvalue="Application.TwoCitySchedCost" />
+        <item itemvalue="Application.DivisorGame" />
+        <item itemvalue="Application.LongestArithSeqLength" />
+        <item itemvalue="Application.LengthOfLongestSubString" />
       </list>
     </recent_temporary>
   </component>
@@ -794,14 +796,13 @@
       <workItem from="1625192196474" duration="50000" />
       <workItem from="1625274952725" duration="2008000" />
       <workItem from="1625361575589" duration="4273000" />
-      <workItem from="1625445652767" duration="3737000" />
-    </task>
-    <task id="LOCAL-00123" summary="3月22号打卡">
-      <created>1616374608944</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1616374608944</updated>
+      <workItem from="1625445652767" duration="4447000" />
+      <workItem from="1625531613990" duration="2312000" />
+      <workItem from="1625618610710" duration="3870000" />
+      <workItem from="1625705366955" duration="1909000" />
+      <workItem from="1625724825827" duration="52000" />
+      <workItem from="1625792318581" duration="2205000" />
+      <workItem from="1625897217757" duration="3965000" />
     </task>
     <task id="LOCAL-00124" summary="3月29号打卡">
       <created>1616980736905</created>
@@ -1139,7 +1140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625015855004</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="7月5打卡">
+      <created>1625450290211</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1625450290212</updated>
+    </task>
+    <option name="localTasksCounter" value="173" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1158,7 +1166,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5月25日打卡" />
     <MESSAGE value="5月26日打卡" />
     <MESSAGE value="5月27日打卡" />
     <MESSAGE value="5月28日打卡" />
@@ -1183,7 +1190,8 @@
     <MESSAGE value="6月24日打卡" />
     <MESSAGE value="6月28打卡" />
     <MESSAGE value="6月30打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="6月30打卡" />
+    <MESSAGE value="7月5打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="7月5打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
