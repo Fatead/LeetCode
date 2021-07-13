@@ -12,6 +12,9 @@ public class ReverList {
         }
     }
 
+    /**
+     * 利用栈来翻转链表
+     */
     public ListNode reverseList(ListNode head) {
         if(head==null)return null;
         ListNode reHead = new ListNode(0);
@@ -32,7 +35,16 @@ public class ReverList {
         return reHead.next;
     }
 
-    public static void main(String[] args) {
-
+    /**
+     * 利用递归法翻转链表
+     */
+    public ListNode reverse(ListNode head){
+        //递归法的出口
+        if(head.next == null)return head;
+        ListNode last = reverse(head.next);
+        head.next.next = head;
+        head.next = null;
+        return last;
     }
+
 }
