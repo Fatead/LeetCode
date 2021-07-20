@@ -1,6 +1,12 @@
 package hashTable;
 import java.util.*;
 
+/**
+ * 基于链表 + HashMap实现LRU
+ * 当需要插入新的数据项的时候，如果新数据项在链表中存在（命中），
+ * 则把该节点移动到链表头部，如果不存在，则新建一个节点。
+ * 若缓存满了，则把链表中最后一个节点删除
+ */
 class LRUCache {
 
 
@@ -23,6 +29,7 @@ class LRUCache {
                     break;
                 }
             }
+            //将当前访问的节点移动到链表的头部
             list.remove(index);
             list.add(key);
         }

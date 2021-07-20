@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="7月11日打卡">
-      <change afterPath="$PROJECT_DIR$/src/array/MaxSumTwoNoOverlap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/MaxUncrossedLines.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="7月13日打卡">
+      <change afterPath="$PROJECT_DIR$/src/array/HeightChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/LastStoneWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/LastStoneWeight2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/FooBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/FooBar2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/FooBar3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/PrintInOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/PrintInOrder2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/PrintInOrder3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/ProduceAndConsume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/ProduceAndConsume2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/ZeroEvenOdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/LongestStrChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedy/MaxSatisfied.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queue/MyPriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/RemoveDuplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/listTable/ReverList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listTable/ReverList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hashTable/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashTable/LRUCache.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +67,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.MaxUncrossedLines">
-    <configuration name="AllCellsDistOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.AllCellsDistOrder" />
+  <component name="RunManager" selected="Application.MaxSatisfied">
+    <configuration name="HeightChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.HeightChecker" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -67,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DivisorGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.DivisorGame" />
+    <configuration name="MaxSatisfied" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.MaxSatisfied" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -80,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSumTwoNoOverlap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.MaxSumTwoNoOverlap" />
+    <configuration name="PrintInOrder2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.PrintInOrder2" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxUncrossedLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.MaxUncrossedLines" />
+    <configuration name="ProduceAndConsume" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.ProduceAndConsume" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoCitySchedCost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.TwoCitySchedCost" />
+    <configuration name="ProduceAndConsume2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concurrency.ProduceAndConsume2" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greedy.*" />
+          <option name="PATTERN" value="concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,19 +233,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.DivisorGame" />
-      <item itemvalue="Application.TwoCitySchedCost" />
-      <item itemvalue="Application.AllCellsDistOrder" />
-      <item itemvalue="Application.MaxSumTwoNoOverlap" />
-      <item itemvalue="Application.MaxUncrossedLines" />
+      <item itemvalue="Application.HeightChecker" />
+      <item itemvalue="Application.PrintInOrder2" />
+      <item itemvalue="Application.ProduceAndConsume" />
+      <item itemvalue="Application.ProduceAndConsume2" />
+      <item itemvalue="Application.MaxSatisfied" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaxUncrossedLines" />
-        <item itemvalue="Application.MaxSumTwoNoOverlap" />
-        <item itemvalue="Application.AllCellsDistOrder" />
-        <item itemvalue="Application.TwoCitySchedCost" />
-        <item itemvalue="Application.DivisorGame" />
+        <item itemvalue="Application.MaxSatisfied" />
+        <item itemvalue="Application.ProduceAndConsume2" />
+        <item itemvalue="Application.ProduceAndConsume" />
+        <item itemvalue="Application.PrintInOrder2" />
+        <item itemvalue="Application.HeightChecker" />
       </list>
     </recent_temporary>
   </component>
@@ -798,14 +812,18 @@
       <workItem from="1625897217757" duration="5310000" />
       <workItem from="1626050093936" duration="1727000" />
       <workItem from="1626053466952" duration="2918000" />
-      <workItem from="1626136475016" duration="1709000" />
-    </task>
-    <task id="LOCAL-00125" summary="4月1号打卡">
-      <created>1617239576484</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1617239576485</updated>
+      <workItem from="1626136475016" duration="4289000" />
+      <workItem from="1626161272964" duration="100000" />
+      <workItem from="1626222913432" duration="1314000" />
+      <workItem from="1626262184426" duration="3786000" />
+      <workItem from="1626309456425" duration="2374000" />
+      <workItem from="1626396507602" duration="1260000" />
+      <workItem from="1626488003893" duration="1958000" />
+      <workItem from="1626569512957" duration="564000" />
+      <workItem from="1626571365965" duration="10789000" />
+      <workItem from="1626653667806" duration="4166000" />
+      <workItem from="1626674498020" duration="106000" />
+      <workItem from="1626741485850" duration="2808000" />
     </task>
     <task id="LOCAL-00126" summary="更新readme">
       <created>1617287277409</created>
@@ -1143,7 +1161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625973115430</updated>
     </task>
-    <option name="localTasksCounter" value="174" />
+    <task id="LOCAL-00174" summary="7月13日打卡">
+      <created>1626138560687</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1626138560688</updated>
+    </task>
+    <option name="localTasksCounter" value="175" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1162,7 +1187,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5月27日打卡" />
     <MESSAGE value="5月28日打卡" />
     <MESSAGE value="5月29日打卡" />
     <MESSAGE value="5月30日打卡" />
@@ -1187,7 +1211,8 @@
     <MESSAGE value="6月30打卡" />
     <MESSAGE value="7月5打卡" />
     <MESSAGE value="7月11日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="7月11日打卡" />
+    <MESSAGE value="7月13日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="7月13日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
