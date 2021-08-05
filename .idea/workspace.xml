@@ -1,25 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="7月13日打卡">
-      <change afterPath="$PROJECT_DIR$/src/array/HeightChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/LastStoneWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/LastStoneWeight2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/FooBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/FooBar2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/FooBar3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/PrintInOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/PrintInOrder2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/PrintInOrder3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/ProduceAndConsume.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/ProduceAndConsume2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/ZeroEvenOdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/LongestStrChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedy/MaxSatisfied.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/MyPriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/RemoveDuplicates.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="7月20日打卡">
+      <change afterPath="$PROJECT_DIR$/src/DFS/MinPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS/UniquePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/FindMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/InsertIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/MaxSubArray2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/MergeInters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/SearchRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/CombinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/CombinationSum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/Combine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/NextPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/Permute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/UniquePathObstacles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashTable/SwapPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/AddTwoNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/MergeKLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/MergeTwoList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/RemoveNthFromEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/ReverseKGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listTable/RotateRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/LengthOfLastWord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hashTable/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashTable/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/NextPer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/NextPer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/LongestSubPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/LongestSubPalindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,16 +67,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/IdeaProjects/CodeRecomToken" />
+    <property name="last_opened_file_path" value="D:/Java学习资料/project/NaiveChat" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.MaxSatisfied">
-    <configuration name="HeightChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.HeightChecker" />
+  <component name="RunManager" selected="Application.MinPathSum">
+    <configuration name="InsertIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.InsertIntervals" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -81,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSatisfied" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.MaxSatisfied" />
+    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.LengthOfLastWord" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="greedy.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintInOrder2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.PrintInOrder2" />
+    <configuration name="MinPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS.MinPathSum" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrency.*" />
+          <option name="PATTERN" value="DFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProduceAndConsume" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.ProduceAndConsume" />
+    <configuration name="UniquePath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS.UniquePath" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrency.*" />
+          <option name="PATTERN" value="DFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProduceAndConsume2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.ProduceAndConsume2" />
+    <configuration name="UniquePathObstacles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.UniquePathObstacles" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="concurrency.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,19 +240,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.HeightChecker" />
-      <item itemvalue="Application.PrintInOrder2" />
-      <item itemvalue="Application.ProduceAndConsume" />
-      <item itemvalue="Application.ProduceAndConsume2" />
-      <item itemvalue="Application.MaxSatisfied" />
+      <item itemvalue="Application.InsertIntervals" />
+      <item itemvalue="Application.LengthOfLastWord" />
+      <item itemvalue="Application.UniquePath" />
+      <item itemvalue="Application.UniquePathObstacles" />
+      <item itemvalue="Application.MinPathSum" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaxSatisfied" />
-        <item itemvalue="Application.ProduceAndConsume2" />
-        <item itemvalue="Application.ProduceAndConsume" />
-        <item itemvalue="Application.PrintInOrder2" />
-        <item itemvalue="Application.HeightChecker" />
+        <item itemvalue="Application.MinPathSum" />
+        <item itemvalue="Application.UniquePathObstacles" />
+        <item itemvalue="Application.UniquePath" />
+        <item itemvalue="Application.LengthOfLastWord" />
+        <item itemvalue="Application.InsertIntervals" />
       </list>
     </recent_temporary>
   </component>
@@ -823,14 +830,31 @@
       <workItem from="1626571365965" duration="10789000" />
       <workItem from="1626653667806" duration="4166000" />
       <workItem from="1626674498020" duration="106000" />
-      <workItem from="1626741485850" duration="2808000" />
-    </task>
-    <task id="LOCAL-00126" summary="更新readme">
-      <created>1617287277409</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1617287277410</updated>
+      <workItem from="1626741485850" duration="5647000" />
+      <workItem from="1626828646586" duration="2897000" />
+      <workItem from="1626847392012" duration="70000" />
+      <workItem from="1626864503298" duration="1189000" />
+      <workItem from="1626913385929" duration="4540000" />
+      <workItem from="1627001394283" duration="2605000" />
+      <workItem from="1627096687888" duration="1914000" />
+      <workItem from="1627178267095" duration="2500000" />
+      <workItem from="1627280970304" duration="590000" />
+      <workItem from="1627294910107" duration="1190000" />
+      <workItem from="1627346623648" duration="4541000" />
+      <workItem from="1627351363423" duration="19000" />
+      <workItem from="1627433375006" duration="2837000" />
+      <workItem from="1627460580510" duration="13000" />
+      <workItem from="1627518888335" duration="1319000" />
+      <workItem from="1627548335032" duration="5000" />
+      <workItem from="1627606806085" duration="1098000" />
+      <workItem from="1627608203752" duration="181000" />
+      <workItem from="1627793240029" duration="598000" />
+      <workItem from="1627813872724" duration="1272000" />
+      <workItem from="1627820947192" duration="3394000" />
+      <workItem from="1627866201018" duration="2259000" />
+      <workItem from="1627949570039" duration="1650000" />
+      <workItem from="1628038614884" duration="2313000" />
+      <workItem from="1628124055758" duration="1857000" />
     </task>
     <task id="LOCAL-00127" summary="4月2日打卡">
       <created>1617325316238</created>
@@ -1168,7 +1192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626138560688</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <task id="LOCAL-00175" summary="7月20日打卡">
+      <created>1626747712672</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1626747712673</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1187,7 +1218,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5月28日打卡" />
     <MESSAGE value="5月29日打卡" />
     <MESSAGE value="5月30日打卡" />
     <MESSAGE value="5月31日打卡" />
@@ -1212,7 +1242,8 @@
     <MESSAGE value="7月5打卡" />
     <MESSAGE value="7月11日打卡" />
     <MESSAGE value="7月13日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="7月13日打卡" />
+    <MESSAGE value="7月20日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="7月20日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

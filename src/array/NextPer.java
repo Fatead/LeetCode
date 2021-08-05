@@ -10,6 +10,7 @@ public class NextPer {
         nums[pos2] = temp;
     }
 
+
     private void nextPermutation(int[] nums) {
         boolean decreaseFlag = true;
         for(int i =0;i<nums.length;i++){
@@ -23,6 +24,7 @@ public class NextPer {
             return;
         }
         for(int i = nums.length-1;i>=0;i--){
+            //从后往前找到第一个递增的位置
             if(i>0&&nums[i-1]<nums[i]){
                 int pos = i;
                 int min = nums[i];
@@ -39,10 +41,12 @@ public class NextPer {
         }
     }
 
+
     public static void main(String[] args) {
         NextPer nextPer = new NextPer();
         int[] nums = {1,2,3};
         nextPer.nextPermutation(nums);
         System.out.println(Arrays.toString(nums));
     }
+
 }
