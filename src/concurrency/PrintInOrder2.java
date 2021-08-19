@@ -13,25 +13,31 @@ public class PrintInOrder2 {
     private AtomicInteger secondJobDone = new AtomicInteger(0);
 
     public void first(Runnable printFirst) throws InterruptedException{
-        printFirst.run();
-        firstJobDone.incrementAndGet();
+        while (true){
+            printFirst.run();
+            firstJobDone.incrementAndGet();
+        }
     }
 
     public void second(Runnable printSecond) throws InterruptedException{
-        while (firstJobDone.get()!=1){
+        while (true){
+            while (firstJobDone.get()!=1){
 
+            }
+            firstJobDone.getAndDecrement();
+            printSecond.run();
+            secondJobDone.incrementAndGet();
         }
-        firstJobDone.getAndDecrement();
-        printSecond.run();
-        secondJobDone.incrementAndGet();
     }
 
     public void third(Runnable printThird) throws InterruptedException{
-        while (secondJobDone.get()!=1){
+        while (true){
+            while (secondJobDone.get()!=1){
 
+            }
+            secondJobDone.getAndDecrement();
+            printThird.run();
         }
-        secondJobDone.getAndDecrement();
-        printThird.run();
     }
 
     public class ThreadA implements Runnable{
@@ -64,12 +70,12 @@ public class PrintInOrder2 {
         Runnable a = new ThreadA();
         Runnable b = new ThreadB();
         Runnable c = new ThreadC();
-        while (true){
-            first(a);
-            second(b);
-            third(c);
-            System.out.println();
-        }
+        Thread threadA = new Thread(a);
+        Thread threadB = new Thread(b);
+        Thread threadC = new Thread(c);
+        threadA.start();
+        threadB.start();
+        threadC.start();
     }
 
     public static void main(String[] args) throws InterruptedException {

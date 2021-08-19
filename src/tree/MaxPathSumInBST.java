@@ -10,6 +10,7 @@ public class MaxPathSumInBST {
             this.val = x;
         }
     }
+
     int max = Integer.MIN_VALUE;
 
     private int getValueOfTree(TreeNode node){
