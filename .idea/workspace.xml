@@ -1,34 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="8月5日打卡">
-      <change afterPath="$PROJECT_DIR$/src/DFS/Subsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/FindKthLargest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/SearchMatrix3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/ClimbStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/EditDistance2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashTable/LRU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listTable/DeleteDuplicates3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listTable/InsertSortList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listTable/ReverseBetween.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listTable/ReverseList3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slidingWindows/LengthOfLongestSubString2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/QuickSort2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/InterLeave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/DeleteBSTNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/Flatten.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/Flatten2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/GenerateTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/IsSymmetric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/MaxPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/PreOrderTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/RecoverTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/isValidBST.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="8月19日打卡">
+      <change afterPath="$PROJECT_DIR$/src/hashTable/LFUCache2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashTable/LRUCache4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/PrintInOrder2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrency/PrintInOrder2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/InOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/InOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/MaxPathSumInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/MaxPathSumInBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/PostOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/PostOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -877,14 +853,9 @@
       <workItem from="1629199143230" duration="1840000" />
       <workItem from="1629248254519" duration="3491000" />
       <workItem from="1629283447812" duration="16000" />
-      <workItem from="1629335018635" duration="1154000" />
-    </task>
-    <task id="LOCAL-00128" summary="4月3日打卡">
-      <created>1617413750896</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1617413750897</updated>
+      <workItem from="1629335018635" duration="1256000" />
+      <workItem from="1629419820205" duration="2697000" />
+      <workItem from="1629510504746" duration="2317000" />
     </task>
     <task id="LOCAL-00129" summary="4月11日打卡">
       <created>1618117295128</created>
@@ -1222,7 +1193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628126467384</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="8月19日打卡">
+      <created>1629336199089</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1629336199089</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1241,7 +1219,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5月30日打卡" />
     <MESSAGE value="5月31日打卡" />
     <MESSAGE value="6月1日打卡" />
     <MESSAGE value="6月2日打卡" />
@@ -1266,7 +1243,8 @@
     <MESSAGE value="7月13日打卡" />
     <MESSAGE value="7月20日打卡" />
     <MESSAGE value="8月5日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="8月5日打卡" />
+    <MESSAGE value="8月19日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="8月19日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
