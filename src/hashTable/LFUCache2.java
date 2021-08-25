@@ -60,6 +60,7 @@ public class LFUCache2 {
         return node.value;
     }
 
+
     public void put(int key, int value) {
         if(capacity == 0){
             return;
