@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="8月25日打卡">
-      <change afterPath="$PROJECT_DIR$/src/tree/CountNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DFS/NumIslands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/Rob4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +52,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.JumpGame">
+  <component name="RunManager" selected="Application.Rob4">
     <configuration name="CostOfBracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.CostOfBracket" />
       <module name="leetcode" />
@@ -91,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinPictures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.MinPictures" />
+    <configuration name="NumIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS.NumIslands" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="DFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumSegmentTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.SumSegmentTree" />
+    <configuration name="Rob4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.Rob4" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,19 +218,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MinPictures" />
       <item itemvalue="Application.CostOfBracket" />
-      <item itemvalue="Application.SumSegmentTree" />
       <item itemvalue="Application.MaxSegmentTree" />
       <item itemvalue="Application.JumpGame" />
+      <item itemvalue="Application.NumIslands" />
+      <item itemvalue="Application.Rob4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Rob4" />
+        <item itemvalue="Application.NumIslands" />
         <item itemvalue="Application.JumpGame" />
         <item itemvalue="Application.CostOfBracket" />
         <item itemvalue="Application.MaxSegmentTree" />
-        <item itemvalue="Application.SumSegmentTree" />
-        <item itemvalue="Application.MinPictures" />
       </list>
     </recent_temporary>
   </component>
@@ -860,7 +861,10 @@
       <workItem from="1629679000702" duration="1234000" />
       <workItem from="1629765109766" duration="855000" />
       <workItem from="1629851978202" duration="1356000" />
-      <workItem from="1629939387195" duration="681000" />
+      <workItem from="1629939387195" duration="1006000" />
+      <workItem from="1629964655249" duration="11000" />
+      <workItem from="1630025365536" duration="1484000" />
+      <workItem from="1630114430167" duration="762000" />
     </task>
     <task id="LOCAL-00131" summary="4月20日打卡">
       <created>1618881257696</created>
