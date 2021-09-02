@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="8月31日打卡">
-      <change afterPath="$PROJECT_DIR$/src/array/RelativeSortArray.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="9月1日打卡">
+      <change afterPath="$PROJECT_DIR$/src/array/MoveZero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,13 +51,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.RelativeSortArray">
-    <configuration name="JumpGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.JumpGame" />
+  <component name="RunManager" selected="Application.MoveZero">
+    <configuration name="MoveZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.MoveZero" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,19 +217,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.JumpGame" />
       <item itemvalue="Application.NumIslands" />
       <item itemvalue="Application.Rob4" />
       <item itemvalue="Application.SummaryRanges" />
       <item itemvalue="Application.RelativeSortArray" />
+      <item itemvalue="Application.MoveZero" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MoveZero" />
         <item itemvalue="Application.RelativeSortArray" />
         <item itemvalue="Application.SummaryRanges" />
         <item itemvalue="Application.Rob4" />
         <item itemvalue="Application.NumIslands" />
-        <item itemvalue="Application.JumpGame" />
       </list>
     </recent_temporary>
   </component>
@@ -869,14 +869,9 @@
       <workItem from="1630284156181" duration="1115000" />
       <workItem from="1630292390737" duration="17000" />
       <workItem from="1630371152574" duration="698000" />
-      <workItem from="1630457722023" duration="379000" />
-    </task>
-    <task id="LOCAL-00135" summary="4月27日打卡">
-      <created>1619492015912</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1619492015913</updated>
+      <workItem from="1630457722023" duration="484000" />
+      <workItem from="1630495138163" duration="6000" />
+      <workItem from="1630544177799" duration="968000" />
     </task>
     <task id="LOCAL-00136" summary="4月30日打卡">
       <created>1619744901892</created>
@@ -1214,7 +1209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630371671936</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="9月1日打卡">
+      <created>1630458183917</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1630458183917</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1233,7 +1235,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6月8日打卡" />
     <MESSAGE value="6月9日打卡" />
     <MESSAGE value="6月11日打卡" />
     <MESSAGE value="6月12日打卡" />
@@ -1258,7 +1259,8 @@
     <MESSAGE value="8月29日打卡" />
     <MESSAGE value="8月30日打卡" />
     <MESSAGE value="8月31日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="8月31日打卡" />
+    <MESSAGE value="9月1日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="9月1日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
