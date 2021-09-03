@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="9月1日打卡">
-      <change afterPath="$PROJECT_DIR$/src/array/MoveZero.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="9月2日打卡">
+      <change afterPath="$PROJECT_DIR$/src/string/GcdOfStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,13 +51,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.MoveZero">
-    <configuration name="MoveZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.MoveZero" />
+  <component name="RunManager" selected="Application.GcdOfStrings">
+    <configuration name="GcdOfStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.GcdOfStrings" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DFS.NumIslands" />
+    <configuration name="MoveZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.MoveZero" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DFS.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,19 +217,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.NumIslands" />
       <item itemvalue="Application.Rob4" />
       <item itemvalue="Application.SummaryRanges" />
       <item itemvalue="Application.RelativeSortArray" />
       <item itemvalue="Application.MoveZero" />
+      <item itemvalue="Application.GcdOfStrings" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GcdOfStrings" />
         <item itemvalue="Application.MoveZero" />
         <item itemvalue="Application.RelativeSortArray" />
         <item itemvalue="Application.SummaryRanges" />
         <item itemvalue="Application.Rob4" />
-        <item itemvalue="Application.NumIslands" />
       </list>
     </recent_temporary>
   </component>
@@ -871,14 +871,8 @@
       <workItem from="1630371152574" duration="698000" />
       <workItem from="1630457722023" duration="484000" />
       <workItem from="1630495138163" duration="6000" />
-      <workItem from="1630544177799" duration="968000" />
-    </task>
-    <task id="LOCAL-00136" summary="4月30日打卡">
-      <created>1619744901892</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1619744901892</updated>
+      <workItem from="1630544177799" duration="1342000" />
+      <workItem from="1630630956905" duration="958000" />
     </task>
     <task id="LOCAL-00137" summary="5月8日打卡">
       <created>1620435555936</created>
@@ -1216,7 +1210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630458183917</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="9月2日打卡">
+      <created>1630545171471</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1630545171472</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1235,7 +1236,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6月9日打卡" />
     <MESSAGE value="6月11日打卡" />
     <MESSAGE value="6月12日打卡" />
     <MESSAGE value="6月14日打卡" />
@@ -1260,7 +1260,8 @@
     <MESSAGE value="8月30日打卡" />
     <MESSAGE value="8月31日打卡" />
     <MESSAGE value="9月1日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="9月1日打卡" />
+    <MESSAGE value="9月2日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="9月2日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
