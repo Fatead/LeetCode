@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="9月2日打卡">
-      <change afterPath="$PROJECT_DIR$/src/string/GcdOfStrings.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="9月3日打卡">
+      <change afterPath="$PROJECT_DIR$/src/string/Bigram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -872,14 +872,8 @@
       <workItem from="1630457722023" duration="484000" />
       <workItem from="1630495138163" duration="6000" />
       <workItem from="1630544177799" duration="1342000" />
-      <workItem from="1630630956905" duration="958000" />
-    </task>
-    <task id="LOCAL-00137" summary="5月8日打卡">
-      <created>1620435555936</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1620435555936</updated>
+      <workItem from="1630630956905" duration="1613000" />
+      <workItem from="1630723308632" duration="723000" />
     </task>
     <task id="LOCAL-00138" summary="5月9日打卡">
       <created>1620524190588</created>
@@ -1217,7 +1211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630545171472</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL-00186" summary="9月3日打卡">
+      <created>1630631929391</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1630631929392</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1236,7 +1237,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6月11日打卡" />
     <MESSAGE value="6月12日打卡" />
     <MESSAGE value="6月14日打卡" />
     <MESSAGE value="6月15日打卡" />
@@ -1261,7 +1261,8 @@
     <MESSAGE value="8月31日打卡" />
     <MESSAGE value="9月1日打卡" />
     <MESSAGE value="9月2日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="9月2日打卡" />
+    <MESSAGE value="9月3日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="9月3日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
