@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="9月3日打卡">
-      <change afterPath="$PROJECT_DIR$/src/string/Bigram.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="9月4日打卡">
+      <change afterPath="$PROJECT_DIR$/src/array/IsNStraightHand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,13 +51,26 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.GcdOfStrings">
+  <component name="RunManager" selected="Application.IsNStraightHand">
     <configuration name="GcdOfStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.GcdOfStrings" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsNStraightHand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.IsNStraightHand" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,19 +97,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Rob4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.Rob4" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,19 +217,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Rob4" />
       <item itemvalue="Application.SummaryRanges" />
       <item itemvalue="Application.RelativeSortArray" />
       <item itemvalue="Application.MoveZero" />
       <item itemvalue="Application.GcdOfStrings" />
+      <item itemvalue="Application.IsNStraightHand" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsNStraightHand" />
         <item itemvalue="Application.GcdOfStrings" />
         <item itemvalue="Application.MoveZero" />
         <item itemvalue="Application.RelativeSortArray" />
         <item itemvalue="Application.SummaryRanges" />
-        <item itemvalue="Application.Rob4" />
       </list>
     </recent_temporary>
   </component>
@@ -873,14 +873,8 @@
       <workItem from="1630495138163" duration="6000" />
       <workItem from="1630544177799" duration="1342000" />
       <workItem from="1630630956905" duration="1613000" />
-      <workItem from="1630723308632" duration="723000" />
-    </task>
-    <task id="LOCAL-00138" summary="5月9日打卡">
-      <created>1620524190588</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1620524190588</updated>
+      <workItem from="1630723308632" duration="1055000" />
+      <workItem from="1630804633870" duration="910000" />
     </task>
     <task id="LOCAL-00139" summary="5月10日打卡">
       <created>1620607776650</created>
@@ -1218,7 +1212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630631929392</updated>
     </task>
-    <option name="localTasksCounter" value="187" />
+    <task id="LOCAL-00187" summary="9月4日打卡">
+      <created>1630724232046</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1630724232047</updated>
+    </task>
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1237,7 +1238,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6月12日打卡" />
     <MESSAGE value="6月14日打卡" />
     <MESSAGE value="6月15日打卡" />
     <MESSAGE value="6月18日打卡" />
@@ -1262,7 +1262,8 @@
     <MESSAGE value="9月1日打卡" />
     <MESSAGE value="9月2日打卡" />
     <MESSAGE value="9月3日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="9月3日打卡" />
+    <MESSAGE value="9月4日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="9月4日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
