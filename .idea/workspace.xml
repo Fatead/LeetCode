@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="9月5日打卡">
-      <change afterPath="$PROJECT_DIR$/src/array/RearrangeBarcodes.java" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="9月6日打卡">
+      <change afterPath="$PROJECT_DIR$/src/hashTable/NumRabbits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Application.RearrangeBarcodes">
+  <component name="RunManager" selected="Application.NumRabbits">
     <configuration name="GcdOfStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.GcdOfStrings" />
       <module name="leetcode" />
@@ -91,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RearrangeBarcodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.RearrangeBarcodes" />
+    <configuration name="NumRabbits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashTable.NumRabbits" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="hashTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelativeSortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.RelativeSortArray" />
+    <configuration name="RearrangeBarcodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.RearrangeBarcodes" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -217,19 +217,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.RelativeSortArray" />
       <item itemvalue="Application.MoveZero" />
       <item itemvalue="Application.GcdOfStrings" />
       <item itemvalue="Application.IsNStraightHand" />
       <item itemvalue="Application.RearrangeBarcodes" />
+      <item itemvalue="Application.NumRabbits" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumRabbits" />
         <item itemvalue="Application.RearrangeBarcodes" />
         <item itemvalue="Application.IsNStraightHand" />
         <item itemvalue="Application.GcdOfStrings" />
         <item itemvalue="Application.MoveZero" />
-        <item itemvalue="Application.RelativeSortArray" />
       </list>
     </recent_temporary>
   </component>
@@ -877,13 +877,8 @@
       <workItem from="1630804633870" duration="1110000" />
       <workItem from="1630889162207" duration="1602000" />
       <workItem from="1630892544239" duration="11000" />
-    </task>
-    <task id="LOCAL-00140" summary="5月11日打卡">
-      <created>1620693895428</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1620693895428</updated>
+      <workItem from="1630892586312" duration="631000" />
+      <workItem from="1630976438999" duration="718000" />
     </task>
     <task id="LOCAL-00141" summary="5月13日打卡">
       <created>1620867424649</created>
@@ -1221,7 +1216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630805636422</updated>
     </task>
-    <option name="localTasksCounter" value="189" />
+    <task id="LOCAL-00189" summary="9月6日打卡">
+      <created>1630892613675</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1630892613675</updated>
+    </task>
+    <option name="localTasksCounter" value="190" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1240,7 +1242,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6月15日打卡" />
     <MESSAGE value="6月18日打卡" />
     <MESSAGE value="6月19日打卡" />
     <MESSAGE value="6月21日打卡" />
@@ -1265,7 +1266,8 @@
     <MESSAGE value="9月3日打卡" />
     <MESSAGE value="9月4日打卡" />
     <MESSAGE value="9月5日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="9月5日打卡" />
+    <MESSAGE value="9月6日打卡" />
+    <option name="LAST_COMMIT_MESSAGE" value="9月6日打卡" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
