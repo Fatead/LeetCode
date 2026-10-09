@@ -21,11 +21,8 @@
 
 三个很实际的理由：
 
-1. **递归是"读懂别人代码"的门槛**。树、图、回溯、分治的题解几乎全是递归写法。看不出递归函数的语义，就只能一行行模拟栈。
-2. **递归是三大专题的共同底座**：
-   - 树 → 后序递归几乎能解决一半的树题（`src/tree/MaxPathSum.java` 就是典型）
-   - 回溯 → 本质就是"递归 + 撤销选择"
-   - 动态规划 → **记忆化搜索是 DP 的自顶向下写法**，先学它再学递推会顺很多
+1. **递归是"读懂别人代码"的门槛**。树、图、回溯、分治的题解几乎全是递归写法；看不出递归函数的语义，就只能一行行模拟栈。
+2. **递归是三大专题的共同底座**：树的后序递归能解决一半树题；回溯本质是"递归 + 撤销选择"；**记忆化搜索就是 DP 的自顶向下写法**，先学它再学递推会顺很多。
 3. **面试里递归题的定位很特别**：
 
 | 题型 | 面试频率 | 面试官真正想看什么 |
@@ -141,8 +138,7 @@ public static void deep(int n) {
     deep(n - 1);
 }
 // deep(100_000) → java.lang.StackOverflowError
-// 默认 -Xss 在 64 位 HotSpot 上约 512KB ~ 1MB，每帧几十~上百字节
-// 折算下来：大约能递归 1 万 ~ 2 万层
+// 默认 -Xss 在 64 位 HotSpot 上约 512KB ~ 1MB，每帧几十~上百字节 → 大约能递归 1 万 ~ 2 万层
 ```
 
 | 递归深度 | 风险 | 说明 |
@@ -152,10 +148,7 @@ public static void deep(int n) {
 | `10^4` 附近 | **危险** | 链表递归反转、链状树的递归遍历 |
 | `≥ 10^5` | 必然溢出 | 只能用迭代 |
 
-**两个必须记住的点**：
-
-1. **`StackOverflowError` 是 `Error` 不是 `Exception`**，`catch (Exception e)` 抓不到。虽然 `catch (Throwable t)` 能抓到，但栈已经处于不确定状态，工程上不应依赖。
-2. **快排的最坏情况会溢出**：如果每次取到端点为 pivot，递归深度是 `n` 而不是 `log n`。这就是必须**随机选 pivot** 的另一个理由（第一个理由是避免 `O(n^2)`）。
+**两个必须记住的点**：① `StackOverflowError` 是 `Error` 不是 `Exception`，`catch (Exception e)` 抓不到；② **快排最坏情况会溢出**——每次取端点为 pivot 时递归深度是 `n` 而不是 `log n`，这是必须随机选 pivot 的第二个理由。
 
 ---
 
@@ -163,18 +156,11 @@ public static void deep(int n) {
 
 **事实**：HotSpot JVM 至今**没有实现尾调用消除（TCO）**。理由很实际——需要保留完整栈信息才能打印正确的异常堆栈（`StackOverflowError` 的堆栈、`printStackTrace` 都依赖它）。
 
-所以：
-
 ```java
 // 这两个写法在 Java 里占用的栈空间【完全一样】
 private int factTail(int n, int acc) {          // 尾递归写法，Java 不会优化
     if (n <= 1) return acc;
-    return factTail(n - 1, n * acc);            // 编译器不会把它变成循环
-}
-
-private int fact(int n) {                       // 普通递归
-    if (n <= 1) return 1;
-    return n * fact(n - 1);
+    return factTail(n - 1, n * acc);            // 编译器不会把它变成循环，照样爆栈
 }
 ```
 
@@ -214,14 +200,7 @@ public int maxDepthIterative(TreeNode root) {
 }
 ```
 
-**改写的通用套路**：
-
-| 递归要素 | 显式栈里的对应物 |
-| --- | --- |
-| 方法参数（往下传的状态） | 和节点一起打包压栈（两个栈 / `Object[]` / 自定义类） |
-| 终止条件 | 循环条件 + 更小规模的节点不入栈 |
-| 返回值（往上传的结果） | 后序遍历式的"栈内答案回传"（难，中序/后序迭代需要额外技巧） |
-| 全局变量 | 循环外的局部变量 |
+**改写的通用套路**：① 方法参数（往下传的状态）和节点一起打包压栈（两个栈 / `Object[]` / 自定义类）；② 终止条件变成"循环条件 + 更小规模的节点不入栈"；③ 返回值（往上传的结果）需要用后序式回传，中序/后序的迭代版就难在这里。
 
 > ⚠️ **JVM 基础坑**：Java 的 `Stack` 是遗留类（继承 `Vector`，所有方法 `synchronized`），刷题和工程都应改用 `ArrayDeque`（`push/pop/peek` 对应栈，`offer/poll/peek` 对应队列）。仓库里的 `src/listTable/ReverseList2.java` 用了 `Stack`，能跑通但不是最佳实践。
 >
@@ -234,12 +213,10 @@ public int maxDepthIterative(TreeNode root) {
 | 轮次 | 内容 | 目标 | 建议题量 |
 | --- | --- | --- | --- |
 | 第 1 天 | [01 递归思维与三要素](01-递归思维与三要素.md) | 能默写"函数语义 + 终止条件 + 合并"三步法 | 6 题 |
-| 第 2 天 | [02 分治算法](02-分治算法.md) 前半（归并、快速幂） | 能闭眼默写 `merge`，能分析 `T(n)` | 4 题 |
-| 第 3 天 | [02 分治算法](02-分治算法.md) 后半（主定理、综合） | 看到递推式能秒答复杂度 | 4 题 |
-| 第 4 天 | [03 记忆化与递归优化](03-记忆化与递归优化.md) | 能一眼看出重叠子问题并写出 memo 模板 | 6 题 |
-| 第 5 天 | [04 分治应用进阶](04-分治应用进阶.md) 前半 | 快速选择、合并 K 链表 | 4 题 |
-| 第 6 天 | [04 分治应用进阶](04-分治应用进阶.md) 后半 | 归并统计逆序对（本专题最难的模板） | 4 题 |
-| 第 7 天 | 本章二刷 | 限时 45 分钟做 3 道 Medium | 3 题 |
+| 第 2 天 | [02 分治算法](02-分治算法.md) | 能闭眼写 `merge`，看到 `T(n)` 能秒答复杂度 | 8 题 |
+| 第 3 天 | [03 记忆化与递归优化](03-记忆化与递归优化.md) | 一眼看出重叠子问题并写出 memo 模板 | 6 题 |
+| 第 4~5 天 | [04 分治应用进阶](04-分治应用进阶.md) | 快速选择、合并 K 链表、归并统计逆序对 | 8 题 |
+| 第 6 天 | 本章二刷 | 限时 45 分钟做 3 道 Medium | 3 题 |
 
 **每道题都必须**：先自己写 → 卡住看思路 → 看懂后关掉重写 → 记错题本。递归题额外要求：**能用一句话说出递归函数的语义**。
 
@@ -253,23 +230,16 @@ public int maxDepthIterative(TreeNode root) {
 | --- | --- |
 | 递归三要素（返回值型 / 全局变量型） | [src/tree/MaxDepth.java](../src/tree/MaxDepth.java)、[src/tree/MaxDepthTree.java](../src/tree/MaxDepthTree.java) |
 | 二叉树最小深度（单侧为空的边界） | [src/tree/MinDepth.java](../src/tree/MinDepth.java) |
-| 递归反转链表 | [src/listTable/ReverseList3.java](../src/listTable/ReverseList3.java) |
-| 递归合并两个有序链表 | [src/listTable/MergeLists.java](../src/listTable/MergeLists.java)、[src/listTable/MergeList.java](../src/listTable/MergeList.java)、[src/listTable/MergeTwoList.java](../src/listTable/MergeTwoList.java) |
-| 递归求 1+2+…+n | [src/number/SumN.java](../src/number/SumN.java) |
-| 斐波那契（纯递归 / 迭代） | [src/number/Fib.java](../src/number/Fib.java)、[src/number/Fiber.java](../src/number/Fiber.java) |
-| 分治：链表归并排序 | [src/listTable/SortList.java](../src/listTable/SortList.java) |
-| 分治：归并合并 K 个链表 | [src/listTable/MergeKLists.java](../src/listTable/MergeKLists.java)、[src/listTable/MergeKList.java](../src/listTable/MergeKList.java) |
-| 分治：快速幂 | [src/number/MyPow.java](../src/number/MyPow.java)、[src/number/PowerX.java](../src/number/PowerX.java) |
-| 分治：大数乘法 | [src/number/Multiply.java](../src/number/Multiply.java) |
-| 分治：整数替换 | [src/DFS/IntegerReplacement.java](../src/DFS/IntegerReplacement.java) |
-| 分治：K 个一组翻转链表 | [src/listTable/ReverseKGroup.java](../src/listTable/ReverseKGroup.java)、[src/listTable/SwapKNode.java](../src/listTable/SwapKNode.java) |
+| 递归反转链表 / 递归合并有序链表 | [src/listTable/ReverseList3.java](../src/listTable/ReverseList3.java)、[src/listTable/MergeLists.java](../src/listTable/MergeLists.java)、[src/listTable/MergeList.java](../src/listTable/MergeList.java)、[src/listTable/MergeTwoList.java](../src/listTable/MergeTwoList.java) |
+| 递归求 1+2+…+n / 斐波那契 | [src/number/SumN.java](../src/number/SumN.java)、[src/number/Fib.java](../src/number/Fib.java)、[src/number/Fiber.java](../src/number/Fiber.java) |
+| 分治：链表归并排序 / 合并 K 个链表 | [src/listTable/SortList.java](../src/listTable/SortList.java)、[src/listTable/MergeKLists.java](../src/listTable/MergeKLists.java)、[src/listTable/MergeKList.java](../src/listTable/MergeKList.java) |
+| 分治：快速幂 / 大数乘法 | [src/number/MyPow.java](../src/number/MyPow.java)、[src/number/PowerX.java](../src/number/PowerX.java)、[src/number/Multiply.java](../src/number/Multiply.java) |
+| 分治：整数替换 / K 个一组翻转链表 | [src/DFS/IntegerReplacement.java](../src/DFS/IntegerReplacement.java)、[src/listTable/ReverseKGroup.java](../src/listTable/ReverseKGroup.java)、[src/listTable/SwapKNode.java](../src/listTable/SwapKNode.java) |
 | 分治：四叉树 / 平衡 BST | [src/tree/ConstructQuadTree.java](../src/tree/ConstructQuadTree.java)、[src/tree/BalanceBST.java](../src/tree/BalanceBST.java) |
 | 记忆化：最低票价（`Integer[]` + null 判空） | [src/dp/MinCostTickets.java](../src/dp/MinCostTickets.java) |
 | 记忆化：DFS 超时 vs 递推 | [src/DFS/MinPathSum.java](../src/DFS/MinPathSum.java)、[src/dp/MinPathSum.java](../src/dp/MinPathSum.java)、[src/DFS/UniquePath.java](../src/DFS/UniquePath.java) |
-| 记忆化：树形 DP | [src/dp/Rob3.java](../src/dp/Rob3.java) |
-| 快速选择 | [src/array/FindKthLargest.java](../src/array/FindKthLargest.java) |
-| 最大子数组和（DP / 暴力） | [src/dp/MaxSubArray.java](../src/dp/MaxSubArray.java) |
-| 多数元素（摩尔投票） | [src/array/MajorityElement.java](../src/array/MajorityElement.java)、[src/array/MajorNum.java](../src/array/MajorNum.java) |
+| 记忆化：树形递归 | [src/dp/Rob3.java](../src/dp/Rob3.java) |
+| 快速选择 / 最大子数组和 / 多数元素 | [src/array/FindKthLargest.java](../src/array/FindKthLargest.java)、[src/dp/MaxSubArray.java](../src/dp/MaxSubArray.java)、[src/array/MajorityElement.java](../src/array/MajorityElement.java)、[src/array/MajorNum.java](../src/array/MajorNum.java) |
 | 归并统计：逆序对 / 右侧更小数 | [src/array/ReversePairs.java](../src/array/ReversePairs.java)、[src/array/CountSmaller.java](../src/array/CountSmaller.java) |
 | 递归构造所有 BST | [src/tree/GenerateTree.java](../src/tree/GenerateTree.java)、[src/tree/DiffSearchTree2.java](../src/tree/DiffSearchTree2.java)、[src/tree/DiffSearchTree.java](../src/tree/DiffSearchTree.java) |
 

@@ -37,38 +37,26 @@
 所有字符串题都能塞进这五步。**先背骨架，再往格子里填逻辑**：
 
 ```java
-/**
- * 字符串题万能骨架
- * ① 边界：空串 / null / 长度不足，先返回
- * ② 选容器：要增长用 StringBuilder，要原地改用 char[]，只读用 String
- * ③ 预处理：计数（数组/Map）、trim、split、toCharArray
- * ④ 主循环：一个下标 → 顺序扫描；两个下标 → 对撞/快慢；区间 → 滑动窗口
- * ⑤ 输出：别忘 toString() / 去掉多余分隔符
- */
 public String solve(String s) {
-    // ① 边界
+    // ① 边界：只要方法体里有 charAt(0) / charAt(len-1) / substring，就必须先判
     if (s == null || s.length() == 0) {
         return "";
     }
-
-    // ② 容器：预留容量，避免扩容复制
+    // ② 容器：要增长用 StringBuilder（预留容量避免扩容），要原地改用 char[]，只读用 String
     StringBuilder sb = new StringBuilder(s.length());
-
     // ③ 预处理：字母表计数（小写字母题的标准动作）
     int[] cnt = new int[26];
     for (int i = 0; i < s.length(); i++) {
         cnt[s.charAt(i) - 'a']++;
     }
-
-    // ④ 主循环
+    // ④ 主循环：一个下标 → 顺序扫描；两个下标 → 对撞/快慢；区间 → 滑动窗口
     for (int i = 0; i < s.length(); i++) {
         char c = s.charAt(i);
         if (cnt[c - 'a'] == 1) {          // 举例：只保留出现一次的字符
             sb.append(c);
         }
     }
-
-    // ⑤ 输出
+    // ⑤ 输出：别忘 toString() / 去掉多余分隔符
     return sb.toString();
 }
 ```
@@ -98,14 +86,7 @@ for (int i = 0; i < arr.length; i++) { char c = arr[i]; }
 后者更快（少 `n` 次边界检查），代价是多一份内存。**要原地修改时必须用后者。**
 
 **⑤ 为什么"去掉多余分隔符"是高频坑？**
-`StringBuilder` 拼结果最常见的是"每个元素后面都加分隔符"，最后多一个。收尾方式对比：
-
-| 收尾写法 | 是否推荐 | 说明 |
-| --- | --- | --- |
-| `sb.setLength(sb.length() - 1)` | ✅ | `O(1)`，语义最精确 |
-| `sb.deleteCharAt(sb.length() - 1)` | ✅ | 等价 |
-| `sb.toString().trim()` | ⚠️ | 只在分隔符是空格时有效；分隔符是 `-` 就白写 |
-| `sb.toString().substring(0, len-1)` | ⚠️ | 多复制一次，`sb` 为空时崩 |
+`StringBuilder` 拼结果最常见的是"每个元素后面都加分隔符"，最后多一个。`sb.setLength(sb.length() - 1)` 最精确（`O(1)`）；用 `sb.toString().trim()` 只有在分隔符是空格时才对，分隔符是 `-` 就白写；用 `substring(0, len-1)` 则多复制一次且在 `sb` 为空时崩。
 
 ---
 
@@ -204,18 +185,19 @@ boolean isAnagram(String a, String b) {
 
 ### 4.3 把计数数组编码成 Map 的 key
 
+异位词分组一类题需要把"字符多重集合"当 `Map` 的 key，把它编码成字符串即可：
+
 ```java
-/** 异位词会得到完全相同的签名 */
-private String signature(String s) {
+private String signature(String s) {          // 异位词会得到完全相同的签名
     int[] cnt = new int[26];
     for (int i = 0; i < s.length(); i++) cnt[s.charAt(i) - 'a']++;
     StringBuilder sb = new StringBuilder();
-    for (int x : cnt) sb.append(x).append(',');   // 分隔符一定不能省
+    for (int x : cnt) sb.append(x).append(',');   // ⚠️ 分隔符一定不能省
     return sb.toString();
 }
 ```
 
-> ⚠️ **分隔符不能省**：`{1, 12}` 和 `{11, 2}` 不加分隔符都拼成 `"112"`，签名直接撞车。
+> `{1, 12}` 和 `{11, 2}` 不加分隔符都拼成 `"112"`，签名直接撞车——这是"编码成 key"类题目的经典 bug。
 
 ---
 
@@ -242,56 +224,39 @@ char lower2(char c) { return Character.toLowerCase(c); }                       /
 "ab".compareTo("abc")         // 负数  —— 短串是长串前缀时更小
 "A".compareTo("a")            // 负数  —— 'A'(65) < 'a'(97)
 "10".compareTo("9")           // 负数  —— 逐字符比，不解析数字！
+Arrays.sort(words);                                  // String 实现了 Comparable
+Arrays.sort(words, Comparator.reverseOrder());       // 逆字典序
 ```
 
 1. **返回值只保证正/零/负**，判断要写 `< 0` / `== 0` / `> 0`，不能写 `== -1`。
 2. **短串是长串前缀时更小**（`"ab" < "abc"`），这条决定了字典序排序的结果。
 3. **逐字符比较，不解析数字**：`"10" < "9"`。要按数值排就自己写比较器。
-
-```java
-Arrays.sort(words);                                  // String 实现了 Comparable
-Arrays.sort(words, Comparator.reverseOrder());       // 逆字典序
-```
-
-> `char` 也能直接比大小（`'a' < 'b'` 就是 `97 < 98`），所以 `c >= 'a' && c <= 'z'` 合法且比 `Character.isLowerCase` 快。
+4. **`char` 也能直接比大小**（`'a' < 'b'` 就是 `97 < 98`），所以 `c >= 'a' && c <= 'z'` 合法且比 `Character.isLowerCase` 快。
 
 ---
 
 ## 六、KMP 简介（了解即可，必须知道它解决什么）
 
-### 6.1 暴力为什么慢
+### 6.1 暴力为什么慢，`next` 是什么
 
 ```
-haystack = a a a a a a a b
-needle   = a a a b
-                 ↑ 前 3 位匹配成功，第 4 位失败
-暴力：主串指针回退到 i+1 重新比 → 主串指针来回走，O(n*m)
-KMP ：主串指针永不回退，靠 next 数组决定"模式串该退到哪一位"
+haystack = a a a a a a a b        needle = a a b a a b
+needle   = a a a b                下标      0 1 2 3 4 5
+                 ↑ 第 4 位失败     next      0 1 0 1 2 3
+暴力：主串指针回退到 i+1 重新比           ↑           ↑
+      → 主串指针来回走，O(n*m)     "aa"前后缀"a"长1   "aabaab"前后缀"aab"长3
+KMP ：主串指针永不回退，靠 next 决定模式串该退到哪
 ```
 
-### 6.2 `next` 数组的含义
+**`next[i]` = `needle[0..i]` 的「最长相等前后缀」长度。** 作用：在模式串第 `j` 位失配时，`needle[0..j-1]` 已匹配，它有一段长度 `next[j-1]` 的相同前后缀——这段前缀不必重比，把 `j` 退到 `next[j-1]` 即可。
 
-**`next[i]` = `needle[0..i]` 的「最长相等前后缀」的长度。**
-
-```
-needle = a a b a a b
-下标      0 1 2 3 4 5
-next      0 1 0 1 2 3
-          ↑           ↑
-      "aa" 的相等前后缀 "a"，长度 1
-                    "aabaab" 的相等前后缀 "aab"，长度 3
-```
-
-**作用**：在模式串第 `j` 位失配时，说明 `needle[0..j-1]` 已匹配。它有一段长度 `next[j-1]` 的相同前后缀，这段前缀不必重比，直接把 `j` 退到 `next[j-1]`。
-
-### 6.3 完整模板
+### 6.2 完整模板
 
 ```java
 public int strStr(String haystack, String needle) {
     if (needle.isEmpty()) return 0;
     int n = haystack.length(), m = needle.length();
     if (m > n) return -1;
-
     // ① 构造 next：本质是"模式串自己匹配自己"
     int[] next = new int[m];
     for (int i = 1, j = 0; i < m; i++) {
@@ -303,7 +268,6 @@ public int strStr(String haystack, String needle) {
         }
         next[i] = j;
     }
-
     // ② 匹配：主串指针 i 单调递增，永不回退
     for (int i = 0, j = 0; i < n; i++) {
         while (j > 0 && haystack.charAt(i) != needle.charAt(j)) {
@@ -328,52 +292,42 @@ public int strStr(String haystack, String needle) {
 
 ## 七、`split`、正则、`String.format` 的坑
 
-### 7.1 `split` 的四个坑
-
 ```java
-"1.2".split(".")          // ❌ ["", ""]  —— "." 匹配任意字符
-"1.2".split("\\.")        // ✅ ["1", "2"]
+// 坑 1：split 的参数是正则，元字符要转义
+"1.2".split(".")           // ❌ ["", ""]  —— "." 匹配任意字符
+"1.2".split("\\.")         // ✅ ["1", "2"]
 
-"a,b,,".split(",")        // ["a", "b"]         —— 末尾空串被丢弃！
-"a,b,,".split(",", -1)    // ["a", "b", "", ""] —— limit = -1 才保留
+// 坑 2：末尾空串被丢弃，limit = -1 才保留
+"a,b,,".split(",")         // ["a", "b"]
+"a,b,,".split(",", -1)     // ["a", "b", "", ""]
 
-"".split(",").length      // 1，不是 0（结果是 [""]）
+// 坑 3：对空串 split 得到 [""]，长度是 1 不是 0
+"".split(",").length       // 1
 
-"a  b".split(" ")         // ["a", "", "b"]     —— 连续分隔符产生空串，要自己过滤
-```
+// 坑 4：连续分隔符产生空串，要自己过滤（424 题多写一个 if 就是因为这个）
+"a  b".split(" ")          // ["a", "", "b"]
 
-这四条正是 [434. 字符串中的单词数](#84-434-字符串中的单词数) 里 `split(" ")` 之后还要判 `length != 0` 的原因。
+// 坑 5：replaceAll 的替换串里 $ 和 \ 有特殊含义（反向引用）
+s.replaceAll("b", "$")       // ❌ 抛 IllegalArgumentException
+s.replaceAll(" ", "%20")     // 能跑，但走正则引擎
+s.replace(" ", "%20")        // ✅ replace 是字面量替换，快得多
 
-### 7.2 `replaceAll` / `matches` 的坑
+// 坑 6：matches 是"整体匹配"，不是"包含"
+"abc".matches("b")         // false
+"abc".matches(".*b.*")     // true
 
-```java
-s.replaceAll("b", "$")        // ❌ 替换串里 $ 是反向引用，抛 IllegalArgumentException
-s.replaceAll("b", "\\$")      // ✅ 或 Matcher.quoteReplacement("$")
-
-s.replaceAll(" ", "%20")      // 能跑，但走正则引擎
-s.replace(" ", "%20")         // ✅ 字面量替换，快得多
-
-"abc".matches("b")            // false —— matches 是整体匹配
-"abc".matches(".*b.*")        // true
-
+// 坑 7：贪婪 vs 非贪婪
 "a1b2".replaceAll("\\d.*\\d", "-")    // 贪婪：.* 吃到最后一个数字
 "a1b2".replaceAll("\\d.*?\\d", "-")   // 非贪婪：.*? 只吃到最近的
+
+// 坑 8：String.format 的类型和 Locale
+String.format("%d", 42)          // "42"    —— %d 只吃整型
+String.format("%.2f", 3.14159)   // "3.14"  —— %.2f 只吃浮点，传 int 抛异常
+String.format("%,d", 1234567)    // "1,234,567" —— 受默认 Locale 影响
+String.format("%03d", 1)         // "001"
 ```
 
-### 7.3 `String.format` 的坑
-
-```java
-String.format("%d", 42)             // "42"    —— %d 只吃整型
-String.format("%.2f", 3.14159)      // "3.14"  —— %.2f 只吃浮点，传 int 抛异常
-String.format("%,d", 1234567)       // "1,234,567" —— 受默认 Locale 影响！
-String.format("%03d", 1)            // "001"
-
-// 不依赖格式化引擎的补零写法：
-String s = "000" + 1;                       // "0001"
-s = s.substring(s.length() - 3);            // "001"
-```
-
-> **结论**：**刷题时不要用 `String.format`**。它的重载解析（`%d` 只吃整型、`%.2f` 只吃浮点）、Locale 依赖、`IllegalFormatConversionException` 都是纯负担；`StringBuilder` 手写永远最直白。
+> **结论**：**刷题时不要用 `String.format`**。重载解析（`%d` 只吃整型、`%.2f` 只吃浮点）、Locale 依赖、`IllegalFormatConversionException` 都是纯负担。补零用 `"0".repeat(k) + i` 或 `("000" + i)` 截尾，都比它直白。
 
 ---
 
@@ -420,9 +374,7 @@ public String toLowerCase(String s) {
 public boolean detectCapitalUse(String word) {
     int upper = 0;
     for (int i = 0; i < word.length(); i++) {
-        if (Character.isUpperCase(word.charAt(i))) {
-            upper++;
-        }
+        if (Character.isUpperCase(word.charAt(i))) upper++;
     }
     if (upper == word.length()) return true;                      // 全大写
     if (upper == 0) return true;                                  // 全小写
@@ -432,9 +384,7 @@ public boolean detectCapitalUse(String word) {
 
 > 参考实现：[src/string/DetectCapital.java](../src/string/DetectCapital.java)（仓库版按首字母分三个分支各扫一遍，功能正确但不如上面紧凑）
 
-**复杂度**：时间 `O(n)`，空间 `O(1)`。
-
-**边界**：长度为 1 时 `upper` 是 1 或 0，三个条件必命中一个 → `true`，**不需要特判**。
+**复杂度**：时间 `O(n)`，空间 `O(1)`。**边界**：长度为 1 时 `upper` 是 1 或 0，三个条件必命中一个，**不需要特判**。
 
 *检测大写字母是【计数 + 分类判定】，关键突破点是"先数大写个数，把三种情况变成三个常数比较"，边界是长度为 1 时天然返回 true。*
 
@@ -446,7 +396,7 @@ public boolean detectCapitalUse(String word) {
 
 ```
 写法 A：s.replaceAll(" ", "%20")   → 正确，但走正则；替换串含 $ 或 \ 会出问题
-写法 B：split(" ") 再 join         → ❌ 末尾连续空格会被 split 丢掉（见 7.1）
+写法 B：split(" ") 再 join         → ❌ 末尾连续空格会被 split 丢掉（见第七节坑 2）
 写法 C：StringBuilder 一遍遍历     → ✅ 正确、O(n)、不依赖任何库语义
 写法 D：预分配 3 倍空间的 char[] 倒序倒填 → 面试官问"能不能原地"时给这个
 ```
@@ -472,7 +422,7 @@ public String replaceSpace2(String s) {
     char[] res = new char[s.length() + spaces * 2];   // 每个空格多占 2 个字符
     int fast = s.length() - 1;
     int slow = res.length - 1;
-    while (fast >= 0) {                               // 从后往前填，不需要担心覆盖未处理区
+    while (fast >= 0) {                               // 从后往前填，不会覆盖未处理区
         if (s.charAt(fast) == ' ') {
             res[slow--] = '0';
             res[slow--] = '2';
@@ -534,104 +484,9 @@ public int countSegments(String s) {
 
 > 参考实现：[src/string/CountSegments.java](../src/string/CountSegments.java)（仓库版用 `split(" ")` + 过滤空串，功能正确；写法 B 空间 `O(1)` 且能顺带讲清 `split` 的坑）
 
-**复杂度**：时间 `O(n)`，空间 `O(1)`（仓库版 `split` 会额外创建 `O(n)` 数组并走正则引擎）。
-
-**边界**：`""` → 0；`"   "` → 0；`"a"` → 1。三者都靠 `i == 0` 这一个条件兜住。
+**复杂度**：时间 `O(n)`，空间 `O(1)`（仓库版 `split` 会额外创建 `O(n)` 数组并走正则引擎）。**边界**：`""` → 0；`"   "` → 0；`"a"` → 1，三者都靠 `i == 0` 这一个条件兜住。
 
 *字符串中的单词数是【单指针对"单词开头"计数】，关键突破点是"只在 前一个是空格 时计数"，边界是空串与纯空格都返回 0。*
-
-### 8.5 824. 山羊拉丁文
-
-**题意**：按空格拆词，元音开头加 `"ma"`，否则首字母移到末尾再加 `"ma"`；第 `i` 个单词末尾追加 `i` 个 `'a'`。
-
-```java
-public String toGoatLatin(String sentence) {
-    String[] words = sentence.split(" ");
-    StringBuilder sb = new StringBuilder();
-    for (int i = 0; i < words.length; i++) {
-        String w = words[i];
-        char first = Character.toLowerCase(w.charAt(0));
-        if ("aeiou".indexOf(first) >= 0) {                  // ① 元音表用 indexOf 判
-            sb.append(w);
-        } else {
-            sb.append(w.substring(1)).append(w.charAt(0));  // ② 首字母搬到末尾
-        }
-        sb.append("ma");
-        for (int k = 0; k <= i; k++) {
-            sb.append('a');                                 // ③ 第 i+1 个单词加 i+1 个 'a'
-        }
-        sb.append(' ');                                     // ④ 每个单词后都加分隔符
-    }
-    sb.setLength(sb.length() - 1);                          // ⑤ O(1) 删掉最后一个空格
-    return sb.toString();
-}
-```
-
-> 参考实现：[src/string/GoatLatin.java](../src/string/GoatLatin.java)（仓库版把元音放进 `char[]` 逐个比较，等价；收尾用的是 `trim()`）
-
-**复杂度**：时间 `O(输出长度)`，空间 `O(n)`。
-
-**易错点**：
-- 元音判断**必须忽略大小写**，否则 `"I"` 会被当作辅音。
-- `w.substring(1)` 在单词长度为 1 时返回 `""`，**不崩**，正好正确。
-- 收尾用 `setLength(len-1)` 而不是 `trim()`——后者只在分隔符是空格时才对。
-
-*山羊拉丁文是【`StringBuilder` 模拟 + 分隔符收尾】，关键突破点是"用 `\"aeiou\".indexOf(c)` 做元音判断"，边界是单词长度为 1 时 `substring(1)` 返回空串。*
-
-### 8.6 剑指 Offer 58 - II. 左旋转字符串
-
-**题意**：把 `s` 的前 `n` 个字符移到末尾。`"abcdefg"`, `n=2` → `"cdefgab"`。
-
-**思路演进**：
-
-```
-思路 A：return s.substring(n) + s.substring(0, n);   一行，O(n)
-思路 B：三次反转（面试官爱问的"原地"版本），空间 O(1)
-        reverse(0, n-1) → reverse(n, len-1) → reverse(0, len-1)
-```
-
-**思路 B 的正确性**：设 `s = AB`（`A` 长 `n`，`B` 长 `len-n`），目标 `BA`。
-
-```
-reverse(A)  →  AʳB
-reverse(B)  →  AʳBʳ
-reverse(整体) → (AʳBʳ)ʳ = BA   ✅
-```
-
-```java
-public String reverseLeftWords(String s, int n) {
-    if (s == null || s.length() == 0) return "";
-    n = n % s.length();                     // ① n 可能 >= len，先取模（必须在判空之后）
-    char[] chars = s.toCharArray();
-    reverse(chars, 0, n - 1);               // ② 反转前 n 个
-    reverse(chars, n, chars.length - 1);    // ③ 反转剩下的
-    reverse(chars, 0, chars.length - 1);    // ④ 整体反转
-    return new String(chars);
-}
-
-/** 反转 chars[l..r]，闭区间 */
-private void reverse(char[] chars, int l, int r) {
-    while (l < r) {
-        char t = chars[l];
-        chars[l] = chars[r];
-        chars[r] = t;
-        l++;
-        r--;
-    }
-}
-```
-
-> 参考实现：[src/string/ReverseLeftWords.java](../src/string/ReverseLeftWords.java)
->
-> ⚠️ **仓库版有一个真实 bug**：`return s.substring(n) + s.substring(0, n - 1);` 的第二个参数少算了 1。`s = "abcdefg"`, `n = 2` 时仓库版返回 `"cdefga"`（丢了 `'b'`），正确答案是 `"cdefgab"`。**`substring(l, r)` 的 `r` 是开区间，取前 n 个字符要写 `substring(0, n)`。** 另外 `n % s.length()` 必须放在空串判断之后，否则除零。
-
-**复杂度**：时间 `O(n)`，空间 `O(n)`（`char[]`）；若签名允许 `char[]` 入参则是 `O(1)`。
-
-**边界**：`n == 0` 或 `n == len` 时三次反转互相抵消 → 原串；`n > len` 取模后正确。
-
-*左旋转字符串是【三次反转】，关键突破点是 `reverse(A)+reverse(B)+reverse(整体) == BA`，边界是 `substring(0, n)` 的左闭右开与 `n % len` 的取模位置。*
-
----
 
 ## 九、易错点清单
 
