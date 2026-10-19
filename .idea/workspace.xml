@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="9月7日打卡">
-      <change afterPath="$PROJECT_DIR$/tutorial/10-树/02-DFS和BFS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial/面试指南/AI应用开发面试-进阶实战.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial/面试指南/中间件面试-进阶实战.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial/面试指南/后端面试-4年经验学习文档.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial/面试指南/后端面试-进阶版-社招深水区.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="644d7262-caa6-4ca3-a11b-894e8218d10f" name="Default" comment="update: 新增面试指南">
+      <change afterPath="$PROJECT_DIR$/tutorial/面试指南/Agent知识体系-从原理到工程落地.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/面试指南/后端高频面试Top100.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/面试指南/场景设计题-解题框架与题库.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -887,7 +884,7 @@
       <workItem from="1791882381926" duration="2648000" />
       <workItem from="1792065852499" duration="4549000" />
       <workItem from="1792122416088" duration="12905000" />
-      <workItem from="1792413258103" duration="922000" />
+      <workItem from="1792413258103" duration="1474000" />
     </task>
     <task id="LOCAL-00142" summary="5月17日打卡">
       <created>1621213514275</created>
@@ -1232,7 +1229,7 @@
       <option name="project" value="LOCAL" />
       <updated>1630977342103</updated>
     </task>
-    <option name="localTasksCounter" value="191" />
+    <option name="localTasksCounter" value="192" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1251,7 +1248,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="6月19日打卡" />
     <MESSAGE value="6月21日打卡" />
     <MESSAGE value="6月23日打卡" />
     <MESSAGE value="6月24日打卡" />
@@ -1276,7 +1272,8 @@
     <MESSAGE value="9月5日打卡" />
     <MESSAGE value="9月6日打卡" />
     <MESSAGE value="9月7日打卡" />
-    <option name="LAST_COMMIT_MESSAGE" value="9月7日打卡" />
+    <MESSAGE value="update: 新增面试指南" />
+    <option name="LAST_COMMIT_MESSAGE" value="update: 新增面试指南" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
